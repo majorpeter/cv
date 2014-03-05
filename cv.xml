@@ -1,0 +1,701 @@
+<?xml version="1.0"?>
+<!--
+	Az önéletrajzom forráskódja. XML-ben, mert így egyszerű feldolgozni php-vel.
+	Sok benne a html-tag, de egyszerűbb így, mint bevezetni nekik külön szintaktikát.
+	Az angol fordítás kezdetleges, annyira nem sürgős jelenleg.
+-->
+<cv>
+	<update>2013-07-24</update>
+	<title>
+		<hu>Önéletrajz</hu>
+		<en>Curriculum Vitae</en>
+	</title>
+	
+	<name>Major Péter</name>
+	<phone>
+		<val>(30) 750-3031</val>
+		<hu>Mobiltelefon</hu>
+		<en>Phone number</en>
+	</phone>
+	<mail>
+		<val>major.peter@mailbox.hu</val>
+		<hu>E-mail cím</hu>
+		<en>E-mail address</en>
+	</mail>
+	<fbook>
+		<val>http://www.facebook.com/major.peter</val>
+		<hu>Facebook profil</hu>
+		<en>Facebook profile</en>
+	</fbook>
+	
+	<desc>
+		<hu>Java/C/C++/Obj-C/Delphi Pascal</hu>
+		<en>Java/C/C++/Obj-C/Delphi Pascal</en>
+	</desc>
+	<desc>
+		<hu>PHP/HTML/JavaScript/CSS/MySQL programozó</hu>
+		<en>PHP/HTML/JavaScript/CSS/MySQL programmer</en>
+	</desc>
+	
+	<section>
+		<title>
+			<hu>Tanulmányok</hu>
+			<en>Studies</en>
+		</title>
+		
+		<expand>
+			<title years="2011-\nbsp\nbsp\nbsp\nbsp">
+				<hu>Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar<br/>Villamosmérnök (BsC alapképzés)</hu>
+				<en>Budapest University of Technology and Economics Faculty of Electical Engineering and Informatics<br/>Electrical Engeneer (BsC)</en>
+			</title>
+			<content>
+				<hu>Az első és második féléves programozás (<b>C és C++</b>) tárgyakat haladó csoportban végeztem, <b>jeles</b> eredménnyel.
+					Második félévben elvégeztem a <b>Java technológiák</b> tárgyat is, szintén <b>jeles</b> eredménnyel.</hu>
+				<en>I took the advanced courses in first and second semester programming classes (C &amp; C++), I received <b>excellent</b>
+					grades. I completed <b>Java technologies</b> in the second semester, and also got an <b>excellent</b> grade</en>
+			</content>
+		</expand>
+		<expand>
+			<title years="2007-2011">
+				<hu>Tóparti Gimnázium és Művészeti Szakközépiskola (Székesfehérvár)</hu>
+				<en>Tóparti Secondary Grammar School and Secondary School of Art (Székesfehérvár)</en>
+			</title>
+			<content>
+				<hu>Angol specialitású képzés; fakultatív matematika, fizika, informatika<br/>
+					Összes év végi átlag: 5.0<br/>
+					Kitűnő érettségi bizonyítvány, általános dicséret</hu>
+				<en>English specialized class; facultative Mathematics, Physics, Informatics<br/>
+					Grades' average each year: 5.0<br/>
+					Excellent certificate of secondary education, general commendation</en>
+			</content>
+		</expand>
+		<nonexpand>
+			<hu>1999-2007 Munkácsy Mihály Általános Iskola (Székesfehérvár)</hu>
+			<en>1999-2007 Munkácsy Mihány Primary School (Székesfehérvár)</en>
+		</nonexpand>
+		<break/>
+		<expand>
+			<title>
+				<hu>Számos tanulmányi versenyen vettem részt, értem el helyezéseket.</hu>
+				<en>I attended several competitions and achieved places.</en>
+			</title>
+			<content>
+				<hu>Matematika megyei versenyeken 1.,2.,3. helyek; kémia 4., informatika 1. hely<br/>
+					Országos Középiskolai Tanulmányi Versenyek: matematika, informatika, angol 2. fordulók; fizika országos 23. hely (2010) és 11. hely (2011)</hu>
+				<en>County Mathematics competitions 1st, 2nd, 3rd places; Chemistry 4th, Computer Science 1st<br/>
+					National Secondary School Academic Competition: Mathematics, Computer Science, English 2nd rounds; Physics national 23rd place (2010) and 11th place (2011)</en>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Kitűnő érettségi bizonyítvány, 2 előrehozott érettségivel</hu>
+				<en>Excellent certificate of secondary education, 2 early exams</en>
+			</title>
+			<content>
+				<hu><table>
+					<tr><td>Matematika (közép, előrehozott):</td><td>98%</td></tr>
+					<tr><td>Matematika (emelt):</td><td>98%</td></tr>
+					<tr><td>Magyar nyelv (közép):</td><td>95%</td></tr>
+					<tr><td>Történelem (közép):</td><td>96%</td></tr>
+					<tr><td>Angol nyelv (közép):</td><td>100%</td></tr>
+					<tr><td>Informatika (közép, előrehozott):</td><td>99%</td></tr>
+					<tr><td>Informatika (emelt):</td><td>96%</td></tr>
+				</table></hu>
+				<en><table>
+					<tr><td>Mathematics (intermediate, early):</td><td>98%</td></tr>
+					<tr><td>Mathematics (advanced):</td><td>98%</td></tr>
+					<tr><td>Hungarian Language (intermediate):</td><td>95%</td></tr>
+					<tr><td>History (intermediate):</td><td>96%</td></tr>
+					<tr><td>English (intermediate):</td><td>100%</td></tr>
+					<tr><td>Informatics (intermediate, early):</td><td>99%</td></tr>
+					<tr><td>Informatics (advanced):</td><td>96%</td></tr>
+				</table></en>
+			</content>
+		</expand>
+	</section>
+	
+	<section>
+		<title>
+			<hu>Nyelvtudás</hu>
+			<en>Languages</en>
+		</title>
+		<expand>
+			<title year="2009" list="1">
+				<hu>Angol C1 felsőfok</hu>
+				<en>English C1 Proficient</en>
+			</title>
+			<content>
+				<hu>A nyelvvizsga óta igyekszem szinten tartani, szinte minden nap nézek angol nyelvű sorozatot, olvasok angolul,
+					híreken kívül angol nyelvű szakirodalmat is, leginkább programozással kapcsolatban.</hu>
+				<en>I have been trying to maintain my knowledge ever since the exam. I watch English speaking series almost daily,
+					I read in English, news and technical literature, mostly about programming.</en>
+			</content>
+		</expand>
+		<expand>
+			<title year="2011" list="1">
+				<hu>Német B2 középfok</hu>
+				<en>German B2 Competent</en>
+			</title>
+			<content>
+				<hu>Viszonylag friss, kommunikációs szinten van. Sajnos csak ritkán jut időm arra, hogy foglalkozzak vele.</hu>
+				<en>Relatively new, still on a communicating level. Unfortunately I rarely find the time to practice it.</en>
+			</content>
+		</expand>
+	</section>
+	
+	<section>
+		<title>
+			<hu>Programozási ismeretek</hu>
+			<en>Programming knowledge</en>
+		</title>
+		<expand>
+			<title list="1">
+				<hu>C - asztali és beágyazott rendszerek</hu>
+				<en>C - desktop and embedded systems</en>
+			</title>
+			<content>
+				<hu>2008 óta foglalkozom vele, akkoriban a módosított Sony Ericsson telefonok ELF programozása miatt.
+					Az egyetemi tárgy ennek köszönhetően nem okozott nehézséget. ST mikrokontroller C nyelvű programozásával
+					hobbi szinten foglalkozom.</hu>
+				<en>I have been using it since 2008, to write ELF apps for modified Sony Ericsson handsets at the time.
+					Thus the subject at the University did not mean much of a challenge. I program ST microcontrollers in C
+					as a hobby.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>C++ - Qt és egyéb keretrendszerek</hu>
+				<en>C++ - Qt and other frameworks</en>
+			</title>
+			<content>
+				<hu>Egyetem előtt is ismerkedtem vele, de a második félév óta ismerem igazán. Az objektum-orientált szemlélet,
+					kivételkezelés, referenciakezelés teszi a Java mellett kedvencemmé. Saját projektjeim nagy része C++ nyelven
+					íródik. A következő keretrendszerek használatában van tapasztalatom:
+					<li><b><a href="http://qt.digia.com/">Qt</a></b> - 2013 nyara óta használom keresztplatformos asztali alkalmazásfejlesztéshez.</li>
+					<li><b><a href="http://en.wikipedia.org/wiki/Standard_Template_Library">STL</a></b> - a nyelv sablonjait ismerem</li>
+					<li><a href="http://www.ogre3d.org/">Ogre3d</a> - egy évig fejlesztettem RC szimulátort ebben a keretrendszerben</li>
+					<li><a href="http://bulletphysics.org/">Bullet Physics</a> - szilárdtestfizikai, autók mozgásával kapcsolatos számításokhoz, szimulációhoz használtam</li>
+					<li><a href="http://www.cocos2d-x.org/">cocos2d-x</a> - a népszerű iOS-en használt <a href="http://en.wikipedia.org/wiki/Cocos2d">cocos2d</a> framework C++ portja. Szabad időmben egy cocos2d-x hobbi projekten dolgozom.</li>
+				</hu>
+				<en>I started using it before university but I got to really know it in the second semester. The object-oriented approach,
+				exception handling, references make it my favorite beside Java. Most of my own projects are written in C++. I have
+				experience in the following frameworks:
+					<li><b><a href="http://qt.digia.com/">Qt</a></b> - I've been using it since the summer of 2013 for cross-platform desktop applications.</li>
+					<li><b><a href="http://en.wikipedia.org/wiki/Standard_Template_Library">STL</a></b> - I am familiar with the templates of the language</li>
+					<li><a href="http://www.ogre3d.org/">Ogre3d</a> - I developed an RC simulator for a year in this framework</li>
+					<li><a href="http://bulletphysics.org/">Bullet Physics</a> - I used it for rigid body and vehicle physics calculations and simulations</li>
+					<li><a href="http://www.cocos2d-x.org/">cocos2d-x</a> - it is the C++ port of the popular iOS framework <a href="http://en.wikipedia.org/wiki/Cocos2d">cocos2d</a>. In my spare time I work on a cocos2d-x hobby project.</li>
+				</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Java - Android és asztali alkalmazások</hu>
+				<en>Java - Android and desktop applications</en>
+			</title>
+			<content>
+				<hu>2011 nyarán kezdtem ismerkedni vele, Android fejlesztés céljából, a második féléves java technológiák
+					tantárgy segített elmélyíteni az ismereteimet. A C++ mellett nagy kedvencem a kényelmessége miatt, a GC
+					miatt viszont nem alkalmazható bármilyen környezetben. A pointerek elrejtése miatt néha körülményes
+					használni, máskor pont emiatt egyszerű.</hu>
+				<en>I started using it in the summer of 2011 because of Android development. The second semester Java technologies
+					subject helped me deepen my knowledge. It is my favorite beside C++ because it is comfortable but because
+					of GC it cannot be used in any environment. Hiding pointers makes it difficult to use sometimes,
+					other times the same thing makes it easy.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>PHP - webes programozás, elterjedtebb keretrendszerek</hu>
+				<en>PHP - web programming, common frameworks</en>
+			</title>
+			<content>
+				<hu>Webes programozáshoz <b>PHP</b> nyelven értek. Az ehhez szükséges <b>HTML, CSS, JavaScript (és jQuery), MySQL</b>
+					nyelveket is ismerem, több éves tapasztalatom van bennük. Dolgoztam már keretrendszerekben, a <b>Drupal és
+					Wordpress</b> CMS-eket jól ismerem, Joomla-val is volt dolgom. CakePHP alapú rendszert is fejlesztettem.</hu>
+				<en>I am familiar with webes programming in <b>PHP</b>. I also know the <b>HTML, CSS, JavaScript (with jQuery), MySQL</b>
+					languages, I have years of experience. I have worked with frameworks, I know <b>Drupal and Wordpress</b> CMS's well,
+					and also worked with Joomla. I developed a system based on CakePHP as well.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Delphi Pascal</hu><en>Delphi Pascal</en>
+			</title>
+			<content>
+				<hu>Már általános iskola közben is érdekelt, első programjaimat írtam Pascalban. A pointerek használata
+					körülményesebb és nem is olyan hordozható, mint egy C++ kód. Emelt szintű érettségimet Delphiben írtam,
+					a szóbelin a legjobb leadott munkának nevezték.</hu>
+				<en>I was interested in it back in primary school, and wrote my first programs in Pascal. Using pointers is harder
+					and it is not as portable as a C++ code. My advanced exam in high school was written in Delphi,
+					during the oral test they called it the best work submitted.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Objective-C</hu><en>Objective-C</en>
+			</title>
+			<content>
+				<hu>Néhány hónapig foglalkoztam iOS fejlesztéssel, akkor tanultam meg a nyelvet. Érdekes koncepció a C++
+					mellett párhuzamosan a C-ből indulva megalkotni egy új objektum orientált szemléletű nyelvet. A C++-t
+					az esetek nagy többségében (még Apple eszközön is) használhatóbbnak tartom.</hu>
+				<en>I developed for iOS for a few months, that is when I learned the language. Creating an obejct-oriented
+					language from C beside C++ is an interesting concept. I think C++ is usually more useful (even on Apple
+					devices).</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Linux shell scriptek</hu>
+				<en>Linux shell scripts</en>
+			</title>
+			<content>
+				<hu>Gyakran használt műveletekhez néhány soros, nem túl bonyolult scripteket írok, főként
+				<a href="https://en.wikipedia.org/wiki/Cron">cron</a> job-okhoz.</hu>
+				<en>I write relatively simple scripts of just a few lines for common tasks, mainly for
+				<a href="https://en.wikipedia.org/wiki/Cron">cron</a> jobs.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Assembly</hu><en>Assembly</en>
+			</title>
+			<content>
+				<hu>Az egyetemen tanult ASM85-öt és magát az assembly szemléletet ismerem.</hu>
+				<en>I am familiar with the concept of assembly and the ASM85 language from university.</en>
+			</content>
+		</expand>
+	</section>
+	<section>
+		<title>
+			<hu>Egyéb ismeretek</hu>
+			<en>Miscellaneous knowledge</en>
+		</title>
+		<expand>
+			<title>
+				<hu>Windows rendszergazdai gyakorlat</hu>
+				<en>Windows administrator experience</en>
+			</title>
+			<content>
+				<hu>Virtualizált rendszerek, VPN, partíciós tábla visszaállítása, titkosított meghajtók, 3rd-party megjelenések, testreszabás stb.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Linux rendszergazdai gyakorlat</hu>
+				<en>Linux administrator experience</en>
+			</title>
+			<content>
+				<hu>Főleg Ubuntu (Debian alapú disztribúció) rendszereken, SSH terminálok, SCP, VNC stb. 2012 nyara óta főként linuxon dolgozom,
+					Windows jelenleg is csak DirectX fejlesztés miatt van a gépemen. Értek linux alapú webszerverek (http/ftp/svn/mysql)
+					beállításához, kezeléséhez.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Verziókövető rendszerek</hu>
+			</title>
+			<content>
+				<hu>Évek óta használok SVN-t verziókövetésre. Állítottam már be Dropboxban lévő titkosított mappából működő közös szervert.
+				Elosztott verziókezelés igénye miatt 2013-ban elkezdtem Git-et is használni. Az Ogre miatt használtam Mercurialt is.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Doxygen</hu>
+				<en>Doxygen</en>
+			</title>
+			<content>
+				<hu>Komolyabb projektekbe nem is kezdek <a href="http://www.doxygen.org/‎">doxygen</a> nélkül. Rendkívül fontosnak tartom
+				az osztályok, névterek, függvények megfelelő dokumentációját. Csoportmunkánál kritikus fontosságú, de egyébként is hasznos
+				hosszabb távon.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Adobe Photoshop</hu><en>Adobe Photoshop</en>
+			</title>
+			<content>
+				<hu>Inkább hobbi, mint mester szinten ismerem. Webes grafikákhoz, nem túl bonyolult retusálásokhoz, egyéb munkákhoz használom.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Office programcsomag</hu>
+				<en>Office suite</en>
+			</title>
+			<content>
+				<hu>Középszintű érettségi (Word, Excel, Powerpoint, weblapszerkesztés) eredménye 99% volt. Inkább az ingyenes alternatívákat preferálom.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Android telefonok átalakítása</hu>
+				<en>Modifying Android phones</en>
+			</title>
+			<content>
+				<hu>Android telefonok "root"-olása, nem gyári ROM-ok telepítése stb.</hu>
+			</content>
+		</expand>
+		<expand>
+			<title>
+				<hu>Sony Ericsson telefonok átalakítása</hu>
+				<en>Modifying Sony Ericsson handsets</en>
+			</title>
+			<content>
+				<hu>Régebbi típusú (A1 [DB2010/12, DB2020] és A2) telefonok flash-elése, patch-elése, programozása (ELF).</hu>
+			</content>
+		</expand>
+		<nonexpand>
+			<hu>B-kategóriás jogosítvánnyal rendelkezem 2010 márciusa óta.</hu>
+		</nonexpand>
+	</section>
+	<section>
+		<title>
+			<hu>Személyiség, készségek</hu>
+			<en>Personality, skills</en>
+		</title>
+		<nonexpand>
+			<hu>&amp;bull; Problémamegoldó képesség</hu>
+			<en>&amp;bull; Problem solving skill</en>
+		</nonexpand>
+		<nonexpand>
+			<hu>&amp;bull; Csapatmunka</hu>
+			<en>&amp;bull; Teamwork</en>
+		</nonexpand>
+		<nonexpand>
+			<hu>&amp;bull; Precizitás</hu>
+			<en>&amp;bull; Exactitude</en>
+		</nonexpand>
+		<nonexpand>
+			<hu>&amp;bull; Kommunikációs készség</hu>
+			<en>&amp;bull; Communication skill</en>
+		</nonexpand>
+		<nonexpand>
+			<hu>&amp;bull; Terhelhetőség</hu>
+			<en>&amp;bull; Endurance</en>
+		</nonexpand>
+		<nonexpand>
+			<hu>&amp;bull; Minőségre törekvés</hu>
+			<en>&amp;bull; Ambition for Quality</en>
+		</nonexpand>
+	</section>
+	<section>
+		<title>
+			<hu>Eddigi munkahelyek, projektek</hu>
+			<en>Previous jobs</en>
+		</title>
+		<expand>
+			<title list="1" year="2012-">
+				<hu>Innostart Kft.</hu>
+				<en>Innostart LLC.</en>
+			</title>
+			<content>
+				<hu>2012 novembere óta dolgozom ennél a cégnél webfejlesztőként. Főként php programozás, Drupal modulok fejlesztése, Wordpress beépülők, témák
+				fejlesztése. Időnként van más feladatom is, pl. java programozás, linux szerver építése, karbantartása.</hu>
+				<en>I started working at the company in November 2012 as web developer. It is mainly php programming, developing Drupal modules, Wordpress
+				plugins, themes. Sometimes I have other assignments, like java programming, creating and maintaining a linux server.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1" year="2012. 07.">
+				<hu>H-TEC nyári gyakornoki állás - <b>HiSmart</b></hu>
+				<en>Summer internship position at H-TEC - <b>HiSmart</b></en>
+			</title>
+			<content>
+				<hu>2012 nyarán egy hónapot dolgoztam a <b>Hyundai Heavy Industries</b> magyarországi képviseleténél (<b>H-TEC</b> Kft.). A vállalat
+				invertereket (is) gyárt például nap- és szélerőművekhez, ezek termelési és egyéb adatait TCP/IP-n keresztül lehet lekérdezni,
+				erre léteztek programok.<br/><br/>
+				Felmerült egy okostelefonos, azon belül kezdetben csak Androidos alkalmazás ötlete, ezt fejlesztettem én.
+				<div class="noprint">A Google Play Store-ban elérhető <a href="https://play.google.com/store/apps/details?id=com.hyundai.project">itt</a>.</div><br/>
+				A kommunikáció <a href="http://en.wikipedia.org/wiki/Modbus">Modbus</a> protokollon keresztül történik, ez az ipari standard az ágazatban. Eszerint 65 ezer (2<sup>16</sup>) darab 16 bites regiszter
+				olvasható és írható. Ezekből kérdezhető le az összes aktuális termelési adat, grafikon stb. Egy létező modbus API-t használtam a TCP/IP kapcsolathoz,
+				de nem működött Bluetooth-on keresztül, ezért ahhoz a felülethez a protokoll egy részét újra meg kellett írnom.<br/><br/>
+				Fontos feladat volt az adatátvitelhez szükséges kódolások megtervezése (32 biten, 2 regiszteren át lehet-e vinni óra:perc:másodperc időt,
+				10 percenként mért grafikon értékeit hogyan célszerű stb.).<br/><br/>
+				A legutóbbi verzió tartalmaz grafikonrajzoló widgetet, időjáráselőrejelzést, grafikonmentést, e-mail küldést, hívásindítást (az utóbbi kettő
+				azt a célt szolgálja, hogy probléma esetén a megfigyelő kapcsolatba léphessen az üzem kezelőjével).</hu>
+				<en>I worked a month at the Hungarian representation of <b>Hyundai Heavy Industries</b> (<b>H-TEC</b> Kft.) in the summer of 2012.
+				The corporation manufactures inverters for solar and wind power plants as well as other products. One can download production and other
+				detauls from these inverters via TCP/IP, there are programs for that.<br/><br/>
+				They decided to have a smart phone application for it, just Android in the begining. That is what I developed.
+				<div class="noprint">Available at Google Play Store <a href="https://play.google.com/store/apps/details?id=com.hyundai.project">here</a>.</div><br/>
+				The commucation is done over the <a href="http://en.wikipedia.org/wiki/Modbus">Modbus</a> protocol, which is the industry standard in the sector.
+				With Modbus, we have 65 thousand (2<sup>16</sup>) 16 bit registers to read &amp; write. These are used to fetch the current production information,
+				graphs etc. I used an existing Modbus API for TCP/IP connection but it did not work over Bluetooth so for that I had to rewrite some parts of the
+				protocol.<br/><br/>
+				Designing the models for data transmission was an important task (32 bits, 2 registers for hour:minute:second time, how should we store the graph
+				values for every 10 minutes etc.).<br/><br/>
+				The latest version has a graph drawer widget, weather forecast, graph export, sending e-mail, making calls (these last two are for contacting the
+				power plant's supervisor in case of a problem).</en>
+			</content>
+			<image>
+				<url>cv/htec1.jpg</url>
+				<hu>Egy erőmű aktuális termelése</hu>
+				<en>Production verview for a power plant</en>
+			</image>
+			<image>
+				<url>cv/htec2.jpg</url>
+				<hu>Mai napi termelés diagramja</hu>
+				<en>Diagram of today's production</en>
+			</image>
+			<image>
+				<url>cv/htec3.jpg</url>
+				<hu>Elmúlt két hét összehasonlítása</hu>
+				<en>Comparison of the last two weeks</en>
+			</image>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Részvétel a Total Commander Ultima Prime projektben</hu>
+				<en>Contribution to the Total Commander Ultima Prime project</en>
+			</title>
+			<content>
+				<hu>Delphivel készült elterjedtebb munkám a <a href="http://tcup.pl/">Total Commander Ultima Prime</a> szoftvercsomag
+				néhány összetevője: fájltársítások, parancsikonok létrehozása; új mappák és fájlok – TC UP New.
+				Évekig voltam a projekt magyar fordítója, de már nem vagyok aktív tag. A társításokat és parancsikonokat
+				azóta integrálták a telepítőbe, a mappa- és fájlkészítőt már más fejleszti.</hu>
+				<en>From all of my work with Delph, the most widespread are some components of the <a href="http://tcup.pl/">Total Commander Ultima
+				Prime</a> software package: file associations, creating shortcuts, createing new folders and files – TC UP New.
+				I was the Hungarian translator of the project for years but I'm no longer an active member. The associations and shortcuts have since
+				been integrated into the installer, the folder and file creator is developed by someone else.</en>
+			</content>
+			<image>
+				<url>cv/tcup.png</url>
+				<hu>TC UP New egy korai képe</hu>
+				<en>An early image of TC UP New</en>
+			</image>
+		</expand>
+	</section>
+	<section>
+		<title>
+			<hu>Saját projektek</hu>
+			<en>My own projects</en>
+		</title>
+		<expand>
+			<title list="1">
+				<hu>3D RC szimulátor (OGRE)</hu>
+				<en>3D RC simulator (OGRE)</en>
+			</title>
+			<content>
+				<hu>A <a href="http://en.wikipedia.org/wiki/Re-volt">Re-Volt</a> című játékot az Acclaim adta ki 1999-ben. A koncepció viszonylag egyedi,
+					távirányítású autókkal kell versenyezni benne. 2012 nyarán egy ehhez hasonló játékon kezdtem el dolgozni.<br/>
+					A kód C++, a grafikai, fizikai, GUI könyvtárak nyílt forrású projektekből származnak (<a href="http://www.ogre3d.org/">OGRE</a>,
+					<a href="http://bulletphysics.org/">Bullet</a>, <a href="http://mygui.info/">MyGUI</a>). Ezek integrálása mély
+					ismereteket igényelt a fordítók és linkerek terén, különösen a keresztplatfromos megvalósítás miatt.<br/>
+					A játékhoz szükséges saját bináris formátumokat, konvertáló programokat hoztam létre. Közel egy évig fejlesztettem egyetem mellett,
+					végül 2013 tavaszán felfüggesztettem. Be kellett látnom, hogy egy ilyen projekthet csak nagy csapattal lehet befejezni.</hu>
+				<en><a href="http://en.wikipedia.org/wiki/Re-volt">Re-Volt</a> was released by Acclaim back in 1999. The concept is sort of unique,
+					it is about racing RC cars. I started working on a game like that in the summer of 2012.<br/>
+					The code is C++, the graphics, physics and GUI libraries are from open source projects (<a href="http://www.ogre3d.org/">OGRE</a>,
+					<a href="http://bulletphysics.org/">Bullet</a>, <a href="http://mygui.info/">MyGUI</a>). Integrating these required
+					deep knowledge of compilers and linkers, especially because of the cross-platform solution.<br/>
+					I created the game's own binary formats and converters. I worked on it for about a year as a university student,
+					and suspended it in the spring of 2013. I had to realize that such a project can only be finished with a large team.</en>
+			</content>
+			<image>
+				<url>cv/rv1.png</url>
+				<hu>Fizikai játszótér</hu>
+				<en>Physics playground</en>
+			</image>
+			<image>
+				<url>cv/rv2.png</url>
+				<hu>Az ellenfelek intelligenciája nem túl bonyolult</hu>
+				<en>The AI is not too sophisticated</en>
+			</image>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Két dimenziós játékfejlesztés (cocos2d-x)</hu>
+				<en>Two-dimensional game development (cocos2d-x)</en>
+			</title>
+			<content>
+				<hu>Az RC-autós szimulátor felfüggesztése után más projektek felé fordultam. Jelenleg a <a href="http://www.cocos2d-x.org/">cocos2d-x</a>
+				platformmal dolgozom egy játékon. Fontos jellemző, hogy a szoftver közös C++ kódból fordítható Linuxra, Androidra, Mac OS X-re és
+				iOS-re (ez a keretrendszer mellett a precompiler makrók miatt lehetséges).</hu>
+				<en>After suspending the RC simulator I turned to other projects. Currently I work on a game with the <a href="http://www.cocos2d-x.org/">cocos2d-x</a>
+				platform. It is an important feature that the software can be compiled to Linux, Android, Mac OS X and iOS from the same C++ code
+				(because of the framework a precompiler macros).</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Asztali médiakezelő (Qt)</hu>
+				<en>Desktop media manager (Qt)</en>
+			</title>
+			<content>
+				<hu>A számítógépen található filmek, sorozatok, zenék rendszerezésére szolgáló alkalmazás. <a href="http://www.sqlite.org/">SQLite</a>
+				adatbázist épít a tartalmakból minimális felhasználói beavatkozással, weboldalak feldolgozásával. Mivel mindent Qt-n keresztül valósít meg,
+				az összes támogatott platformon azonos élményt nyújt.</hu>
+				<en>An application to organize films, series, music albums on the computer. It builds an <a href="http://www.sqlite.org/">SQLite</a>
+				database with minimal user interaction by parsing web pages. Since it does everything through Qt, it provides the same experience
+				on each supported platform.</en>
+			</content>
+			<image>
+				<url>cv/mediahub.png</url>
+				<hu>Információs oldal</hu>
+				<en>Information page</en>
+			</image>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>ELF programozás Sony Ericsson-ra</hu>
+				<en>ELF programming for Sony Ericsson</en>
+			</title>
+			<content>
+				<hu>A módosított Sony Ericsson telefonok képesek <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">
+					ELF programok futtatására</a>, ezek C nyelven íródnak és az eszköz firmware-jébe épülnek be. Több ilyen alkalmazást
+					is írtam és a „modder közösség” igen aktív tagja voltam 2008-2009 körül. A fontosabbak:<br/>
+					<ul>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=818">DeskBar</a>: Mac OS X-hez hasonló dokkot
+						hoz létre a telefon készenléti képernyőjén, vízszintesen vagy függőlegesen. Létezett menü elem is, ami a
+						dokkra merőleges dokként jelent meg. Nagyon népszerű volt a közösségben, több eltérő megjelenést (más képek)
+						is készítettek hozzá később.</li>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=627">OPlogo</a>: Lecseréli az operátor szövegét
+						(pl. T-mobile) és a többi elérhető sort a kijelzőn tetszőleges szövegre</li>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=3625">DeskBridge</a>: Elforgatható „asztal”
+						a Windows 7-en találhatókat mintázó widgetekkel (minialkalmazások), minden mozgatható és méretezhető rajta.
+						A widgetek is C-ben készültek, az interfész C struktúra volt a megfelelő függvénycímek átadásához (évekkel
+						később jelent csak meg a dinamikus linkelés a platformon, érdekes, hogy <code>so</code> helyett <code>dll</code>
+						-nek nevezték ezeket, pedig a rendszer inkább Unix jellegű). Az API-t közzétettem, de nem tudok más
+						fejlesztők részvételéről. Ettől függetlenül sok rajongója volt. Sajnos csak A1 platformon indult el,
+						és akkoriban nem volt időm újraírni, hogy több telefont támogasson.</li>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=2783">SFX Installer</a>: Önkicsomagoló
+						archívumok létrehozása a telefon számára. Ezek a kicsomagoló kód utáni szegmensbe írt
+						<a href="http://en.wikipedia.org/wiki/Tar_(computing)">TAR</a> jellegű adatfolyammal voltak megvalósítva.
+						Készülésekor már létezett telepítőcsomag formátum a platformon, az SFX mégis kényelmesebb megoldás volt.</li>
+					</ul>
+					<div class="noprint">Nem minden kép van itt miniatűrként, kattintás után lehet végignavigálni rajtuk.</div></hu>
+					<en>Modified Sony Ericsson phones can run <a href="http://en.wikipedia.org/wiki/Executable_and_Linkable_Format">
+					ELF programs</a>, these are written in C and integrate into the firmware of the device. I wrote a couple of these applications
+					and was an active member of the modder community around 2008-2009. The important ones:<br/>
+					<ul>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=818">DeskBar</a>: creates a dock much like Mac OS X
+						at the bottom of the phone's standby screen, horizontally or vertically. There was also a menu item, which opened
+						another dock across the main dock. It was very popular among the community, users created several skins for it (different
+						images).</li>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=627">OPlogo</a>: Replaces the operator's text (like
+						T-mobile) and other available lines on the screen with custom texts</li>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=3625">DeskBridge</a>: A rotatable „desktop” with
+						widgets like those of Windows 7, everything is movable and scalable on it.
+						The widgets were also written in C, the interface to send the appropriate function pointers was a C structure
+						(dynamic linking was released years later for the platform, strangely they call them <code>dll</code> instead
+						of <code>so</code>, even though the system is more like Unix). I published the API but haven't heard of any
+						other developers contributing. Even so, it had many fans. Unfortunately it only ran oth the A1 platform and at
+						the time I did not have the time to rewrite it to support more phones.</li>
+						<li><a href="http://se-lifestyle.com/viewtopic.php?f=21&amp;t=2783">SFX Installer</a>: Creates self extracting
+						achives for the phone. This was achieved by writing a <a href="http://en.wikipedia.org/wiki/Tar_(computing)">TAR</a>-like
+						stream after the extraction code.
+						At the time of making, there already was an installer package format on the platfom, but the SFX was still more comfortable to use.</li>
+					</ul>
+					<div class="noprint">Not all images are here as thumbnails, others can be open after clicking.</div></en>
+			</content>
+			<image>
+				<url>cv/elf_dbar1.png</url>
+				<hu>DeskBar működés közben</hu>
+				<en>DeskBar operating</en>
+			</image>
+			<image hidden="1">
+				<url>cv/elf_dbar2.png</url>
+				<hu>Orange szoftverű telefonok grafikájából építkezve</hu>
+				<en>Built from the Orange ROMs' graphics</en>
+			</image>
+			<image hidden="1">
+				<url>cv/elf_dbar3.png</url>
+				<hu>Más megjelenések a DeskBar-hoz</hu>
+				<en>Other skins for DeskBar</en>
+			</image>
+			<image>
+				<url>cv/elf2.jpg</url>
+				<hu>OPlogo az alapértelmezett értékekkel</hu>
+				<en>OPlogo with the default values</en>
+			</image>
+			<image>
+				<url>cv/elf_db1.png</url>
+				<hu>A DeskBridge fektetett kijelzőn</hu>
+				<en>DeskBridge in landscape view</en>
+			</image>
+			<image hidden="1">
+				<url>cv/elf_db2.png</url>
+				<hu>Egy felhasználónak így tetszett jobban</hu>
+				<en>A user liked it better this way</en>
+			</image>
+			<image hidden="1">
+				<url>cv/elf_db3.jpg</url>
+				<hu>A CoverArt elf kódjából írtam meg a most játszott szám adatait megjelenítő widgetet</hu>
+				<en>I wrote the widget displaying details of Now Playing from the CoverArt elf.</en>
+			</image>
+			<image hidden="1">
+				<url>cv/elf_db4.jpg</url>
+				<hu>Az oldalsáv illúziója, érdekes munka</hu>
+				<en>The illusion of the sidebar, interesting work</en>
+			</image>
+			<image hidden="1">
+				<url>cv/elf_db5.png</url>
+				<hu>Álló tájolással is működött</hu>
+				<en>It also worked with standing view</en>
+			</image>
+			<image>
+				<url>cv/elf_sfx.png</url>
+				<hu>SFX installer kezelőfelülete</hu>
+				<en>Controls of SFX installer</en>
+			</image>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Saját célú weboldalak</hu>
+				<en>Websites for personal use</en>
+			</title>
+			<content>
+				<hu>Az évek során több weboldalt hoztam létre, többségüket saját célokra, php segítégével. Amiket kiemelnék:<br/>
+				<a href="http://se-lifestyle.com/">SE-lifestyle.com</a>: 2007 végén lettem tagja a már fentebb említett telefon-átalakító közösségnek, egy barátommal létrehoztunk
+				egy oldalt, ami ezzel foglalkozik. Ő a szerver beállítását intézte, a programozást én. Az oldal a phpBB fórum motorjára épül, annak egy fejlesztett változata.
+				A <a href="http://se-lifestyle.com/phonedb.php">telefon-adatbázist</a> (kivéve a Lightboxot, ahogy megjelennek a képek a nagyítóra kattintva) és a
+				<a href="http://se-lifestyle.com/firmwares.php">firmware-letöltőt</a> teljes egészében én írtam. A <a href="http://se-lifestyle.com/filebase.php">letöltő központ</a>
+				egy már létező programra épül, a főképernyő, az AJAX alapú panelek és fájlinformációk, az elrendezés, az oldalsávok mind az én munkáim. Írtam olyan programot hozzá,
+				ami az üzenetekben megtalálja a telefonneveket és linkké alakítja, a felhasználók és a letöltések is hasonlóan linkelhetők. A fejlesztés évek óta szünetel, az oldal
+				vezetői (köztük én is) már kevésbé érdeklődnek a téma iránt.<br/><br/>
+				<a href="http://toparti.co.cc/index.php">Tóparti.co.cc</a>: ezt az oldalt a gimnáziumi osztályom számára hoztam létre 2009 nyarán. A CSS-témákat készen töltöttem le,
+				csak kis mértékben módosítottam. Ezen kívül az egész oldal a saját munkám. Ami érdekes benne az a <a href="http://toparti.co.cc/files.php">letöltő oldal</a>, a fájlok
+				csoportosítása, amiket regisztráció után lehet letölteni. Ami a felszínről nem látszik, az a phpBB által inspirált sablonrendszer. A fórum csak az ötletet adta,
+				a programot teljes egészében én írtam meg. A lényege, hogy néhány HTML fájl és a CSS segítségével bármennyi megjelenés beállítható az oldalon, a tartalom pedig
+				ehhez igazodik, a kezdés óta két témával üzemel.<br/><br/>
+				<div class="noprint">Ez a weboldal és az önéletrajz ezen formája is php/html/css nyelveken íródott (2012. október).</div></hu>
+				<en>I created several sites with php over the years, mostly for personal use. The ones I would like to highlight:<br/>
+				<a href="http://se-lifestyle.com/">SE-lifestyle.com</a>: As I already mentioned, I joined the phone modder community in 2007, we created
+				a site about it with a friend. He did the server setup and I did the programming. The site is based on the phpBB forum engine but is
+				more advanced.
+				I created the <a href="http://se-lifestyle.com/phonedb.php">phone database</a> (except for Lightbox, the way images are shown after clicking the magnifying glass)
+				and the <a href="http://se-lifestyle.com/firmwares.php">firmware downloader</a> from scratch. The <a href="http://se-lifestyle.com/filebase.php">downloads section</a>
+				is based on an existing program, but the main screen, the AJAX panels, file infos, layout, sidebars are all my work. I wrote an application
+				for it, that finds phone names in messages and converts them to links, users and downloads can also be linked like that. The development stopped years ago, the owners
+				(including me) are not so much interested any more.<br/><br/>
+				<a href="http://toparti.co.cc/index.php">Tóparti.co.cc</a>: I created this site for my high school class in the summer of 2009. I downloaded the CSS themes as they are,
+				only modified them a little. Apart from that, the whole sites is my work. The interesting parts are the <a href="http://toparti.co.cc/files.php">download page</a>,
+				grouping files that we can download after registration. What cannot be seen from outside, is the template system inspired by phpBB. It only inspired it, I wrote the
+				entire code. It allows us to set any appearance on the site with some HTML files and a CSS and the content adjust to it, it has had 2 themes since the start.<br/><br/>
+				<div class="noprint">This site and this version of my CV has also been written in php/html/css (in October 2012).</div></en>
+			</content>
+			<image>
+				<url>cv/selifest.png</url>
+				<hu>A telefon-adatbázis jelenleg</hu>
+				<en>The phone database now</en>
+			</image>
+			<image>
+				<url>cv/toparti.png</url>
+				<hu>A letöltő oldal, ballagás óta nem túl aktív</hu>
+				<en>The download page, hasn't been too busy since graduation</en>
+			</image>
+		</expand>
+	</section>
+	<section>
+		<title>
+			<hu>Célok, ambíciók</hu>
+			<en>Goals, ambitions</en>
+		</title>
+		<content>
+			<hu>Villamosmérnökként, programozóként szeretnék dolgozni az egyetem mellett és után is.</hu>
+			<en>I would like to work as Electrical Engineer, Programmer during and after University.</en>
+		</content>
+	</section>
+</cv>
