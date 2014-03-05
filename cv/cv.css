@@ -1,0 +1,51 @@
+/**
+*	Major Péter önéletrajzának része
+*	(c) MP 2012
+*/
+
+.cvtitle {
+	font-size: 26px;
+	color: #333;
+	border-bottom: 2px solid #333;
+	padding-bottom: 8px;
+	margin-right: 220px;
+}
+
+.profimg {
+	float: right;
+	margin-left: 4px;
+}
+
+.profile {
+	font-size: 1.2em;
+}
+
+.cvhead {
+	color: #333;
+	margin-bottom: 8px;
+}
+
+.leftbox {
+	min-height: 250px;
+	line-height: 1.8;
+	font-size: 1.1em;
+}
+
+.pbtn {
+	cursor: pointer;
+	font-size: 0.8em;
+}
+
+.popuptitle {
+	font-size: 16px;
+	text-indent: -60px;
+	padding-left: 60px;
+	padding-bottom: 6px;
+}
+
+.popupcontent {
+	padding-top: -2px;
+	font-size: 1.2em;
+	padding-left: 45px;
+	padding-bottom: 8px;
+}

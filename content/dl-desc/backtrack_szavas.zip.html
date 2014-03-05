@@ -1,0 +1,18 @@
+A program célja a <b>backtrack megoldás</b> bemutatása egy viszonylag egyszerû példán. A backtrack bemutatható egy <b>gráf <i>mélységi bejárás</i>a</b>ként.<br/>
+A módszer attól különleges, és azért jóval fejlettebb az ún. <i>elárasztásos algoritmus</i>nál, hogy nem minden lehetséges kombinációt próbál végig az adott feladaton,
+hanem csak azt, ami valamilyen szempontból <i>esélyes megoldás</i>nak tûnik.<br/><br/>
+
+<h3>Feladat</h3>
+A feladat <b>lényege</b>, hogy egy n*n-es, példáut 5*5-ös területet fedjünk le értelmes szavakkal. Ehhez egy szólistát használunk <i>(egész pontosan hármat, három nyelven)</i>. A program bekéri a
+kívánt szóhosszt, és csakis azokat a szavakat tárolja a memóriában a listából, amelyek ilyen hosszúak.<br/><br/>
+<h3>Adatstruktúra</h3>
+A tervezés közben hamar beláttam, hogy nem szükséges magát a tömböt tárolni, sõt a backtrack visszalépésekor kifejezetten hátrányos. A lefedéshez szükség van a megfelelõ szavak indexeire a memóriában,
+visszalépéskor a tömb korábbi elemeivel kell dolgozni, így a backtrack <i>korábbi állapot visszaállítása</i> nem szükséges. A tömbindexeket amúgy a rekurzív függvény stack-frame-je tárolja.<br/><br/>
+<h3>Algoritmus</h3>
+Az algoritmus <b>felváltva keres vízszintes és függõleges új elemeket</b>, így a jelenlegi lépés egy számmal és annak 2-es osztási maradékával egzaktul megadható.<br/>
+Amikor egy lépésben végigért a teljes szólistán, az azt jelenti, hogy az eddig megadott szavakhoz sehogyan sem található új szó. Ilyenkor kell visszalépni, a rekurzív függvény elõzõ <i>példánya</i>
+pedig az elõzõ helyre beilleszti a következõ szót. Amikor a rekurzió eléri a maximális lépésszámot, minden szó a helyére került.<br/><br/>
+<h3>Megjegyzések</h3>
+Az algoritmus a feladat bonyolutságával (rácsméret) exponenciálisan növekszik. 3, 4 betûs szavakkal nagyon gyorsan végez. 5 betûnél már a Core i5-ös is küszködik, 6, 7-tel szintén, 7 fölött pedig
+valószínûleg fent kéne hagyni estére a gépet, hogy találjon valamit.<br/>
+De ez részben az algoritmus hibája is. Ha keresés elõtt indexelnénk a szavakat, és csak a megfelelõ kezdõbetûseket próbálnánk végig, akár 26x-os javulás is elérhetõ lenne.

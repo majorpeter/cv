@@ -1,0 +1,15 @@
+.noprint {
+	display: none;
+}
+
+body {
+	color: #666;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+a {
+	color: #666;
+	text-decoration: none;
+}

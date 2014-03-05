@@ -1,0 +1,15 @@
+A program célja a <b>véges automata elv</b> bemutatása egy viszonylag egyszerû példán. Lényege, hogy a rendszer van egy bizonyos állapotban, majd a külvilág eseményei hatására tesz valamit,
+más állapotba kerül. Ezt <b>C-nyelv</b>en <b>vezérlési táblá</b>val oldjuk meg. A megoldás szépsége, hogy míg egy <i>switch</i> elágazásnál minden esetnél egy összehasonlítást végre kell hajtani,
+a vezérlési táblával közvetlenül rá lehet címezni a megfelelõ <i>függvény</i>ekre, és <b>azonnal hívni</b> õket.<br/><br/>
+
+<h3>Feladat</h3>
+A feladatom egyfajta üzenetküldõ program fogadó felének megírása volt. Demonstrációs céllal kicsit továbbmentem. Két példányban futtatva a két konzolablak lehetõséget nyújt egymással történõ
+kommunikációra. <i>Ennek a megvalósítása nem túl elegáns, txt fájlokba írnak egymásnak, egy éles programban internetes kommunikáció lenne, itt viszont arra nincs mód.</i>
+Viszont lehetõség van saját név beállítására, üzenetek küldésére, fájlküldés <i>nagyon elméleti szimulációjára</i>, szöveg- és háttérszín átállítására. A véges automata a fogadási oldalon jelenik meg.
+Küldéskor switch elágazás van, azért, mert a tényleges program nyilván nem konzolos lenne, és a nyomógombokat amúgy is egy WndProc kezelné, más a struktúra.<br/><br/>
+<h3>Adatstruktúra</h3>
+A programok üzeneteket küldenek egymásnak. Ezek az ünenet típusát tartalmazó 4 bájtos számból, és egy paramétert tartalmazó szintén 4 bájtos számból állnak. A paraméter szöveges üzenet feldolgozásakor
+karakterek sorozataként van értelmezve, <i>az OBEX protokollhoz hasonlít kis mértékben</i>.<br/><br/>
+<h3>Algoritmus</h3>
+A programok létrehoznak maguknak egy fájlt (a.txt, b.txt) és ezeket idõközönként vizsgálják, ha van bennük adat, beolvassák a fájlt egy verembe, és onnan az automata hajtja végre a megfelelõ
+mûveletek sorozatát. Ez két vezérlési táblával (1 dimenziós tömbök) történik, vagy ha úgy vesszük, egy 2-dimenziós tábla, de csak egy oszlopba kerül több sor, ott van csak több állapot.<br/><br/>
