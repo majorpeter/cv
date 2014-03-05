@@ -13,7 +13,7 @@ if (extension_loaded('simplexml')) {
     $xml = simplexml_load_file('cv/cv.xml');
     $title = $xml->title->$lng;
     $update=$xml->update;
-    file_put_contents(__DIR__.'/cv_update.txt', $update);
+    file_put_contents('cv/cv_update.txt', $update);
     
     $pg='<img src="content/etc/img.jpg" class="profimg"/>';
     $pg.= '<h3 class="cvtitle">'.$xml->name.'</h3>';
@@ -67,11 +67,11 @@ if (extension_loaded('simplexml')) {
     	$pg .= '<br/>';
     }
     
-    file_put_contents(__DIR__.'/cv_data_'.$lng.'.html', $pg);
+    file_put_contents('cv/cv_data_'.$lng.'.html', $pg);
 }
 else {
-	$pg = file_get_contents(__DIR__.'/cv_data_'.$lng.'.html', $pg);
-    $update = file_get_contents(__DIR__.'/cv_update.txt');
+	$pg = file_get_contents('cv/cv_data_'.$lng.'.html', $pg);
+    $update = file_get_contents('cv/cv_update.txt');
 }
 
 
