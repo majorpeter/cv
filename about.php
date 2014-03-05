@@ -50,6 +50,7 @@
 
 	$pg = '<p align="right">Utolsó frissítés: <b>' . $update . '</b></p>' . $pg;
 	
+    $title = ($lng == 'hu') ? 'Önéletrajz' : 'Curriculum Vitae'; 
 	add_page_entry($title, $pg);
 	finish();
 	
