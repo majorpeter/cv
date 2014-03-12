@@ -1,54 +1,62 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<title>{PG_TITLE}</title>
-<meta name="keywords" content="Major Péter, BME, HSZK, mûszaki egyetem, mûegyetem" />
-<meta name="description" content="Major Péter személyes oldala a HSZK szerverén." />
-<link href="css/templatemo_style.css" rel="stylesheet" type="text/css" />
-<link href="favicon.ico" rel="shortcut icon" />
-{HEAD}
+	<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>{PG_TITLE}</title>
+	<meta name="keywords" content="Major Péter, BME, HSZK, műszaki egyetem, műegyetem" />
+	<meta name="description" content="Major Péter személyes oldala a HSZK szerverén." />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/responsive.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/application.js"></script>
+	<link href="favicon.ico" rel="shortcut icon" />
+	{HEAD}
 </head>
 <body>
-
-<div id="templatemo_body_wrapper">
-	<div id="templatemo_wrapper">
-    
-		<div id="templatemo_header">
-        	<div id="site_title"><h1><a href="http://users.hszk.bme.hu/~mp1113/" target="_parent">Major Péter</a></h1></div>
-        </div>
-        
-        <div id="templatemo_menu">
-            <ul>
-			{NAVLINKS}
-            </ul>    	
-        </div> <!-- end of templatemo_menu -->
-        
-        <div id="templatemo_main">
-            <div class="col_w900 hr_divider">
-                {CONTENT}
-            </div>
-            
-			<div style="text-align: right; padding-right: 20px; text-decoration: underline;"
-				title="Az idézet egy neten talált listából lett véletlenszenszerűen kiválasztva. Az oldal tartalmával nincs összefüggésben, csak látványelem.">
-				Véletlenszerű idézet
+	<div id="container">
+		<div id="header">
+			<div class="container">
+				<a class="logo" href="/">MP</a>
+				<ul class="menu">{NAVLINKS}</ul>
+				<div class="menu" onclick="toggleSmallMenu()"></div>
 			</div>
-            <div class="testimonial"><span class="close"></span>
-                <p>{QUOTE}</p>
-                <p class="clientname">{QUOTE2}</p>
-            </div>
-            
-        </div> <!-- end of templatemo main -->
-    	
-    </div>
-</div>
-
-<div id="templatemo_footer_wrapper">
-    <div id="templatemo_footer">        
-        Copyright (c) 2013 <a href="#">Major Péter</a>
-    
-    </div> <!-- end of templatemo_footer -->
-</div>
-
+            <ul class="small-menu">{NAVLINKS}</ul>
+		</div>
+		<div id="content">
+			<div id="about-us-block">
+				<div class="container">
+					<div class="background"></div>
+					{CONTENT}
+				</div>
+			</div>
+			<div id="contact-block">
+				<div class="container"><span class="anchor" id="contact"></span>
+				    <h1 class="left">Üzenet írása</h1>
+                    <p class="left">
+                        Ezen a felületen tudsz nekem levelet írni<br/>
+                        ... vagy írhatsz emailt a <a href="mailto:major.peter@mailbox.hu">major.peter@mailbox.hu</a> címre
+                    </p>
+                    <div class="fields">
+                        <form method="post" id="contact_form">
+                            <input type="text" name="name" value="név" data-default="név"/>
+                            <input type="text" name="email" value="email" data-default="email"/>
+                            <textarea name="message" data-default="üzenet">üzenet</textarea>
+                            <button>Elküldés</button>
+                        </form>
+                    </div>
+					<div class="plane"></div>
+					<div class="clearfix"></div>
+				</div>
+			</div>
+		</div>
+		<div id="footer">
+			<div class="container">
+				<div class="left">
+					&copy; Copyright 2014 Major Péter
+				</div>
+				<div class="top" title="Vissza a tetejére"></div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>

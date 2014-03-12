@@ -1,12 +1,13 @@
 /**
-*	Major Péter önéletrajzának része
-*	(c) MP 2012
+*	Major PÃ©ter Ã¶nÃ©letrajza
+*	(c) MP 2014
 */
 
-.cvtitle {
+h1.cvtitle, div#content div#about-us-block h1.cvtitle {
 	font-size: 26px;
 	color: #333;
 	border-bottom: 2px solid #333;
+	padding-top: 0;
 	padding-bottom: 8px;
 	margin-right: 220px;
 }
@@ -17,7 +18,7 @@
 }
 
 .profile {
-	font-size: 1.2em;
+	font-size: 1em;
 }
 
 .cvhead {
@@ -36,8 +37,8 @@
 	font-size: 0.8em;
 }
 
-.popuptitle {
-	font-size: 16px;
+div.popuptitle {
+	font-size: 1em;
 	text-indent: -60px;
 	padding-left: 60px;
 	padding-bottom: 6px;
@@ -45,7 +46,7 @@
 
 .popupcontent {
 	padding-top: -2px;
-	font-size: 1.2em;
+	font-size: 0.95em;
 	padding-left: 45px;
 	padding-bottom: 8px;
 }

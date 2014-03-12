@@ -2,8 +2,7 @@
 
 $head.='<script type="text/javascript" src="cv/cv.js"></script>'."\n";
 $head.='<link href="cv/cv.css" rel="stylesheet" type="text/css" />'."\n";
-$head.='<script type="text/javascript" src="js/jquery.js"></script>'."\n".
-		'<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>'."\n".
+$head.='<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>'."\n".
 		'<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />'."\n";
 $head.='<script type="text/javascript">$(function() {$(\'.lightbox\').lightBox();});</script>';
 
@@ -16,7 +15,7 @@ if (extension_loaded('simplexml')) {
     file_put_contents('cv/cv_update.txt', $update);
     
     $pg='<img src="content/etc/img.jpg" class="profimg"/>';
-    $pg.= '<h3 class="cvtitle">'.$xml->name.'</h3>';
+    $pg.= '<h1 class="cvtitle">'.$xml->name.'</h1>';
     
     
     $pg.='<div class="leftbox"><span class="profile">';
@@ -30,7 +29,7 @@ if (extension_loaded('simplexml')) {
     $pg .= '</div>';
     
     foreach ($xml->section as $sec) {
-    	$pg .= '<h4 class="cvhead">'.$sec->title->$lng.'</h4>';
+    	$pg .= '<h2 class="cvhead">'.$sec->title->$lng.'</h2>';
     	foreach($sec->children() as $c) {
     		if ($c->getName() == 'expand') {
     			$titl = $c->title->$lng->asXML();

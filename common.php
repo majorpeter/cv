@@ -7,7 +7,7 @@ error_reporting(-1);
 $pg_title = "Major Péter @BME-VIK";
 
 $navlinks=array();
-$navlinks[]=array('Kezdõlap','index.php');
+$navlinks[]=array('Kezdőlap','index.php');
 $navlinks[]=array('Letöltések','downloads.php');
 $navlinks[]=array('Rólam','about.php');
 $navlinks[]=array('Kapcsolat','contact.php');
@@ -56,6 +56,6 @@ function get_content() {
 
 function add_page_entry($title, $html) {
 	global $content;
-	$content[]=/*utf8_decode*/('<h2>'.$title.'</h2>'.$html);
+	$content[]=/*utf8_decode*/('<h1 class="left">'.$title.'</h1>'.$html);
 }
 ?>

@@ -6,13 +6,13 @@
 function show_part(id) {
 	document.getElementById("pbtn"+id).innerHTML = '[-]';
 	document.getElementById("pbtn"+id).onclick = function() {hide_part(id)};
-	document.getElementById("pd"+id).style.display = '';
+	$('#pd'+id).slideDown(300);
 }
 
 function hide_part(id) {
 	document.getElementById("pbtn"+id).innerHTML = '[+]';
 	document.getElementById("pbtn"+id).onclick = function() {show_part(id)};
-	document.getElementById("pd"+id).style.display = 'none';
+	$('#pd'+id).slideUp(300);
 }
 
 function show_pbut(id) {
