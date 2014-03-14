@@ -32,5 +32,6 @@ Email: '.$_POST['email'].'
 Üzenet: '.$_POST['message'].'
 
 Tisztelettel: Ural2');
+header('Content-Type: text/plain; charset=utf-8');
 echo 'A levelet elküldtem.';
 ?>

@@ -32,17 +32,33 @@ h1.cvtitle, div#content div#about-us-block h1.cvtitle {
 	font-size: 1.1em;
 }
 
-.pbtn {
-	cursor: pointer;
-	font-size: 0.8em;
-}
-
 div.popuptitle {
 	font-size: 1em;
 	text-indent: -60px;
 	padding-left: 60px;
 	padding-bottom: 6px;
+	position: relative;
+	
+	-webkit-transition: color 0.4s ease;
+	-moz-transition: color 0.4s ease;
+	-o-transition: color 0.4s ease;
+	transition: color 0.4s ease;
 }
+div.popuptitle.toggle:hover {
+	cursor: pointer;
+	color: #434343;
+}
+
+div.popuptitle.toggle span.toggle {
+	display: none;
+	width: 8px; height: 8px;
+	background: url('../img/tree_closed.png');
+	position: absolute;
+	left: -15px;
+	top: 7px;
+}
+div.popuptitle.li.toggle { margin-left: 15px }
+div.popuptitle.li.toggle span.toggle { display: block }
 
 .popupcontent {
 	padding-top: -2px;

@@ -38,8 +38,6 @@ if (extension_loaded('simplexml')) {
     				$titl .= ' ('.$attr['year'].')';
     			if (isset($attr['years']))
     				$titl = $attr['years'].' '.$titl;
-    			if (isset($attr['list']))
-    				$titl = '&nbsp;&bull;&nbsp;'.$titl;
     			$cont = cv_replace($c->content->$lng->asXML());
     			
     			$img = $c->image;
@@ -54,7 +52,7 @@ if (extension_loaded('simplexml')) {
     				}
     				$cont .= '</div>';
     			}
-    			create_popup(cv_replace($titl), $cont);
+    			create_popup(cv_replace($titl), $cont, 'popuptitle', 'popupcontent', isset($attr['list']));
     		}
     		else if ($c->getName() == 'nonexpand')
     			$pg .= '<div class="popuptitle">'.$c->$lng.'</div>';
