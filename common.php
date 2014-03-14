@@ -18,12 +18,12 @@ $head = "";
 include('inc/quote.php');
 
 function finish() {
-	global $pg_title, $head, $quote, $quote2;
-	set_quote();
+	global $pg_title, $head, $precontent;
+	//set_quote();
 	$f = file_get_contents('inc/theme.html');
 	header("Content-type: text/html; charset=utf-8");
 	echo(str_replace(
-	array('{PG_TITLE}', '{HEAD}', '{NAVLINKS}', '{CONTENT}', '{QUOTE}', '{QUOTE2}'), array($pg_title, $head, get_navlinks(), get_content(), $quote, $quote2),$f));
+	array('{PG_TITLE}', '{HEAD}', '{NAVLINKS}', '{CONTENT}', '{PRECONTENT}'), array($pg_title, $head, get_navlinks(), get_content(), @$precontent ? '<div id="mainslider"><div class="container">'.$precontent.'</div></div>' : ''),$f));
 }
 
 function this_file() {

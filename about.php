@@ -41,12 +41,12 @@
 			
 	}
 	
-	$pg.='<br /><br /><br /><a href="?print=1">Nyomtatható verzió</a>';
-	$pg.='&nbsp;&nbsp;|&nbsp;&nbsp;<a href="?xml=1">Letöltés XML-ként</a>';
+    $precontent = '<a href="?print=1"><img src="img/print.png"/>Nyomtatható verzió</a>';
+	$precontent.='<a href="?xml=1"><img src="img/xml-ico.png"/>Letöltés XML-ként</a>';
 	if ($lng != "en")
-		$pg.='&nbsp;&nbsp;|&nbsp;&nbsp;<a href="?lng=en">Angol nyelven (in English) !Fordítás alatt!</a>';
+		$precontent.='<a href="?lng=en"><img class="lng" src="img/lng_en.png"/>Angol nyelven (in English) (Fordítás alatt)</a>';
 	if ($lng != "hu")
-		$pg.='&nbsp;&nbsp;|&nbsp;&nbsp;<a href="?lng=hu">Magyar nyelven</a>';
+		$precontent.='<a href="?lng=hu"><img class="lng" src="img/lng_hu.png"/>Magyar nyelven</a>';
 
 	$pg = '<p align="right">Utolsó frissítés: <b>' . $update . '</b></p>' . $pg;
 	

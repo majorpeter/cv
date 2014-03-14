@@ -152,24 +152,20 @@ div#content > div div.container h1 {
 	color: #212121;
 }
 div#content div#mainslider {
-	background: #0073bc;
-	height: 250px;
-}	
-div#content div#mainslider > div {
+	background: #434343;
+	color: #ffffff;
+	padding: 15px;
+}
+div#content div#mainslider a {
+	color: inherit;
+	padding-right: 15px;
+}
+div#content div#mainslider a > img {
+	margin-right: 5px;
 	position: relative;
+	top: 3px;
 }
-div#content div#mainslider > div > div.bg {
-	background: url('../img/mainslider-bg.png');
-	width: 299px;
-	height: 140px;
-	position: absolute;
-	right: 320px;
-	top: 75px;
-}
-div#content div#mainslider > div > div.item {
-	position: absolute;
-	width: 100%;
-}
+div#content div#mainslider a > img { top: 0 }
 div#content div#mainslider > div > div.item > h1 {
 	margin-top: 42px;
 	text-transform: uppercase;
