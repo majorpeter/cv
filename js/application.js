@@ -6,7 +6,7 @@ $(document).ready(function(){
 			$(this).remove();
 		});
 		$.ajax({
-			url: '/contact',
+			url: 'ajax.php',
 			method: 'post',
 			data: $(this).serialize(),
 			success: function(resp){
@@ -19,8 +19,10 @@ $(document).ready(function(){
 					field.after(msg);
 					msg.slideDown(200);
 					field.focus();
-				} else	//successful send
+				} else { //successful send
 					alert(resp);
+					$('div#contact-block div.fields').fadeOut(500);
+				}
 			}
 		});
 	});
