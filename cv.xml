@@ -5,7 +5,7 @@
 	Az angol fordítás kezdetleges, annyira nem sürgős jelenleg.
 -->
 <cv>
-	<update>2013-07-24</update>	
+	<update>2014-03-17</update>	
 	<name>Major Péter</name>
 	<phone>
 		<val>(30) 750-3031</val>
@@ -40,8 +40,12 @@
 		
 		<expand>
 			<title years="2011-\nbsp\nbsp\nbsp\nbsp">
-				<hu>Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar<br/>Villamosmérnök (BsC alapképzés)</hu>
-				<en>Budapest University of Technology and Economics Faculty of Electical Engineering and Informatics<br/>Electrical Engeneer (BsC)</en>
+				<hu>Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar<br/>
+				Villamosmérnök (BsC alapképzés)<br/>
+				Beágyazott és irányító rendszerek szakirány - Számítógép-alapú rendszerek ágazat</hu>
+				<en>Budapest University of Technology and Economics Faculty of Electical Engineering and Informatics<br/>
+				Electrical Engeneer (BsC)<br/>
+				Specialization in Embedded and Control Systems - Computer-based Systems branch</en>
 			</title>
 			<content>
 				<hu>Az első és második féléves programozás (<b>C és C++</b>) tárgyakat haladó csoportban végeztem, <b>jeles</b> eredménnyel.
@@ -150,11 +154,11 @@
 			</title>
 			<content>
 				<hu>2008 óta foglalkozom vele, akkoriban a módosított Sony Ericsson telefonok ELF programozása miatt.
-					Az egyetemi tárgy ennek köszönhetően nem okozott nehézséget. ST mikrokontroller C nyelvű programozásával
-					hobbi szinten foglalkozom.</hu>
+					Az egyetemi tárgy ennek köszönhetően nem okozott nehézséget. ST32F4 mikrokontroller C nyelvű programozásával
+					hobbi szinten foglalkozom, a szakirányos mikrokontroller laboratórium is ezt a típust alkalmazza.</hu>
 				<en>I have been using it since 2008, to write ELF apps for modified Sony Ericsson handsets at the time.
-					Thus the subject at the University did not mean much of a challenge. I program ST microcontrollers in C
-					as a hobby.</en>
+					Thus the subject at the University did not mean much of a challenge. I program ST32F4 microcontrollers in C
+					as a hobby, the Microcontroller Laboratory in Specialization uses the same type.</en>
 			</content>
 		</expand>
 		<expand>
@@ -282,17 +286,21 @@
 			</title>
 			<content>
 				<hu>Főleg Ubuntu (Debian alapú disztribúció) rendszereken, SSH terminálok, SCP, VNC stb. 2012 nyara óta főként linuxon dolgozom,
-					Windows jelenleg is csak DirectX fejlesztés miatt van a gépemen. Értek linux alapú webszerverek (http/ftp/svn/mysql)
-					beállításához, kezeléséhez.</hu>
+					de Windows-t is kell használnom, például nyomtatott áramkör tervezéshez. Értek linux alapú webszerverek (http/ftp/svn/mysql)
+					beállításához, kezeléséhez. A Raspberry Pi-men Debian fut, webserver, fájlszerver, verziókövető szerer, automatikus biztonsági
+					mentések, világítástechnika.</hu>
 			</content>
 		</expand>
 		<expand>
 			<title>
 				<hu>Verziókövető rendszerek</hu>
+				<en>Version Control Systems</en>
 			</title>
 			<content>
 				<hu>Évek óta használok SVN-t verziókövetésre. Állítottam már be Dropboxban lévő titkosított mappából működő közös szervert.
 				Elosztott verziókezelés igénye miatt 2013-ban elkezdtem Git-et is használni. Az Ogre miatt használtam Mercurialt is.</hu>
+				<en>I have been using SVN for version control for years. I have set up a common server in an encrypted folder in Dropbox.
+				I needed distributed version control, so I started using Git as well in 2013. For Ogre I also used Mercurial.</en>
 			</content>
 		</expand>
 		<expand>
@@ -304,6 +312,9 @@
 				<hu>Komolyabb projektekbe nem is kezdek <a href="http://www.doxygen.org/‎">doxygen</a> nélkül. Rendkívül fontosnak tartom
 				az osztályok, névterek, függvények megfelelő dokumentációját. Csoportmunkánál kritikus fontosságú, de egyébként is hasznos
 				hosszabb távon.</hu>
+				<en>I do not even start complex projects without <a href="http://www.doxygen.org/‎">doxygen</a>. I find decent documentation
+				of classes, namespaces, functions very important. It is critical when working with a group but it is also useful when I
+				work by myself.</en>
 			</content>
 		</expand>
 		<expand>
@@ -467,6 +478,30 @@
 			<hu>Saját projektek</hu>
 			<en>My own projects</en>
 		</title>
+		<expand>
+			<title list="1">
+				<hu>Raspberry Pi-alapú világítástechnika</hu>
+				<en>Raspberry Pi-based lighting</en>
+			</title>
+			<content>
+				<hu>Amikor 2013 nyarán albérletbe költöztem, felmerült az ötlet, hogy RGB LED szalaggal oldjam meg a világítást. Úgy gondoltam,
+				jobb lenne, ha valami szakmai projekt is lenne, ezért az Android telefonról wifin keresztül vezérelhető világítás lett a cél.
+				Néhány alternatíva végiggondolása után végül a Pi-t választottam, mert viszonylag sok leírás van hozzá, Ethernetet gyárilag
+				tudja és találtam hozzá szoftveres PWM megoldást is.<br/>
+				Hobbi projektként viszonylag lassan haladtam, de végül összeállt a kiegészítő panel és elkezdődött a szoftver fejlesztése.
+				A nyílt forrású PWM vezérlő köré írtam saját TCP szervert, ami közvetlenül kezeli a böngészőből elérhető WebUI-t, ami egy
+				statikus HTML oldal Javascript <a href="http://hu.wikipedia.org/wiki/Remote_procedure_call">RPC</a> megoldással. Ugyanezen
+				a porton keresztül kommunikál az Android alkalmazásom is a saját bináris protokollján keresztül.<br/>
+				A vezérlő képes a három PWM csatornát egymástól függetlenül kezelni, és így a csúszkákkal beállítható az RGB skáláról bármilyen
+				szín. Ezekből a színekből animációk hozhatók létre, átváltási és tartási időkkel, egymásba ágyazható ciklusokkal.<br/>
+				Ráérő időmben az Android klienst szoktam fejleszteni, az ébresztő órával próbálom összekötni a rendszert.</hu>
+			</content>
+			<image>
+				<url>cv/rgb-schem.png</url>
+				<hu>A kapcsolási rajz szemléltetése</hu>
+				<en>Schematics</en>
+			</image>
+		</expand>
 		<expand>
 			<title list="1">
 				<hu>3D RC szimulátor (OGRE)</hu>
@@ -679,7 +714,7 @@
 			<image>
 				<url>cv/toparti.png</url>
 				<hu>A letöltő oldal, ballagás óta nem túl aktív</hu>
-				<en>The download page, hasn't been too busy since graduation</en>
+				<en>The download page, hasn't been too busy since our graduation</en>
 			</image>
 		</expand>
 	</section>
