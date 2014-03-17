@@ -1,24 +1,25 @@
 <?php
+header('Content-Type: text/plain; charset=utf-8');
+
 if (!$_POST['name'] || $_POST['name'] == 'név')
-    $error = json_encode(array(
+    $error = array(
         'errormsg' => 'Név megadása kötelező!',
         'field' => 'name'
-    ));
+    );
 elseif (!$_POST['email'] || $_POST['email'] == 'email')
-    $error = json_encode(array(
+    $error = array(
         'errormsg' => 'Email cím megadása kötelező!',
         'field' => 'email'
-    ));
+    );
 elseif (!$_POST['message'] || $_POST['message'] == 'üzenet')
-    $error = json_encode(array(
+    $error = array(
         'errormsg' => 'Üzenet kitöltése kötelező!',
         'field' => 'message'
-    ));
-    
+    );
+
+
 if (@$error) {
-    header('Content-Type: application/json');
-    header('Content-Length: '.strlen($error));
-    echo $error;
+    echo $error['errormsg']."\n".$error['field'];
     exit;
 }
 
@@ -32,6 +33,5 @@ Email: '.$_POST['email'].'
 Üzenet: '.$_POST['message'].'
 
 Tisztelettel: Ural2');
-header('Content-Type: text/plain; charset=utf-8');
 echo 'A levelet elküldtem.';
 ?>

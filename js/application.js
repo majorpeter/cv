@@ -13,14 +13,15 @@ $(document).ready(function(){
 				$('form#contact_form div.form-error').slideUp(100, function(){
 					$(this).remove();
 				});
-				if (resp.errormsg) {
-					var field = $('form#contact_form [name="'+resp.field+'"]');
-					var msg = $('<div class="form-error">'+resp.errormsg+'</div>');
+				resp = resp.split('\n');
+				if (typeof resp[1] == 'string') {
+					var field = $('form#contact_form [name="'+resp[1]+'"]');
+					var msg = $('<div class="form-error">'+resp[0]+'</div>');
 					field.after(msg);
 					msg.slideDown(200);
 					field.focus();
 				} else { //successful send
-					alert(resp);
+					alert(resp[0]);
 					$('div#contact-block div.fields').fadeOut(500);
 				}
 			}
