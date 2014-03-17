@@ -60,6 +60,22 @@ div.popuptitle.toggle span.toggle {
 div.popuptitle.li.toggle { margin-left: 15px }
 div.popuptitle.li.toggle span.toggle { display: block }
 
+div.popuptitle span.tag {
+	margin-left: 5px;
+	background: #333333;
+	border: 1px solid #212121;
+	color: #ffffff;
+	padding: 2px 5px;
+	border-radius: 4px;
+	-moz-border-radius: 4px;
+	-webkit-border-radius: 4px;
+	font-size: 12px;
+}
+div.popuptitle span.tag.bme { background: #1E4AF7; border-color: #24398F; }
+div.popuptitle span.tag.inprogress { background: #14F517; border-color: #248F25; }
+div.popuptitle span.tag.suspended { background: #F5C814; border-color: #AD8B03; }
+div.popuptitle span.tag.stopped { background: #D90404; border-color: #611717; }
+
 .popupcontent {
 	padding-top: -2px;
 	font-size: 0.95em;

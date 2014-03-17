@@ -53,6 +53,23 @@ if (extension_loaded('simplexml')) {
     				}
     				$cont .= '</div>';
     			}
+                
+                if ($c->tag->count())
+                    foreach ($c->tag as $t) {
+                        $tag = null;
+                        foreach ($xml->tag as $xt) {
+                            if ($xt->name->__toString() == $t->__toString()) {
+                                $tag = $xt;
+                                break;
+                            }
+                        }
+                        if (!$tag) {
+                            echo 'Hiányzó tag: '.$t->__toString().'!<br/>';
+                            continue;
+                        }
+                        $titl.='<span class="tag '.$tag->name.'" title="'.htmlentities($tag->desc->$lng->__toString()).'">'.$tag->title->$lng.'</span>';
+                    }
+
     			create_popup(cv_replace($titl), $cont, 'popuptitle', 'popupcontent', isset($attr['list']));
     		}
     		else if ($c->getName() == 'nonexpand')
