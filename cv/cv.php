@@ -12,7 +12,8 @@ if (extension_loaded('simplexml')) {
     $xml = simplexml_load_file('cv/cv.xml');
     $title = $xml->title->$lng;
     $update=$xml->update;
-    file_put_contents('cv/cv_update.txt', $update);
+    if (@$_GET['update'])
+        file_put_contents('cv/cv_update.txt', $update);
     
     $pg='<img src="content/etc/img.jpg" class="profimg"/>';
     $pg.= '<h1 class="cvtitle">'.$xml->name.'</h1>';
@@ -32,13 +33,13 @@ if (extension_loaded('simplexml')) {
     	$pg .= '<h2 class="cvhead">'.$sec->title->$lng.'</h2>';
     	foreach($sec->children() as $c) {
     		if ($c->getName() == 'expand') {
-    			$titl = $c->title->$lng->asXML();
+    			$titl = substr($c->title->$lng->asXML(), 4, -5);
     			$attr = $c->title->attributes(); 
     			if (isset($attr['year']))
     				$titl .= ' ('.$attr['year'].')';
     			if (isset($attr['years']))
     				$titl = $attr['years'].' '.$titl;
-    			$cont = cv_replace($c->content->$lng->asXML());
+    			$cont = cv_replace(substr($c->content->$lng->asXML(), 4, -5));
     			
     			$img = $c->image;
     			if ($img->count()) {
@@ -64,7 +65,8 @@ if (extension_loaded('simplexml')) {
     	$pg .= '<br/>';
     }
     
-    file_put_contents('cv/cv_data_'.$lng.'.html', $pg);
+    if (@$_GET['update'])
+        file_put_contents('cv/cv_data_'.$lng.'.html', $pg);
 }
 else {
 	$pg = file_get_contents('cv/cv_data_'.$lng.'.html', $pg);
