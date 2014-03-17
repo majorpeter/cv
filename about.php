@@ -19,6 +19,8 @@
 				'<title>Major Péter önéletrajz</title>'."\n".
 				$head."\n".
 				'<link href="cv/cv_print.css" rel="stylesheet" type="text/css" />'."\n".
+				'<script type="text/javascript" src="js/jquery.js"></script>'."\n".
+				'<script type="text/javascript" src="cv/cv.js"></script>'."\n".
 				'</head>'."\n".'<body>'."\n";
 		echo $pg;
 		echo '</body></html>';

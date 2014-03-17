@@ -24,13 +24,59 @@
 	</fbook>
 	
 	<desc>
-		<hu>Java/C/C++/Obj-C/Delphi Pascal</hu>
-		<en>Java/C/C++/Obj-C/Delphi Pascal</en>
+		<hu>Villamosmérnök hallgató</hu>
+		<en>Electrical Engineering Student</en>
 	</desc>
 	<desc>
-		<hu>PHP/HTML/JavaScript/CSS/MySQL programozó</hu>
-		<en>PHP/HTML/JavaScript/CSS/MySQL programmer</en>
+		<hu>Programozó, Beágyazott fejlesztő, Webfejlesztő</hu>
+		<en>Programmer, Embedded developer, Web developer</en>
 	</desc>
+	
+	<!-- címkék a felsorolásokhoz -->
+	<tag>
+		<name>bme</name>
+		<title>
+			<hu>BME</hu>
+			<en>BUTE</en>
+		</title>
+		<desc>
+			<hu>A Budapesti Műszaki és Gazdaságtudományi Egyetemmel kapcsolatos.</hu>
+			<en>It is related to Budapest University of Technology and Economics.</en>
+		</desc>
+	</tag>
+	<tag>
+		<name>inprogress</name>
+		<title>
+			<hu>Folyamanban</hu>
+			<en>In progress</en>
+		</title>
+		<desc>
+			<hu>A projekt fejlesztés alatt van, legalább néhány hetente frissül.</hu>
+			<en>The project is under development, it is updated every few weeks.</en>
+		</desc>
+	</tag>
+	<tag>
+		<name>suspended</name>
+		<title>
+			<hu>Felfüggesztve</hu>
+			<en>Suspended</en>
+		</title>
+		<desc>
+			<hu>A fejlesztés határozatlan időre fel lett függesztve.</hu>
+			<en>Development has been suspended for an indefinite period.</en>
+		</desc>
+	</tag>
+	<tag>
+		<name>stopped</name>
+		<title>
+			<hu>Befejezve</hu>
+			<en>Stopped</en>
+		</title>
+		<desc>
+			<hu>A fejlesztés be lett fejezve, és valószínűleg nem is fog folytatódni.</hu>
+			<en>Development has been stopped and is not likely to be continued.</en>
+		</desc>
+	</tag>
 	
 	<section>
 		<title>
@@ -484,10 +530,10 @@
 				<en>Raspberry Pi-based lighting</en>
 			</title>
 			<content>
-				<hu>Amikor 2013 nyarán albérletbe költöztem, felmerült az ötlet, hogy RGB LED szalaggal oldjam meg a világítást. Úgy gondoltam,
-				jobb lenne, ha valami szakmai projekt is lenne, ezért az Android telefonról wifin keresztül vezérelhető világítás lett a cél.
-				Néhány alternatíva végiggondolása után végül a Pi-t választottam, mert viszonylag sok leírás van hozzá, Ethernetet gyárilag
-				tudja és találtam hozzá szoftveres PWM megoldást is.<br/>
+				<hu>Amikor 2013 nyarán albérletbe költöztem a kollégiumból, felmerült az ötlet, hogy RGB LED szalaggal oldjam meg a világítást.
+				Úgy gondoltam, jobb lenne, ha valami szakmai projekt is lenne, ezért az Android telefonról wifin keresztül vezérelhető világítás
+				lett a cél. Néhány alternatíva végiggondolása után végül a Pi-t választottam, mert viszonylag sok leírás van hozzá, Ethernetet
+				gyárilag tudja és találtam hozzá szoftveres PWM megoldást is.<br/>
 				Hobbi projektként viszonylag lassan haladtam, de végül összeállt a kiegészítő panel és elkezdődött a szoftver fejlesztése.
 				A nyílt forrású PWM vezérlő köré írtam saját TCP szervert, ami közvetlenül kezeli a böngészőből elérhető WebUI-t, ami egy
 				statikus HTML oldal Javascript <a href="http://hu.wikipedia.org/wiki/Remote_procedure_call">RPC</a> megoldással. Ugyanezen
@@ -495,12 +541,55 @@
 				A vezérlő képes a három PWM csatornát egymástól függetlenül kezelni, és így a csúszkákkal beállítható az RGB skáláról bármilyen
 				szín. Ezekből a színekből animációk hozhatók létre, átváltási és tartási időkkel, egymásba ágyazható ciklusokkal.<br/>
 				Ráérő időmben az Android klienst szoktam fejleszteni, az ébresztő órával próbálom összekötni a rendszert.</hu>
+				<en>When I moved out of the youth hostel to an apartment in the summer of 2013, the idea of lighting with an RGB LED strip
+				came to mind. I thought I should make it a professional project, so controlling the lights with an Android phone over wifi
+				became the goal. After considering a few alternatives, I decided to use the Pi, as it has lots of tutorials, supports
+				Ethernet out-of-the-box and I had found a software PWM solution for it as well.<br/>
+				As it has been a hobby project, I made progress slowly, but in the end I had the extension panel ready and started the software
+				development. I wrote my TCP server around the open source PWM controller. It handles the WebUI directly, that can be opened in
+				any web browser. It is a static HTML page with a Javascript <a href="http://en.wikipedia.org/wiki/Remote_procedure_call">RPC</a>
+				solution. The Android app uses the same port to communicate using its own binary protocol.<br/>
+				The controller can set the three PWM channels independently, so it is possible to set any RGB color with the sliders. From these
+				colors, one can create animations with transition and hold times, embeddable loops.<br/>
+				When I have some time, I work on the Android client, I have been trying to link the system to my alarm clock.</en>
 			</content>
 			<image>
 				<url>cv/rgb-schem.png</url>
 				<hu>A kapcsolási rajz szemléltetése</hu>
 				<en>Schematics</en>
 			</image>
+			<image>
+				<url>cv/rgb-webui.png</url>
+				<hu>A webes kezelőfelület</hu>
+				<en>WebUI</en>
+			</image>
+			<image>
+				<url>cv/rgb-cupboard.jpg</url>
+				<hu>Bevilágított szekrénysor</hu>
+				<en>Illuminated cupboard</en>
+			</image>
+			<image>
+				<url>cv/rgb-leds1.jpg</url>
+				<hu>LED-ek közelről</hu>
+				<en>Close-up on LED strip</en>
+			</image>
+			<image>
+				<url>cv/rgb-leds2.jpg</url>
+				<hu>Egy másik színben</hu>
+				<en>Another color</en>
+			</image>
+			<tag>inprogress</tag>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Emlékeztető alkalmazás Androidra</hu>
+				<en>Reminder app for Android</en>
+			</title>
+			<content>
+				<hu></hu>
+			</content>
+			<tag>bme</tag>
+			<tag>inprogress</tag>
 		</expand>
 		<expand>
 			<title list="1">
@@ -533,6 +622,7 @@
 				<hu>Az ellenfelek intelligenciája nem túl bonyolult</hu>
 				<en>The AI is not too sophisticated</en>
 			</image>
+			<tag>suspended</tag>
 		</expand>
 		<expand>
 			<title list="1">
@@ -670,6 +760,7 @@
 				<hu>SFX installer kezelőfelülete</hu>
 				<en>Controls of SFX installer</en>
 			</image>
+			<tag>stopped</tag>
 		</expand>
 		<expand>
 			<title list="1">
@@ -716,6 +807,7 @@
 				<hu>A letöltő oldal, ballagás óta nem túl aktív</hu>
 				<en>The download page, hasn't been too busy since our graduation</en>
 			</image>
+			<tag>stopped</tag>
 		</expand>
 	</section>
 	<section>

@@ -66,15 +66,15 @@ div.popuptitle span.tag {
 	border: 1px solid #212121;
 	color: #ffffff;
 	padding: 2px 5px;
-	border-radius: 4px;
-	-moz-border-radius: 4px;
-	-webkit-border-radius: 4px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
 	font-size: 12px;
 }
-div.popuptitle span.tag.bme { background: #1E4AF7; border-color: #24398F; }
-div.popuptitle span.tag.inprogress { background: #14F517; border-color: #248F25; }
-div.popuptitle span.tag.suspended { background: #F5C814; border-color: #AD8B03; }
-div.popuptitle span.tag.stopped { background: #D90404; border-color: #611717; }
+div.popuptitle span.tag.bme { color: #0C59AB; background: #B9D2ED; border-color: #0C59AB; }
+div.popuptitle span.tag.inprogress { color: #24AB0C; background: #C9FAC0; border-color: #248F25; }
+div.popuptitle span.tag.suspended { color: #F79514; background: #FFECD4; border-color: #F79514; }
+div.popuptitle span.tag.stopped { color: #D90404; background: #FFD4D4; border-color: #D90404; }
 
 .popupcontent {
 	padding-top: -2px;
