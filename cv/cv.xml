@@ -78,6 +78,40 @@
 		</desc>
 	</tag>
 	
+	<!-- technológiai tag-ek -->
+	<tag>
+		<name>android</name>
+		<title><hu>android</hu><en>android</en></title>
+		<desc>
+			<hu>A projekt az Android operációs rendszerre készül.</hu>
+			<en>The project is developed for the Android operating system.</en>
+		</desc>
+	</tag>
+	<tag>
+		<name>qt</name>
+		<title><hu>Qt</hu><en>Qt</en></title>
+		<desc>
+			<hu>A projekt a Qt keretrendszert használja.</hu>
+			<en>The project uses the Qt framework.</en>
+		</desc>
+	</tag>
+	<tag>
+		<name>ogre</name>
+		<title><hu>OGRE</hu><en>OGRE</en></title>
+		<desc>
+			<hu>A projekt az OGRE grafikus keretrendszert használja.</hu>
+			<en>The project uses the OGRE graphical framework.</en>
+		</desc>
+	</tag>
+	<tag>
+		<name>cocos2dx</name>
+		<title><hu>cocos2d-x</hu><en>cocos2d-x</en></title>
+		<desc>
+			<hu>A projekt az cocos2d-x grafikus keretrendszert használja.</hu>
+			<en>The project uses the cocos2d-x graphical framework.</en>
+		</desc>
+	</tag>
+	
 	<section>
 		<title>
 			<hu>Tanulmányok</hu>
@@ -496,6 +530,7 @@
 				<hu>Elmúlt két hét összehasonlítása</hu>
 				<en>Comparison of the last two weeks</en>
 			</image>
+			<tag>android</tag>
 		</expand>
 		<expand>
 			<title list="1">
@@ -578,6 +613,7 @@
 				<hu>Egy másik színben</hu>
 				<en>Another color</en>
 			</image>
+			<tag>android</tag>
 			<tag>inprogress</tag>
 		</expand>
 		<expand>
@@ -588,13 +624,14 @@
 			<content>
 				<hu></hu>
 			</content>
+			<tag>android</tag>
 			<tag>bme</tag>
 			<tag>inprogress</tag>
 		</expand>
 		<expand>
 			<title list="1">
-				<hu>3D RC szimulátor (OGRE)</hu>
-				<en>3D RC simulator (OGRE)</en>
+				<hu>3D-s RC szimulátor</hu>
+				<en>3D RC simulator</en>
 			</title>
 			<content>
 				<hu>A <a href="http://en.wikipedia.org/wiki/Re-volt">Re-Volt</a> című játékot az Acclaim adta ki 1999-ben. A koncepció viszonylag egyedi,
@@ -622,12 +659,13 @@
 				<hu>Az ellenfelek intelligenciája nem túl bonyolult</hu>
 				<en>The AI is not too sophisticated</en>
 			</image>
+			<tag>ogre</tag>
 			<tag>suspended</tag>
 		</expand>
 		<expand>
 			<title list="1">
-				<hu>Két dimenziós játékfejlesztés (cocos2d-x)</hu>
-				<en>Two-dimensional game development (cocos2d-x)</en>
+				<hu>Két dimenziós játékfejlesztés</hu>
+				<en>Two-dimensional game development</en>
 			</title>
 			<content>
 				<hu>Az RC-autós szimulátor felfüggesztése után más projektek felé fordultam. Jelenleg a <a href="http://www.cocos2d-x.org/">cocos2d-x</a>
@@ -637,11 +675,12 @@
 				platform. It is an important feature that the software can be compiled to Linux, Android, Mac OS X and iOS from the same C++ code
 				(because of the framework a precompiler macros).</en>
 			</content>
+			<tag>cocos2dx</tag>
 		</expand>
 		<expand>
 			<title list="1">
-				<hu>Asztali médiakezelő (Qt)</hu>
-				<en>Desktop media manager (Qt)</en>
+				<hu>Asztali médiakezelő</hu>
+				<en>Desktop media manager</en>
 			</title>
 			<content>
 				<hu>A számítógépen található filmek, sorozatok, zenék rendszerezésére szolgáló alkalmazás. <a href="http://www.sqlite.org/">SQLite</a>
@@ -656,6 +695,7 @@
 				<hu>Információs oldal</hu>
 				<en>Information page</en>
 			</image>
+			<tag>qt</tag>
 		</expand>
 		<expand>
 			<title list="1">

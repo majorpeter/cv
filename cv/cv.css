@@ -76,6 +76,11 @@ div.popuptitle span.tag.inprogress { color: #24AB0C; background: #C9FAC0; border
 div.popuptitle span.tag.suspended { color: #F79514; background: #FFECD4; border-color: #F79514; }
 div.popuptitle span.tag.stopped { color: #D90404; background: #FFD4D4; border-color: #D90404; }
 
+div.popuptitle span.tag.android { color: #4CBF26; background: #FFFFFF; border-color: #9E9E9E; font-weight: bold }
+div.popuptitle span.tag.qt { color: #FFFFFF; background: #14B316; border-color: #1B751C; font-weight: bold }
+div.popuptitle span.tag.ogre { color: #FFCE47; background: #558556; border-color: #39543A; font-weight: bold }
+div.popuptitle span.tag.cocos2dx { color: #368FF5 }
+
 .popupcontent {
 	padding-top: -2px;
 	font-size: 0.95em;
