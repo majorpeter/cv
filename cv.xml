@@ -5,7 +5,7 @@
 	Az angol fordítás kezdetleges, annyira nem sürgős jelenleg.
 -->
 <cv>
-	<update>2014-03-17</update>	
+	<update>2014-03-21</update>	
 	<name>Major Péter</name>
 	<phone>
 		<val>(30) 750-3031</val>
@@ -111,8 +111,19 @@
 			<en>The project uses the cocos2d-x graphical framework.</en>
 		</desc>
 	</tag>
+	<tag>
+		<name>pcb</name>
+		<title>
+			<hu>NYÁK</hu>
+			<en>PCB</en>
+		</title>
+		<desc>
+			<hu>A projekt része a nyomtatott áramköri lap tervezése.</hu>
+			<en>The project involves printed circuit board design.</en>
+		</desc>
+	</tag>
 	
-	<section>
+	<section icon="cv/section-school.png">
 		<title>
 			<hu>Tanulmányok</hu>
 			<en>Studies</en>
@@ -193,7 +204,7 @@
 		</expand>
 	</section>
 	
-	<section>
+	<section icon="cv/section-lang.png">
 		<title>
 			<hu>Nyelvtudás</hu>
 			<en>Languages</en>
@@ -222,10 +233,10 @@
 		</expand>
 	</section>
 	
-	<section>
+	<section icon="cv/section-code.png">
 		<title>
-			<hu>Programozási ismeretek</hu>
-			<en>Programming knowledge</en>
+			<hu>Programozási és villamosmérnöki ismeretek</hu>
+			<en>Programming and Electrical Engineering knowledge</en>
 		</title>
 		<expand>
 			<title list="1">
@@ -340,12 +351,12 @@
 				<hu>Assembly</hu><en>Assembly</en>
 			</title>
 			<content>
-				<hu>Az egyetemen tanult ASM85-öt és magát az assembly szemléletet ismerem.</hu>
-				<en>I am familiar with the concept of assembly and the ASM85 language from university.</en>
+				<hu>Az egyetemen assembly-ben programoztam Intel 8085-ös és Silicon Labs C8051F040 processzorokat.</hu>
+				<en>I have programmed Intel 8085 and Silicon Labs C8051F040 processors in assembly at the University.</en>
 			</content>
 		</expand>
 	</section>
-	<section>
+	<section icon="cv/section-stat.png">
 		<title>
 			<hu>Egyéb ismeretek</hu>
 			<en>Miscellaneous knowledge</en>
@@ -436,7 +447,7 @@
 			<hu>B-kategóriás jogosítvánnyal rendelkezem 2010 márciusa óta.</hu>
 		</nonexpand>
 	</section>
-	<section>
+	<section icon="cv/section-person.png">
 		<title>
 			<hu>Személyiség, készségek</hu>
 			<en>Personality, skills</en>
@@ -466,7 +477,7 @@
 			<en>&amp;bull; Ambition for Quality</en>
 		</nonexpand>
 	</section>
-	<section>
+	<section icon="cv/section-work.png">
 		<title>
 			<hu>Eddigi munkahelyek, projektek</hu>
 			<en>Previous jobs</en>
@@ -554,7 +565,7 @@
 			</image>
 		</expand>
 	</section>
-	<section>
+	<section icon="cv/section-bulb.png">
 		<title>
 			<hu>Saját projektek</hu>
 			<en>My own projects</en>
@@ -626,6 +637,21 @@
 			</content>
 			<tag>android</tag>
 			<tag>bme</tag>
+			<tag>inprogress</tag>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>PIN-kód azonosító "érintéskapcsolókkal"</hu>
+			</title>
+			<content>
+				<hu>A <i>Mikrokontroller laboratórium</i> tantárgy keretében ST32F4 Discovery Kithez tervezünk kiegészítő panelt, amivel valamilyen hardveres funkciót valósítunk meg. Az én feladatom PIN-kódok beolvasása az érzékelőkről (optocsatolókról) és visszajelzés a helyességükről. Az eszköz LED-eken és LCD-n jelzi az állapotát, hangjelzést ad.<br/>
+				A PIN-kódokat egy Qt-alkalmazással lehet szerkeszteni, miután az eszközt csatlakoztattuk a számítógép USB portjára (virtuális soros port). A feladat remek alkalom egy korszerű mikrokontroller számos funkciójának megismerésére.</hu>
+				<en>At the subject called <i>Microcontroller Laboratory</i>, we design an extension panel for ST32F4 Discovery Kit, with which we implement a hardware function. My project is about reading PIN's from sensors (optocouplers) and providing feedback about them. The unit shows its status via LED's and LCD, and also gives sounds.<br/>
+				The PIN's can be edited with a Qt application after connecting the kit to the USB port of a PC (virtual COM port). The task is a great opportunity to learn about many features of a modern microcontroller.</en>
+			</content>
+			<tag>bme</tag>
+			<tag>pcb</tag>
+			<tag>qt</tag>
 			<tag>inprogress</tag>
 		</expand>
 		<expand>
@@ -850,7 +876,7 @@
 			<tag>stopped</tag>
 		</expand>
 	</section>
-	<section>
+	<section icon="cv/section-target.png">
 		<title>
 			<hu>Célok, ambíciók</hu>
 			<en>Goals, ambitions</en>
