@@ -21,9 +21,17 @@ h1.cvtitle, div#content div#about-us-block h1.cvtitle {
 	font-size: 1em;
 }
 
-.cvhead {
+h2.cvhead {
 	color: #333;
 	margin-bottom: 8px;
+	position: relative;
+}
+h2.cvhead > div.icon {
+	position: absolute;
+	left: -110px;
+	width: 100px;
+	top: 4px;
+	text-align: right;
 }
 
 .leftbox {
@@ -80,6 +88,7 @@ div.popuptitle span.tag.android { color: #4CBF26; background: #FFFFFF; border-co
 div.popuptitle span.tag.qt { color: #FFFFFF; background: #14B316; border-color: #1B751C; font-weight: bold }
 div.popuptitle span.tag.ogre { color: #FFCE47; background: #558556; border-color: #39543A; font-weight: bold }
 div.popuptitle span.tag.cocos2dx { color: #368FF5 }
+div.popuptitle span.tag.pcb { color: #FFD412; background: #20A31C; border-color: #256102 }
 
 .popupcontent {
 	padding-top: -2px;

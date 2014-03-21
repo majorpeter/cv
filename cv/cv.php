@@ -24,13 +24,17 @@ if (extension_loaded('simplexml')) {
     	$pg .= $desc->$lng . '<br/>';
     $pg .= '</span><br/>';
     
-    $pg .= $xml->phone->$lng.': <b>'.$xml->phone->val.'</b><br/>';
-    $pg .= $xml->mail->$lng.': <b>'.$xml->mail->val.'</b><br/>';
-    $pg .= $xml->fbook->$lng.': <b>'.$xml->fbook->val.'</b><br/>';
+    $pg .= $xml->phone->$lng.': <b><a>'.$xml->phone->val.'</a></b><br/>';
+    $pg .= $xml->mail->$lng.': <b><a href="mailto:'.$xml->mail->val.'">'.$xml->mail->val.'</a></b><br/>';
+    $pg .= $xml->fbook->$lng.': <b><a href="'.$xml->fbook->val.'">'.$xml->fbook->val.'</a></b><br/>';
     $pg .= '</div>';
     
     foreach ($xml->section as $sec) {
-    	$pg .= '<h2 class="cvhead">'.$sec->title->$lng.'</h2>';
+        $img = '';
+        $attr = $sec->attributes();
+        if ($attr['icon']) $img = '<div class="icon"><img src="'.$attr['icon'].'"/></div>';
+        
+    	$pg .= '<h2 class="cvhead">'.$img.$sec->title->$lng.'</h2>';
     	foreach($sec->children() as $c) {
     		if ($c->getName() == 'expand') {
     			$titl = substr($c->title->$lng->asXML(), 4, -5);

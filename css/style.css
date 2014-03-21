@@ -37,6 +37,7 @@ a {
 	color:#666666;
 	text-decoration: none;
 }
+a:hover { text-decoration: underline }
 
 div.container {
 	width: 960px;
