@@ -1,19 +1,20 @@
 ﻿<?php
-
-$head.='<script type="text/javascript" src="cv/cv.js"></script>'."\n";
-$head.='<link href="cv/cv.css" rel="stylesheet" type="text/css" />'."\n";
-$head.='<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>'."\n".
-		'<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />'."\n";
-$head.='<script type="text/javascript">$(function() {$(\'.lightbox\').lightBox();});</script>';
-
-$pg = '';
+$save = @$_SERVER['argv'][1]=='update';
+if (!$save) {
+    $head.='<script type="text/javascript" src="cv/cv.js"></script>'."\n";
+    $head.='<link href="cv/cv.css" rel="stylesheet" type="text/css" />'."\n";
+    $head.='<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>'."\n".
+            '<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />'."\n";
+    $head.='<script type="text/javascript">$(function() {$(\'.lightbox\').lightBox();});</script>';
+}
 
 if (extension_loaded('simplexml')) {
+    if ($save) $lng = $_SERVER['argv'][2];
+    
     $xml = simplexml_load_file('cv/cv.xml');
     $title = $xml->title->$lng;
-    $update=$xml->update;
-    if (@$_GET['update'])
-        file_put_contents('cv/cv_update.txt', $update);
+    $update=date('Y-m-d');
+    if ($save) file_put_contents('cv/cv_update.txt', $update);
     
     $pg='<img src="content/etc/img.jpg" class="profimg"/>';
     $pg.= '<h1 class="cvtitle">'.$xml->name.'</h1>';
@@ -86,11 +87,13 @@ if (extension_loaded('simplexml')) {
     	$pg .= '<br/>';
     }
     
-    if (@$_GET['update'])
+    if ($save) {
         file_put_contents('cv/cv_data_'.$lng.'.html', $pg);
+        exit;
+    }
 }
 else {
-	$pg = file_get_contents('cv/cv_data_'.$lng.'.html', $pg);
+	$pg = file_get_contents('cv/cv_data_'.$lng.'.html');
     $update = file_get_contents('cv/cv_update.txt');
 }
 

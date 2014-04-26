@@ -1,0 +1,26 @@
+#!/bin/sh
+
+password=e1exhzDrPxiHP4hSEQZ
+
+# megkeresi a módosított fájlokat az előző frissítés óta (lastUpdate fájlnak léteznie kell)
+last=`cat lastUpdate`
+echo "Utolsó frissítés commitja: $last"
+
+files=`git diff --name-only $last HEAD`
+count=`git diff --name-only $last HEAD | wc -l`
+
+echo "Összesen $count fájl változott."
+
+for line in $files; do
+	echo "Fájl feltöltése: " $line
+	sshpass -p "$password" scp $line mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/$line
+done
+
+echo "Önéletrajz frissítése..."
+php about.php update hu
+php about.php update en
+sshpass -p "$password" scp cv/cv_data_hu.html mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/cv/cv_data_hu.html
+sshpass -p "$password" scp cv/cv_data_en.html mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/cv/cv_data_en.html
+
+## Új rev mentése
+git rev-parse HEAD > lastUpdate
