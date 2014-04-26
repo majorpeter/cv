@@ -12,8 +12,10 @@ count=`git diff --name-only $last HEAD | wc -l`
 echo "Összesen $count fájl változott."
 
 for line in $files; do
-	echo "Fájl feltöltése: " $line
-	sshpass -p "$password" scp $line mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/$line
+	if [ $line != "updateSCP" ]; then	# jelszót kiadni nem kéne, bár máshol úgyse használható
+		echo "Fájl feltöltése: " $line
+		sshpass -p "$password" scp $line mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/$line
+	fi
 done
 
 echo "Önéletrajz frissítése..."
@@ -21,6 +23,7 @@ php about.php update hu
 php about.php update en
 sshpass -p "$password" scp cv/cv_data_hu.html mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/cv/cv_data_hu.html
 sshpass -p "$password" scp cv/cv_data_en.html mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/cv/cv_data_en.html
+sshpass -p "$password" scp cv/cv_update.txt mp1113@hszk.bme.hu:/home/b/11/mp1113/public_html/cv/cv_update.txt
 
 ## Új rev mentése
 git rev-parse HEAD > lastUpdate
