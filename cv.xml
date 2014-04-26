@@ -1,9 +1,4 @@
 <?xml version="1.0"?>
-<!--
-	Az önéletrajzom forráskódja. XML-ben, mert így egyszerű feldolgozni php-vel.
-	Sok benne a html-tag, de egyszerűbb így, mint bevezetni nekik külön szintaktikát.
-	Az angol fordítás kezdetleges, annyira nem sürgős jelenleg.
--->
 <cv>
 	<update>2014-03-21</update>	
 	<name>Major Péter</name>
@@ -572,6 +567,35 @@
 		</title>
 		<expand>
 			<title list="1">
+				<hu>Rádiós riasztórendszer (önálló laboratórium)</hu>
+				<en>Alarm system with radio communiction (Project laboratory)</en>
+			</title>
+			<content>
+				<hu></hu>
+			</content>
+			<tag>bme</tag>
+			<tag>pcb</tag>
+			<tag>qt</tag>
+			<tag>inprogress</tag>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>PIN-kód azonosító "érintéskapcsolókkal"</hu>
+				<en>PIN identifier device with touch detectors</en>
+			</title>
+			<content>
+				<hu>A <i>Mikrokontroller laboratórium</i> tantárgy keretében ST32F4 Discovery Kithez tervezünk kiegészítő panelt, amivel valamilyen hardveres funkciót valósítunk meg. Az én feladatom PIN-kódok beolvasása az érzékelőkről (optocsatolókról) és visszajelzés a helyességükről. Az eszköz LED-eken és LCD-n jelzi az állapotát, hangjelzést ad.<br/>
+				A PIN-kódokat egy Qt-alkalmazással lehet szerkeszteni, miután az eszközt csatlakoztattuk a számítógép USB portjára (virtuális soros port). A feladat remek alkalom egy korszerű mikrokontroller számos funkciójának megismerésére.</hu>
+				<en>At the subject called <i>Microcontroller Laboratory</i>, we design an extension panel for ST32F4 Discovery Kit, with which we implement a hardware function. My project is about reading PIN's from sensors (optocouplers) and providing feedback about them. The unit shows its status via LED's and LCD, and also gives sounds.<br/>
+				The PIN's can be edited with a Qt application after connecting the kit to the USB port of a PC (virtual COM port). The task is a great opportunity to learn about many features of a modern microcontroller.</en>
+			</content>
+			<tag>bme</tag>
+			<tag>pcb</tag>
+			<tag>qt</tag>
+			<tag>inprogress</tag>
+		</expand>
+		<expand>
+			<title list="1">
 				<hu>Raspberry Pi-alapú világítástechnika</hu>
 				<en>Raspberry Pi-based lighting</en>
 			</title>
@@ -637,21 +661,6 @@
 			</content>
 			<tag>android</tag>
 			<tag>bme</tag>
-			<tag>inprogress</tag>
-		</expand>
-		<expand>
-			<title list="1">
-				<hu>PIN-kód azonosító "érintéskapcsolókkal"</hu>
-			</title>
-			<content>
-				<hu>A <i>Mikrokontroller laboratórium</i> tantárgy keretében ST32F4 Discovery Kithez tervezünk kiegészítő panelt, amivel valamilyen hardveres funkciót valósítunk meg. Az én feladatom PIN-kódok beolvasása az érzékelőkről (optocsatolókról) és visszajelzés a helyességükről. Az eszköz LED-eken és LCD-n jelzi az állapotát, hangjelzést ad.<br/>
-				A PIN-kódokat egy Qt-alkalmazással lehet szerkeszteni, miután az eszközt csatlakoztattuk a számítógép USB portjára (virtuális soros port). A feladat remek alkalom egy korszerű mikrokontroller számos funkciójának megismerésére.</hu>
-				<en>At the subject called <i>Microcontroller Laboratory</i>, we design an extension panel for ST32F4 Discovery Kit, with which we implement a hardware function. My project is about reading PIN's from sensors (optocouplers) and providing feedback about them. The unit shows its status via LED's and LCD, and also gives sounds.<br/>
-				The PIN's can be edited with a Qt application after connecting the kit to the USB port of a PC (virtual COM port). The task is a great opportunity to learn about many features of a modern microcontroller.</en>
-			</content>
-			<tag>bme</tag>
-			<tag>pcb</tag>
-			<tag>qt</tag>
 			<tag>inprogress</tag>
 		</expand>
 		<expand>
