@@ -41,7 +41,7 @@
 	<tag>
 		<name>inprogress</name>
 		<title>
-			<hu>Folyamanban</hu>
+			<hu>Folyamatban</hu>
 			<en>In progress</en>
 		</title>
 		<desc>
@@ -583,10 +583,10 @@
 				<en>PIN identifier device with touch detectors</en>
 			</title>
 			<content>
-				<hu>A <i>Mikrokontroller laboratórium</i> tantárgy keretében ST32F4 Discovery Kithez tervezünk kiegészítő panelt, amivel valamilyen hardveres funkciót valósítunk meg. Az én feladatom PIN-kódok beolvasása az érzékelőkről (optocsatolókról) és visszajelzés a helyességükről. Az eszköz LED-eken és LCD-n jelzi az állapotát, hangjelzést ad.<br/>
-				A PIN-kódokat egy Qt-alkalmazással lehet szerkeszteni, miután az eszközt csatlakoztattuk a számítógép USB portjára (virtuális soros port). A feladat remek alkalom egy korszerű mikrokontroller számos funkciójának megismerésére.</hu>
+				<hu>A <i>Mikrokontroller laboratórium</i> tantárgy keretében ST32F4 Discovery Kithez tervezünk kiegészítő panelt, amivel valamilyen hardveres funkciót valósítunk meg. Az én feladatom PIN-kódok beolvasása az érzékelőkről (optocsatolókról) és visszajelzés a helyességükről. Az eszköz LED-eken és LCD-n jelzi az állapotát, hangjelzést ad, az utóbbi kettőt én tettem a feladathoz, nem volt a specifikáció része.<br/>
+				A PIN-kódokat egy Qt-alkalmazással lehet szerkeszteni, miután az eszközt csatlakoztattuk a számítógép USB portjára (virtuális soros port). A feladat megtanított a nyomtatott áramkörtervezés alapjaira és remek alkalom volt egy korszerű mikrokontroller számos funkciójának megismerésére.</hu>
 				<en>At the subject called <i>Microcontroller Laboratory</i>, we design an extension panel for ST32F4 Discovery Kit, with which we implement a hardware function. My project is about reading PIN's from sensors (optocouplers) and providing feedback about them. The unit shows its status via LED's and LCD, and also gives sounds.<br/>
-				The PIN's can be edited with a Qt application after connecting the kit to the USB port of a PC (virtual COM port). The task is a great opportunity to learn about many features of a modern microcontroller.</en>
+				The PIN's can be edited with a Qt application after connecting the kit to the USB port of a PC (virtual COM port). The task tought me the basics of PCB editing and was a great opportunity to learn about many features of a modern microcontroller, I put the last two to the project, they were not in the specification.</en>
 			</content>
 			<tag>bme</tag>
 			<tag>pcb</tag>
