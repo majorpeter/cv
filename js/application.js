@@ -41,20 +41,11 @@ $(document).ready(function(){
 		$('html, body').stop().animate({
 			scrollTop: 0
 		}, 500);
-		window.history.pushState('string', 'Title', '/');
 	});
 	
 	//parallax bg movement
 	$(window).scroll(updateBgs);
 	$(window).resize(updateBgs);
-	
-	//portfolio boxes
-	$('div#portfolio-block div.portfolio > div.item').mouseenter(function(e){
-		$(this).children('div.title').animate({marginTop: 0}, 200);
-	});
-	$('div#portfolio-block div.portfolio > div.item').mouseleave(function(e){
-		$(this).children('div.title').stop().animate({marginTop: -52}, 200);
-	});
 });
 
 function toggleSmallMenu() {
