@@ -50,10 +50,10 @@ if (extension_loaded('simplexml')) {
     			if ($img->count()) {
     				$cont .= '<br/><br/><div style="text-align: center; padding-top: 5px;">';
     				foreach ($img as $i) {
-    					$cont .= '<a href="'.$i->url.'" class="lightbox" title="'.$i->$lng.'">';
+    					$cont .= '<a href="cv/'.$i->url.'" class="lightbox" title="'.$i->$lng.'">';
     					$a = $i->attributes();
     					if (!isset($a['hidden']))
-    						$cont .= '<img src="'.$i->url.'" style="width: 100px; margin: 3px;"/>';
+    						$cont .= '<img src="cv/'.$i->url.'" style="width: 100px; margin: 3px;"/>';
     					$cont .= '</a>';
     				}
     				$cont .= '</div>';
