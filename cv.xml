@@ -522,17 +522,17 @@
 				power plant's supervisor in case of a problem).</en>
 			</content>
 			<image>
-				<url>cv/htec1.jpg</url>
+				<url>htec1.jpg</url>
 				<hu>Egy erőmű aktuális termelése</hu>
 				<en>Production verview for a power plant</en>
 			</image>
 			<image>
-				<url>cv/htec2.jpg</url>
+				<url>htec2.jpg</url>
 				<hu>Mai napi termelés diagramja</hu>
 				<en>Diagram of today's production</en>
 			</image>
 			<image>
-				<url>cv/htec3.jpg</url>
+				<url>htec3.jpg</url>
 				<hu>Elmúlt két hét összehasonlítása</hu>
 				<en>Comparison of the last two weeks</en>
 			</image>
@@ -554,7 +554,7 @@
 				been integrated into the installer, the folder and file creator is developed by someone else.</en>
 			</content>
 			<image>
-				<url>cv/tcup.png</url>
+				<url>tcup.png</url>
 				<hu>TC UP New egy korai képe</hu>
 				<en>An early image of TC UP New</en>
 			</image>
@@ -571,8 +571,19 @@
 				<en>Alarm system with radio communiction (Project laboratory)</en>
 			</title>
 			<content>
-				<hu></hu>
+				<hu>A hatodik félév elején önálló projekt témát kellett választanunk. Úgy gondoltam, minél nehezebb témát választok, annál többet fogok tanulni belőle. A félév folyamán két mikrokontrolleres egységet terveztem, STM32F103C4 (ARM Cortex-M3) típusú MCU-t használnak. A tervezés után az áramkörök megépítése, majd a kontrollerek felprogramozása következett. Mindkettő elemről és 5V-os tápról is képes üzemelni, mérik az elemek feszültségét (jelzik, ha alacsony). Egymással rádióhullámokon keresztül kommunikálnak (FSK moduláció a 433 MHz-es sávban). A távoli egység tartalmaz egy hőmérőt és kivezetéseket, amelyekre például PIR szenzort, ultrahangos szenzort, nyitásérzékelőt stb. lehet illeszteni. A központi egység felelős az összes (jelenleg 1) távoli modul felügyeletéért, a rendszer élesítéséért és kikapcsolásáért (PIN-kód hitelesítése), illetve a felhasználóval való kommunikációért (kijelző, menürendszer). A központi egység USB-n keresztül csatlakoztatható PC-hez is, az asztali alkalmazással megtekinthető az eseménynapló, hozzáadhatók/szerkeszthetők a PIN-kódok és a hozzájuk tartozó felhasználói nevek.</hu>
+				<en>In the beginning of the sixth semester, we had to pick a subject for Project laboratory. I thought, the harder the topic the more I would learn from it. During the semester I designed two microcontroller based units, they both use the STM32F103C4 (ARM Cortex-M3) MCU. After designing, I built the circuits, then programmed the controllers. They both work from batteries as well as from 5V DC power supply, they measure the battery voltage (and alert if it is low). They communicate with each other via radio waves (FSK modulation at 433 MHz). The remote unit contains a temperature sensor and extender pins, which can be used to attach a PIR sensor, an ultrasound sensor, opening detectors etc. The main unit is responsible for keeping track of all remote units (1 for now), setting up and deactivating the system (PIN code verification) and for communicating with the user (display, menu system). The main unit can be connected to a PC via USB, the desktop application can be used to view the event log, and to alter the PIN codes and the correcponding user names.</en>
 			</content>
+			<image>
+				<url>radioalarm_mainpcb_3d.png</url>
+				<hu>A központi egység 3D modellje</hu>
+				<en>3D model of the main module</en>
+			</image>
+			<image>
+				<url>radioalarm_sub1pcb_3d.png</url>
+				<hu>A távoli egység 3D modellje</hu>
+				<en>3D model of the remote module</en>
+			</image>
 			<tag>bme</tag>
 			<tag>pcb</tag>
 			<tag>qt</tag>
@@ -589,6 +600,11 @@
 				<en>At the subject called <i>Microcontroller Laboratory</i>, we design an extension panel for ST32F4 Discovery Kit, with which we implement a hardware function. My project is about reading PIN's from sensors (optocouplers) and providing feedback about them. The unit shows its status via LED's and LCD, and also gives sounds.<br/>
 				The PIN's can be edited with a Qt application after connecting the kit to the USB port of a PC (virtual COM port). The task tought me the basics of PCB editing and was a great opportunity to learn about many features of a modern microcontroller, I put the last two to the project, they were not in the specification.</en>
 			</content>
+			<image>
+				<url>pinpcb_3d.png</url>
+				<hu>A kiegészítő panel és a Discovery Kit 3D modellje</hu>
+				<en>3D model of the extension panel with the Discovery Kit</en>
+			</image>
 			<tag>bme</tag>
 			<tag>pcb</tag>
 			<tag>qt</tag>
@@ -624,27 +640,27 @@
 				When I have some time, I work on the Android client, I have been trying to link the system to my alarm clock.</en>
 			</content>
 			<image>
-				<url>cv/rgb-schem.png</url>
+				<url>rgb-schem.png</url>
 				<hu>A kapcsolási rajz szemléltetése</hu>
 				<en>Schematics</en>
 			</image>
 			<image>
-				<url>cv/rgb-webui.png</url>
+				<url>rgb-webui.png</url>
 				<hu>A webes kezelőfelület</hu>
 				<en>WebUI</en>
 			</image>
 			<image>
-				<url>cv/rgb-cupboard.jpg</url>
+				<url>rgb-cupboard.jpg</url>
 				<hu>Bevilágított szekrénysor</hu>
 				<en>Illuminated cupboard</en>
 			</image>
 			<image>
-				<url>cv/rgb-leds1.jpg</url>
+				<url>rgb-leds1.jpg</url>
 				<hu>LED-ek közelről</hu>
 				<en>Close-up on LED strip</en>
 			</image>
 			<image>
-				<url>cv/rgb-leds2.jpg</url>
+				<url>rgb-leds2.jpg</url>
 				<hu>Egy másik színben</hu>
 				<en>Another color</en>
 			</image>
@@ -685,12 +701,12 @@
 					and suspended it in the spring of 2013. I had to realize that such a project can only be finished with a large team.</en>
 			</content>
 			<image>
-				<url>cv/rv1.png</url>
+				<url>rv1.png</url>
 				<hu>Fizikai játszótér</hu>
 				<en>Physics playground</en>
 			</image>
 			<image>
-				<url>cv/rv2.png</url>
+				<url>rv2.png</url>
 				<hu>Az ellenfelek intelligenciája nem túl bonyolult</hu>
 				<en>The AI is not too sophisticated</en>
 			</image>
@@ -726,7 +742,7 @@
 				on each supported platform.</en>
 			</content>
 			<image>
-				<url>cv/mediahub.png</url>
+				<url>mediahub.png</url>
 				<hu>Információs oldal</hu>
 				<en>Information page</en>
 			</image>
@@ -786,52 +802,52 @@
 					<div class="noprint">Not all images are here as thumbnails, others can be open after clicking.</div></en>
 			</content>
 			<image>
-				<url>cv/elf_dbar1.png</url>
+				<url>elf_dbar1.png</url>
 				<hu>DeskBar működés közben</hu>
 				<en>DeskBar operating</en>
 			</image>
 			<image hidden="1">
-				<url>cv/elf_dbar2.png</url>
+				<url>elf_dbar2.png</url>
 				<hu>Orange szoftverű telefonok grafikájából építkezve</hu>
 				<en>Built from the Orange ROMs' graphics</en>
 			</image>
 			<image hidden="1">
-				<url>cv/elf_dbar3.png</url>
+				<url>elf_dbar3.png</url>
 				<hu>Más megjelenések a DeskBar-hoz</hu>
 				<en>Other skins for DeskBar</en>
 			</image>
 			<image>
-				<url>cv/elf2.jpg</url>
+				<url>elf2.jpg</url>
 				<hu>OPlogo az alapértelmezett értékekkel</hu>
 				<en>OPlogo with the default values</en>
 			</image>
 			<image>
-				<url>cv/elf_db1.png</url>
+				<url>elf_db1.png</url>
 				<hu>A DeskBridge fektetett kijelzőn</hu>
 				<en>DeskBridge in landscape view</en>
 			</image>
 			<image hidden="1">
-				<url>cv/elf_db2.png</url>
+				<url>elf_db2.png</url>
 				<hu>Egy felhasználónak így tetszett jobban</hu>
 				<en>A user liked it better this way</en>
 			</image>
 			<image hidden="1">
-				<url>cv/elf_db3.jpg</url>
+				<url>elf_db3.jpg</url>
 				<hu>A CoverArt elf kódjából írtam meg a most játszott szám adatait megjelenítő widgetet</hu>
 				<en>I wrote the widget displaying details of Now Playing from the CoverArt elf.</en>
 			</image>
 			<image hidden="1">
-				<url>cv/elf_db4.jpg</url>
+				<url>elf_db4.jpg</url>
 				<hu>Az oldalsáv illúziója, érdekes munka</hu>
 				<en>The illusion of the sidebar, interesting work</en>
 			</image>
 			<image hidden="1">
-				<url>cv/elf_db5.png</url>
+				<url>elf_db5.png</url>
 				<hu>Álló tájolással is működött</hu>
 				<en>It also worked with standing view</en>
 			</image>
 			<image>
-				<url>cv/elf_sfx.png</url>
+				<url>elf_sfx.png</url>
 				<hu>SFX installer kezelőfelülete</hu>
 				<en>Controls of SFX installer</en>
 			</image>
@@ -873,12 +889,12 @@
 				<div class="noprint">This site and this version of my CV has also been written in php/html/css (in October 2012).</div></en>
 			</content>
 			<image>
-				<url>cv/selifest.png</url>
+				<url>selifest.png</url>
 				<hu>A telefon-adatbázis jelenleg</hu>
 				<en>The phone database now</en>
 			</image>
 			<image>
-				<url>cv/toparti.png</url>
+				<url>toparti.png</url>
 				<hu>A letöltő oldal, ballagás óta nem túl aktív</hu>
 				<en>The download page, hasn't been too busy since our graduation</en>
 			</image>
