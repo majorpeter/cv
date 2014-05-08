@@ -58,7 +58,6 @@ div.popuptitle.toggle:hover {
 }
 
 div.popuptitle.toggle span.toggle {
-	display: none;
 	width: 8px; height: 8px;
 	background: url('../img/tree_closed.png');
 	position: absolute;

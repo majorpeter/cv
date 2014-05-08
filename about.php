@@ -17,14 +17,14 @@
 				'<head>'."\n".
 				'<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />'."\n".
 				'<title>Major Péter önéletrajz</title>'."\n".
-				$head."\n".
 				'<link href="cv/cv_print.css" rel="stylesheet" type="text/css" />'."\n".
 				'<script type="text/javascript" src="js/jquery.js"></script>'."\n".
 				'<script type="text/javascript" src="cv/cv.js"></script>'."\n".
+                $head."\n".
 				'</head>'."\n".'<body>'."\n";
 		echo $pg;
 		echo '</body></html>';
-		die();
+		exit;
 	}
 	else if (isset($_GET['xml'])) {
 		$file = 'cv/cv.xml';
@@ -39,9 +39,9 @@
 	    ob_clean();
 	    flush();
 	    readfile($file);
-	    exit;
-			
+	    exit;		
 	}
+    else $head.= '<script type="text/javascript" src="cv/cv.js"></script>'."\n";
 	
     $precontent = '<a href="?print=1"><img src="img/print.png"/>Nyomtatható verzió</a>';
 	$precontent.='<a href="?xml=1"><img src="img/xml-ico.png"/>Letöltés XML-ként</a>';

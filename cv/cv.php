@@ -1,7 +1,6 @@
 ﻿<?php
 $save = @$_SERVER['argv'][1]=='update';
 if (!$save) {
-    $head.='<script type="text/javascript" src="cv/cv.js"></script>'."\n";
     $head.='<link href="cv/cv.css" rel="stylesheet" type="text/css" />'."\n";
     $head.='<script type="text/javascript" src="js/jquery.lightbox-0.5.js"></script>'."\n".
             '<link rel="stylesheet" type="text/css" href="css/jquery.lightbox-0.5.css" media="screen" />'."\n";
@@ -27,7 +26,9 @@ if (extension_loaded('simplexml')) {
     
     $pg .= $xml->phone->$lng.': <b><a>'.$xml->phone->val.'</a></b><br/>';
     $pg .= $xml->mail->$lng.': <b><a href="mailto:'.$xml->mail->val.'">'.$xml->mail->val.'</a></b><br/>';
-    $pg .= $xml->fbook->$lng.': <b><a href="'.$xml->fbook->val.'">'.$xml->fbook->val.'</a></b><br/>';
+    $pg .= $xml->fbook->$lng.': <b><a href="'.$xml->fbook->val.'">'.$xml->fbook->val.'</a></b><br/><br/>';
+    if (@$_GET['print'])
+    $pg .= $xml->cv->$lng.': <b><a href="'.$xml->cv->val.'">'.$xml->cv->val.'</a></b>';
     $pg .= '</div>';
     
     foreach ($xml->section as $sec) {
@@ -75,7 +76,10 @@ if (extension_loaded('simplexml')) {
                         $titl.='<span class="tag '.$tag->name.'" title="'.htmlentities($tag->desc->$lng->__toString()).'">'.$tag->title->$lng.'</span>';
                     }
 
-    			create_popup(cv_replace($titl), $cont, 'popuptitle', 'popupcontent', isset($attr['list']));
+                if (!@$_GET['print'])
+    			    create_popup(cv_replace($titl), $cont, 'popuptitle', 'popupcontent', isset($attr['list']));
+                else
+                    $pg .= '<div class="popuptitle">'.(isset($attr['list']) ? '&bull; ' : '').cv_replace($titl).'</div>';
     		}
     		else if ($c->getName() == 'nonexpand')
     			$pg .= '<div class="popuptitle">'.$c->$lng.'</div>';
