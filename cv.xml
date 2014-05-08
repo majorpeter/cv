@@ -17,6 +17,11 @@
 		<hu>Facebook profil</hu>
 		<en>Facebook profile</en>
 	</fbook>
+	<cv>
+		<val>http://users.hszk.bme.hu/~mp1113/</val>
+		<hu>Interaktív, aktuális önéletrajzom</hu>
+		<en>My interactive, actual cv</en>
+	</cv>
 	
 	<desc>
 		<hu>Villamosmérnök hallgató</hu>
@@ -291,8 +296,8 @@
 		</expand>
 		<expand>
 			<title list="1">
-				<hu>PHP - webes programozás, elterjedtebb keretrendszerek</hu>
-				<en>PHP - web programming, common frameworks</en>
+				<hu>PHP - webfejlesztés, elterjedtebb keretrendszerek</hu>
+				<en>PHP - web development, common frameworks</en>
 			</title>
 			<content>
 				<hu>Webes programozáshoz <b>PHP</b> nyelven értek. Az ehhez szükséges <b>HTML, CSS, JavaScript (és jQuery), MySQL</b>
@@ -301,6 +306,17 @@
 				<en>I am familiar with webes programming in <b>PHP</b>. I also know the <b>HTML, CSS, JavaScript (with jQuery), MySQL</b>
 					languages, I have years of experience. I have worked with frameworks, I know <b>Drupal and Wordpress</b> CMS's well,
 					and also worked with Joomla. I developed a system based on CakePHP as well.</en>
+			</content>
+		</expand>
+		<expand>
+			<title list="1">
+				<hu>Nyomtatott áramkör tervezés - Altium Designer</hu>
+				<en>Printed circuit board design - Altium Designer</en>
+			</title>
+			<content>
+				<hu>A szakirányos laboratórium és önálló laboratórium során elsajátítottam az Altium Designer használatának alapjait, a BME-ETT tanszéken legyártott, működő áramköri lapokat terveztem.
+				</hu>
+				<en>During my specialized and project laboratories, I learnt the basics of using Altium Designer, I designed working ciruit boards that were manufactured at BME-ETT department.</en>
 			</content>
 		</expand>
 		<expand>
@@ -479,8 +495,8 @@
 		</title>
 		<expand>
 			<title list="1" year="2012-">
-				<hu>Innostart Kft.</hu>
-				<en>Innostart LLC.</en>
+				<hu>Innostart Kft. - webfejlesztő</hu>
+				<en>Innostart LLC. - web developer</en>
 			</title>
 			<content>
 				<hu>2012 novembere óta dolgozom ennél a cégnél webfejlesztőként. Főként php programozás, Drupal modulok fejlesztése, Wordpress beépülők, témák
