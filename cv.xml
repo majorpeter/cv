@@ -494,6 +494,31 @@
 			<en>Previous jobs</en>
 		</title>
 		<expand>
+			<title list="1" year="2013">
+				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
+				<en>Riport accounting web application's full frontend development</en>
+			</title>
+			<content>
+				<hu>2013 nyarán egy volt munkatársamon keresztül kerültem kapcsolatba a terméket fejlesztő csapattal. Egy <a href="http://en.wikipedia.org/wiki/Django_(web_framework)">django</a> alapú könyvelést segítő alkalmazáson dolgoztak, és a termék megjelenésével, a frontend megvalósítával bíztak meg. A felület fejlesztése a HTML sablonok, CSS stíluslapok és JavaScript (jQuery) szkriptek megírását jelentette. Az alkalmazás jelenlegi verziója a <a href="http://riport.co.hu/">riport.co.hu</a> címen érhető el.</hu>
+				<en>In the summer of 2013, I got in contact with the developer team through an ex-colleague of mine. They were working on a <a href="http://en.wikipedia.org/wiki/Django_(web_framework)">django</a>-based accounting application, and they hired me to implement the frontend for it. The development consisted of writing the HTML templates, CSS stylesheets and JavaScript (jQuery) scripts. The current version of the application is available at <a href="http://riport.co.hu/">riport.co.hu</a>.</en>
+			</content>
+			<image>
+				<url>riport_1.png</url>
+				<hu>Üdvözlőképernyő</hu>
+				<en>Welcome screen</en>
+			</image>
+			<image>
+				<url>riport_2.png</url>
+				<hu>Dashboard felület</hu>
+				<en>Dashboard</en>
+			</image>
+			<image>
+				<url>riport_3.png</url>
+				<hu>Főkönyvi számok kiválasztása riport kategóriához</hu>
+				<en>Picking ledger numbers for report category</en>
+			</image>
+		</expand>
+		<expand>
 			<title list="1" year="2012-">
 				<hu>Innostart Kft. - webfejlesztő</hu>
 				<en>Innostart LLC. - web developer</en>
