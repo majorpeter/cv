@@ -54,7 +54,7 @@ if (extension_loaded('simplexml')) {
     					$cont .= '<a href="cv/'.$i->url.'" class="lightbox" title="'.$i->$lng.'">';
     					$a = $i->attributes();
     					if (!isset($a['hidden']))
-    						$cont .= '<img src="cv/'.$i->url.'" style="width: 100px; margin: 3px;"/>';
+    						$cont .= '<img src="cv/'.$i->url.'" style="max-width: 100px; max-height: 100px; margin: 3px;"/>';
     					$cont .= '</a>';
     				}
     				$cont .= '</div>';

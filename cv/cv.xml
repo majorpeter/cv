@@ -713,11 +713,47 @@
 				<en>Reminder app for Android</en>
 			</title>
 			<content>
-				<hu></hu>
+				<hu>
+				</hu>
 			</content>
+			<image>
+				<url>todoapp-mockup.png</url>
+				<hu>A mockup egyik oldala</hu>
+				<en>A page from the mockup</en>
+			</image>
+			<image>
+				<url>todoapp-1.png</url>
+				<hu>Főképernyő az összes teendővel</hu>
+				<en>Main screen with all todos</en>
+			</image>
+			<image>
+				<url>todoapp-2.png</url>
+				<hu>Teendő részletei, megjegyzések</hu>
+				<en>Todo details, notes</en>
+			</image>
+			<image>
+				<url>todoapp-3.png</url>
+				<hu>Teendő szerkesztése</hu>
+				<en>Todo edit screen</en>
+			</image>
+			<image>
+				<url>todoapp-4.png</url>
+				<hu>Értesítés az összes többi alkalmazás felett</hu>
+				<en>Notification above all other applications</en>
+			</image>
+			<image>
+				<url>todoapp-5.png</url>
+				<hu>Beállítható altatási idők</hu>
+				<en>Configurable snooze times</en>
+			</image>
+			<image>
+				<url>todoapp-6.png</url>
+				<hu>További lehetőségek</hu>
+				<en>Misc. options</en>
+			</image>
 			<tag>android</tag>
 			<tag>bme</tag>
-			<tag>inprogress</tag>
+			<tag>stopped</tag>
 		</expand>
 		<expand>
 			<title list="1">
