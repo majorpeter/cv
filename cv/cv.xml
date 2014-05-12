@@ -645,10 +645,25 @@
 				<hu>A kiegészítő panel és a Discovery Kit 3D modellje</hu>
 				<en>3D model of the extension panel with the Discovery Kit</en>
 			</image>
+			<image>
+				<url>pinpcb-1.jpg</url>
+				<hu>Bevitel közben; a LED-ek nem ilyen vakítóak</hu>
+				<en>During input; the LED's are not that blinding</en>
+			</image>
+			<image>
+				<url>pinpcb-2.jpg</url>
+				<hu>Sikeres bevitel</hu>
+				<en>Successful input</en>
+			</image>
+			<image>
+				<url>pincfg.png</url>
+				<hu>A PIN-kódok beállításához használható Qt-alkalmazás</hu>
+				<en>Qt-application to set up PIN's</en>
+			</image>
 			<tag>bme</tag>
 			<tag>pcb</tag>
 			<tag>qt</tag>
-			<tag>inprogress</tag>
+			<tag>stopped</tag>
 		</expand>
 		<expand>
 			<title list="1">
