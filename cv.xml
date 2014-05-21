@@ -365,6 +365,16 @@
 				<en>I have programmed Intel 8085 and Silicon Labs C8051F040 processors in assembly at the University.</en>
 			</content>
 		</expand>
+		<expand>
+			<title list="1">
+				<hu>Verilog, FPGA-programozás</hu>
+				<en>Verilog, FPGA-programming</en>
+			</title>
+			<content>
+				<hu>Az egyetemen Xilinx Spartan-3E típusú FPGA-kkal foglalkoztam a laboratóriumok keretében.</hu>
+				<en>I have worked with Xilinx Spartan-3E FPGA's in laboratories at the University.</en>
+			</content>
+		</expand>
 	</section>
 	<section icon="cv/section-stat.png">
 		<title>
@@ -611,8 +621,10 @@
 				<en>Alarm system with radio communiction (Project laboratory)</en>
 			</title>
 			<content>
-				<hu>A hatodik félév elején önálló projekt témát kellett választanunk. Úgy gondoltam, minél nehezebb témát választok, annál többet fogok tanulni belőle. A félév folyamán két mikrokontrolleres egységet terveztem, STM32F103C4 (ARM Cortex-M3) típusú MCU-t használnak. A tervezés után az áramkörök megépítése, majd a kontrollerek felprogramozása következett. Mindkettő elemről és 5V-os tápról is képes üzemelni, mérik az elemek feszültségét (jelzik, ha alacsony). Egymással rádióhullámokon keresztül kommunikálnak (FSK moduláció a 433 MHz-es sávban). A távoli egység tartalmaz egy hőmérőt és kivezetéseket, amelyekre például PIR szenzort, ultrahangos szenzort, nyitásérzékelőt stb. lehet illeszteni. A központi egység felelős az összes (jelenleg 1) távoli modul felügyeletéért, a rendszer élesítéséért és kikapcsolásáért (PIN-kód hitelesítése), illetve a felhasználóval való kommunikációért (kijelző, menürendszer). A központi egység USB-n keresztül csatlakoztatható PC-hez is, az asztali alkalmazással megtekinthető az eseménynapló, hozzáadhatók/szerkeszthetők a PIN-kódok és a hozzájuk tartozó felhasználói nevek.</hu>
-				<en>In the beginning of the sixth semester, we had to pick a subject for Project laboratory. I thought, the harder the topic the more I would learn from it. During the semester I designed two microcontroller based units, they both use the STM32F103C4 (ARM Cortex-M3) MCU. After designing, I built the circuits, then programmed the controllers. They both work from batteries as well as from 5V DC power supply, they measure the battery voltage (and alert if it is low). They communicate with each other via radio waves (FSK modulation at 433 MHz). The remote unit contains a temperature sensor and extender pins, which can be used to attach a PIR sensor, an ultrasound sensor, opening detectors etc. The main unit is responsible for keeping track of all remote units (1 for now), setting up and deactivating the system (PIN code verification) and for communicating with the user (display, menu system). The main unit can be connected to a PC via USB, the desktop application can be used to view the event log, and to alter the PIN codes and the correcponding user names.</en>
+				<hu>A hatodik félév elején önálló projekt témát kellett választanunk. Úgy gondoltam, minél nehezebb témát választok, annál többet fogok tanulni belőle. A félév folyamán két mikrokontrolleres egységet terveztem, STM32F103C4 (ARM Cortex-M3) típusú MCU-t használnak. A tervezés után az áramkörök megépítése, majd a kontrollerek felprogramozása következett. Mindkettő elemről és 5V-os tápról is képes üzemelni, képesek mérni az elemek feszültségét (jelezni, ha alacsony). Egymással rádióhullámokon keresztül kommunikálnak (FSK moduláció a 433 MHz-es sávban). A távoli egység tartalmaz egy hőmérőt és kivezetéseket, amelyekre például PIR szenzort, ultrahangos szenzort, nyitásérzékelőt stb. lehet illeszteni. A központi egység felelős az összes (jelenleg 1) távoli modul felügyeletéért, a rendszer élesítéséért és kikapcsolásáért (PIN-kód hitelesítése), illetve a felhasználóval való kommunikációért (kijelző, menürendszer). A központi egység USB-n keresztül csatlakoztatható lenne PC-hez is, az asztali alkalmazással megtekinthető lenne az eseménynapló, hozzáadhatók/szerkeszthetők lennének a PIN-kódok és a hozzájuk tartozó felhasználói nevek.<br/>
+				Sajnos a félév folyamán nem jutott elég időm az összes funkció implementálására. A tervezett kommunikációs protokoll, eseménykezelés, energiatakarékos üzemmódok nem készültek el.</hu>
+				<en>In the beginning of the sixth semester, we had to pick a subject for Project laboratory. I thought, the harder the topic the more I would learn from it. During the semester I designed two microcontroller based units, they both use the STM32F103C4 (ARM Cortex-M3) MCU. After designing, I built the circuits, then programmed the controllers. They both work from batteries as well as from 5V DC power supply, they can measure the battery voltage (and alert if it is low). They communicate with each other via radio waves (FSK modulation at 433 MHz). The remote unit contains a temperature sensor and extender pins, which can be used to attach a PIR sensor, an ultrasound sensor, opening detectors etc. The main unit is responsible for keeping track of all remote units (1 for now), setting up and deactivating the system (PIN code verification) and for communicating with the user (display, menu system). The main unit could be connected to a PC via USB, a desktop application could be used to view the event log, and to alter the PIN codes and the correcponding user names.<br/>
+				Unfortunately, I did not have enough time to implement all features in the semester. The planned communication protocol, event handling, powersaving modes were not created.</en>
 			</content>
 			<image>
 				<url>radioalarm_mainpcb_3d.png</url>
@@ -624,10 +636,30 @@
 				<hu>A távoli egység 3D modellje</hu>
 				<en>3D model of the remote module</en>
 			</image>
+			<image>
+				<url>radioalarm_main_batt.jpg</url>
+				<hu>Központi egység, külső tápegység nélkül</hu>
+				<en>Main module without external power supply</en>
+			</image>
+			<image>
+				<url>radioalarm_main_swd.jpg</url>
+				<hu>Központi egység, tápegység és SWD csatlakoztatva</hu>
+				<en>Main module, power supply and SWD connected</en>
+			</image>
+			<image>
+				<url>radioalarm_sub_sens.jpg</url>
+				<hu>Távoli egység a külső szenzorokkal</hu>
+				<en>Remote module with external sensors</en>
+			</image>
+			<image>
+				<url>radioalarm_psu.png</url>
+				<hu>Kapcsoló üzemű tápegység stabilitása</hu>
+				<en>Stability of switching power supply</en>
+			</image>
 			<tag>bme</tag>
 			<tag>pcb</tag>
 			<tag>qt</tag>
-			<tag>inprogress</tag>
+			<tag>stopped</tag>
 		</expand>
 		<expand>
 			<title list="1">
