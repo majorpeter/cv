@@ -38,14 +38,19 @@ if (extension_loaded('simplexml')) {
         
     	$pg .= '<h2 class="cvhead">'.$img.$sec->title->$lng.'</h2>';
     	foreach($sec->children() as $c) {
-    		if ($c->getName() == 'expand') {
+    		if (($xmltag=$c->getName()) == 'li' || $xmltag == 'item') {
     			$titl = substr($c->title->$lng->asXML(), 4, -5);
     			$attr = $c->title->attributes(); 
     			if (isset($attr['year']))
     				$titl .= ' ('.$attr['year'].')';
     			if (isset($attr['years']))
     				$titl = $attr['years'].' '.$titl;
-    			$cont = cv_replace(substr($c->content->$lng->asXML(), 4, -5));
+                
+                $cont = @$c->content;
+                if ($cont) {
+                    $cont = @$cont->$lng->asXML();
+    			     $cont = cv_replace(substr($cont, 4, -5));
+                }
     			
     			$img = $c->image;
     			if ($img->count()) {
@@ -77,9 +82,9 @@ if (extension_loaded('simplexml')) {
                     }
 
                 if (!@$_GET['print'])
-    			    create_popup(cv_replace($titl), $cont, 'popuptitle', 'popupcontent', isset($attr['list']));
+    			    create_popup(cv_replace($titl), $cont, $xmltag=='li');
                 else
-                    $pg .= '<div class="popuptitle">'.(isset($attr['list']) ? '&bull; ' : '').cv_replace($titl).'</div>';
+                    $pg .= '<div class="popuptitle">'.(($xmltag=='li') ? '&bull; ' : '').cv_replace($titl).'</div>';
     		}
     		else if ($c->getName() == 'nonexpand')
     			$pg .= '<div class="popuptitle">'.$c->$lng.'</div>';
@@ -97,11 +102,14 @@ if (extension_loaded('simplexml')) {
     }
 }
 else {
+    // csak töltse be a cache fájlokat
 	$pg = file_get_contents('cv/cv_data_'.$lng.'.html');
     $update = file_get_contents('cv/cv_update.txt');
 }
 
-
+/**
+ * xml nem tartalmazhat nbsp entitést
+ */
 function cv_replace($subject) {
 	return str_replace('\\nbsp', '&nbsp;', $subject);
 }

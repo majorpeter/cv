@@ -56,13 +56,16 @@
 	add_page_entry($title, $pg);
 	finish();
 	
-function create_popup($title, $content, $title_style = 'popuptitle', $content_style = 'popupcontent', $li = false) {
+function create_popup($title, $content = '', $li = false, $id = null) {
 	global $pg, $popup_id;
-	
-    if ($li) $title_style .= ' li';
     
-	$pg.='<div data-id="'.$popup_id.'"><div class="'.$title_style.' toggle"><span class="toggle'.($li ? '' : ' hide').'"></span>'.$title.'</div>'.
-		'<div id="pd'.$popup_id.'" style="display: none;" class="'.$content_style.'">'.$content.'</div></div>';
+    if (!$title) return;
+    
+    if ($content)
+    	$pg.='<div data-id="'.$popup_id.'"><div class="popuptitle'.($li ? ' li' : '').' toggle"><span class="toggle'.($li ? '' : ' hide').'"></span>'.$title.'</div>'.
+    		'<div id="pd'.$popup_id.'" style="display: none;" class="popupcontent">'.$content.'</div></div>';
+    else
+        $pg.='<div class="popuptitle">'.($li ? '&bull;&nbsp;' : '').$title.'</div>';
 	$popup_id++;
 }
 ?>
