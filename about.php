@@ -57,15 +57,24 @@
 	finish();
 	
 function create_popup($title, $content = '', $li = false, $id = null) {
-	global $pg, $popup_id;
+	global $pg, $popup_id, $lng;
     
     if (!$title) return;
     
+    $_popup_id = $id ? $id : $popup_id++;   // kapott unique id felhasználása, vagy új szám generálása
+    
+    if ($id)
+        $title .= ' <a class="para" href="#'.$id.'" title="'.(($lng == 'hu') ? 'Hivatkozás erre a bekezdésre' : 'Link to this section').'">&para;</a>';
+
     if ($content)
-    	$pg.='<div data-id="'.$popup_id.'"><div class="popuptitle'.($li ? ' li' : '').' toggle"><span class="toggle'.($li ? '' : ' hide').'"></span>'.$title.'</div>'.
-    		'<div id="pd'.$popup_id.'" style="display: none;" class="popupcontent">'.$content.'</div></div>';
+    	$pg.='<div class="popupcontainer" data-id="'.$_popup_id.'">'.
+    	        '<div id="'.$_popup_id.'" class="popuptitle'.($li ? ' li' : '').' toggle">'.
+    	           '<span class="toggle'.($li ? '' : ' hide').'"></span>'.$title.
+    	        '</div>'.
+    		    '<div id="pd'.$_popup_id.'" style="display: none;" class="popupcontent">'.
+    		       $content.
+    		  '</div></div>';
     else
         $pg.='<div class="popuptitle">'.($li ? '&bull;&nbsp;' : '').$title.'</div>';
-	$popup_id++;
 }
 ?>

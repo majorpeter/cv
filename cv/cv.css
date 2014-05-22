@@ -90,6 +90,12 @@ div.popuptitle span.tag.ogre { color: #FFCE47; background: #558556; border-color
 div.popuptitle span.tag.cocos2dx { color: #368FF5 }
 div.popuptitle span.tag.pcb { color: #FFD412; background: #20A31C; border-color: #256102 }
 
+div.popuptitle a.para {
+	margin-left: 1.3em;
+	text-decoration: none;
+	display: none;
+}
+
 .popupcontent {
 	padding-top: -2px;
 	font-size: 0.95em;

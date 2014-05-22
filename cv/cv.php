@@ -40,6 +40,8 @@ if (extension_loaded('simplexml')) {
     	foreach($sec->children() as $c) {
     		if (($xmltag=$c->getName()) == 'li' || $xmltag == 'item') {
     			$titl = substr($c->title->$lng->asXML(), 4, -5);
+    			$attr = $c->attributes();
+                $id = @$attr['id'];
     			$attr = $c->title->attributes(); 
     			if (isset($attr['year']))
     				$titl .= ' ('.$attr['year'].')';
@@ -82,7 +84,7 @@ if (extension_loaded('simplexml')) {
                     }
 
                 if (!@$_GET['print'])
-    			    create_popup(cv_replace($titl), $cont, $xmltag=='li');
+    			    create_popup(cv_replace($titl), $cont, $xmltag=='li', $id);
                 else
                     $pg .= '<div class="popuptitle">'.(($xmltag=='li') ? '&bull; ' : '').cv_replace($titl).'</div>';
     		}
