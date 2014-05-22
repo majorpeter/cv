@@ -618,37 +618,37 @@
 			<en>Personality, skills</en>
 		</title>
 		<li>
-			<title list="1">
+			<title>
 				<hu>Problémamegoldó képesség</hu>
 				<en>Problem solving skill</en>
 			</title>
 		</li>
 		<li>
-			<title list="1">
+			<title>
 				<hu>Csapatmunka</hu>
 				<en>Teamwork</en>
 			</title>
 		</li>
 		<li>
-			<title list="1">
+			<title>
 				<hu>Precizitás</hu>
 				<en>Exactitude</en>
 			</title>
 		</li>
 		<li>
-			<title list="1">
+			<title>
 				<hu>Kommunikációs készség</hu>
 				<en>Communication skill</en>
 			</title>
 		</li>
 		<li>
-			<title list="1">
+			<title>
 				<hu>Terhelhetőség</hu>
 				<en>Endurance</en>
 			</title>
 		</li>
 		<li>
-			<title list="1">
+			<title>
 				<hu>Minőségre törekvés</hu>
 				<en>Ambition for Quality</en>
 			</title>
@@ -659,8 +659,8 @@
 			<hu>Eddigi munkahelyek, projektek</hu>
 			<en>Previous jobs</en>
 		</title>
-		<li>
-			<title list="1" year="2013">
+		<li id="riport">
+			<title year="2013">
 				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
 				<en>Riport accounting web application's full frontend development</en>
 			</title>
@@ -692,7 +692,7 @@
 				<en>Picking ledger numbers for report category</en>
 			</image>
 		</li>
-		<li>
+		<li id="innostart">
 			<title year="2012-">
 				<hu>Innostart Kft. - webfejlesztő</hu>
 				<en>Innostart LLC. - web developer</en>
@@ -704,7 +704,7 @@
 					plugins, themes. Sometimes I have other assignments, like java programming, creating and maintaining a linux server.</en>
 			</content>
 		</li>
-		<li>
+		<li id="htec">
 			<title year="2012. 07.">
 				<hu>
 					H-TEC nyári gyakornoki állás -
@@ -791,8 +791,8 @@
 			</image>
 			<tag>android</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="tcup">
+			<title>
 				<hu>Részvétel a Total Commander Ultima Prime projektben</hu>
 				<en>Contribution to the Total Commander Ultima Prime project</en>
 			</title>
@@ -824,8 +824,8 @@
 			<hu>Saját projektek</hu>
 			<en>My own projects</en>
 		</title>
-		<li>
-			<title list="1">
+		<li id="radioalarm">
+			<title>
 				<hu>Rádiós riasztórendszer (önálló laboratórium)</hu>
 				<en>Alarm system with radio communiction (Project laboratory)</en>
 			</title>
@@ -873,11 +873,10 @@
 			</image>
 			<tag>bme</tag>
 			<tag>pcb</tag>
-			<tag>qt</tag>
 			<tag>stopped</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="pinctrl">
+			<title>
 				<hu>PIN-kód azonosító "érintéskapcsolókkal"</hu>
 				<en>PIN identifier device with touch detectors</en>
 			</title>
@@ -920,8 +919,8 @@
 			<tag>qt</tag>
 			<tag>stopped</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="raspi-pwm">
+			<title>
 				<hu>Raspberry Pi-alapú világítástechnika</hu>
 				<en>Raspberry Pi-based lighting</en>
 			</title>
@@ -989,13 +988,24 @@
 			<tag>android</tag>
 			<tag>inprogress</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="todoapp">
+			<title>
 				<hu>Emlékeztető alkalmazás Androidra</hu>
 				<en>Reminder app for Android</en>
 			</title>
 			<content>
-				<hu></hu>
+				<hu>
+					Már régóta zavart, hogy az Android operációs rendszerben nincs beépített emlékeztető alkalmazás, ami a megadott időpontban értesít, altatható rövid vagy hosszú időre stb. A naptár értesítései hasonlók, de oda találkozókat írok be, nem halogatható teendőket. Átnéztem néhány lehetőséget a piacon, de egyikkel sem elégedtem meg igazán.
+					<br/>
+					A 6. félévben felvettem az
+					<i>Android alapú szoftverfejlesztés</i> tantárgyat, és az ajánlott házi feladat keretében megvalósítottam az alkalmazást. Érdekessége a felugró értesítés a képernyő alján, ami nem túl nagy ahhoz, hogy tényelegesen zavarjon, de ahhoz igen, hogy kiváltsa a felhasználó válaszát. A fejlesztést előre elkészített terv alapján végeztem.
+				</hu>
+				<en>
+					It has bothered me for a long time, that the Android OS does not have a built-in reminder application, that notifies at the preset time and can be snoozed for short and longer times. The calendar's notifications are like this, except I put meetings there, not todos that I can postpone. I looked at a few options at the market, but none of them really satisfied my needs.
+					<br/>
+					In the 6th semester, I took the
+					<i>Android based software development</i> course, and created the application as my recommended homework. The interesting part in it is the popup notification at the bottom of the screen, which is not too big to really bother, but big enough to make the user interact. The development was carried out based on the preliminary mockup.
+				</en>
 			</content>
 			<image>
 				<url>todoapp-mockup.png</url>
@@ -1036,8 +1046,8 @@
 			<tag>bme</tag>
 			<tag>stopped</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="ogre3d">
+			<title>
 				<hu>3D-s RC szimulátor</hu>
 				<en>3D RC simulator</en>
 			</title>
@@ -1083,8 +1093,8 @@
 			<tag>ogre</tag>
 			<tag>suspended</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="cocos">
+			<title>
 				<hu>Két dimenziós játékfejlesztés</hu>
 				<en>Two-dimensional game development</en>
 			</title>
@@ -1104,8 +1114,8 @@
 			</content>
 			<tag>cocos2dx</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="mediahub">
+			<title>
 				<hu>Asztali médiakezelő</hu>
 				<en>Desktop media manager</en>
 			</title>
@@ -1130,8 +1140,8 @@
 			</image>
 			<tag>qt</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="elf">
+			<title>
 				<hu>ELF programozás Sony Ericsson-ra</hu>
 				<en>ELF programming for Sony Ericsson</en>
 			</title>
@@ -1262,8 +1272,8 @@
 			</image>
 			<tag>stopped</tag>
 		</li>
-		<li>
-			<title list="1">
+		<li id="ownweb">
+			<title>
 				<hu>Saját célú weboldalak</hu>
 				<en>Websites for personal use</en>
 			</title>
