@@ -514,8 +514,8 @@
 	</section>
 	<section icon="cv/section-misc.png">
 		<title>
-			<hu>Egyéb ismeretek</hu>
-			<en>Miscellaneous knowledge</en>
+			<hu>Egyéb ismeretek, közösségi tevékenység</hu>
+			<en>Miscellaneous knowledge, community activities</en>
 		</title>
 		<item>
 			<title>
@@ -604,6 +604,16 @@
 			</title>
 			<content>
 				<hu>Régebbi típusú (A1 [DB2010/12, DB2020] és A2) telefonok flash-elése, patch-elése, programozása (ELF).</hu>
+			</content>
+		</item>
+		<item>
+			<title>
+				<hu>VIK Wiki szerkesztő</hu>
+				<en>VIK Wiki editor</en>
+			</title>
+			<content>
+				<hu>A BME Villamosmérnöki és Informatikai kar saját tudásbázisának, a <a href="http://wiki.sch.bme.hu/">VIK Wiki</a>nek számos szócikkének szerkesztésében, megírásában <a href="http://wiki.sch.bme.hu/Speci%C3%A1lis:Szerkeszt%C5%91_k%C3%B6zrem%C5%B1k%C3%B6d%C3%A9sei/Mp9k1">részt vettem</a>.</hu>
+				<en>I have <a href="http://wiki.sch.bme.hu/Speci%C3%A1lis:Szerkeszt%C5%91_k%C3%B6zrem%C5%B1k%C3%B6d%C3%A9sei/Mp9k1">taken part</a> in editing and writing many articles in BUTE Faculty of Electical Engineering and Informatics's knowledge base, the <a href="http://wiki.sch.bme.hu/">VIK Wiki</a>.</en>
 			</content>
 		</item>
 		<item>
