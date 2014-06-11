@@ -625,6 +625,26 @@
 				</en>
 			</content>
 		</item>
+		<item id="mycamp">
+			<title>
+				<hu>Millennium Youth Camp 2010 résztvevő</hu>
+				<en>Millennium Youth Camp 2010 Camper</en>
+			</title>
+			<content>
+				<hu>
+					A Millennium Youth Camp résztvevői olyan fiatalok, akik érdeklődnek a természettudományok, matematika, műszaki tanulmányok iránt, illetve ezen területek valamelyikén szeretnének elhelyezkedni. Az egy hétig tartó tábort 2010 óta minden év júniusában rendezi a
+					<a href="http://taf.fi/en/events/millennium-youth-camp/">Technology Academy Finland (Finn Műszaki Egyetem)</a>. A tábor során a résztvevők megismerkedhetnek számos finn céggel és felsőoktatási intézménnyel. Emellett remek alkalmuk nyílik megismerni finn szakembereket és kutatókat.
+					<br/>
+					A legelső táboron voltam jelen egyedüli magyar résztvevőként.
+				</hu>
+				<en>
+					Millennium Youth Campers are young people interested in natural sciences, mathematics and technology who want to start up a career in these fields. The week-long camp has been organized every June since 2010 by
+					<a href="http://taf.fi/en/events/millennium-youth-camp/">Technology Academy Finland</a>, and during the camp, Campers are introduced to a number of Finnish companies and higher educational institutions. Also, they have a wonderful opportunity to get to know Finnish expertise and top-level research.
+					<br/>
+					I attended the very first camp as the only Hungarian participant.
+				</en>
+			</content>
+		</item>
 		<item>
 			<title>
 				<hu>B-kategóriás jogosítvánnyal rendelkezem 2010 márciusa óta.</hu>
@@ -843,6 +863,18 @@
 			<hu>Saját projektek</hu>
 			<en>My own projects</en>
 		</title>
+		<li id="quadcopt">
+			<title>
+				<hu>Kvadkopter tervezése</hu>
+				<en>Quadcopter design</en>
+			</title>
+			<content>
+				<hu>2014 nyarán megkeresett egy barátom azzal az ötlettel, hogy tervezzünk ketten kvadkoptert, azaz 4 motoros távirányított helikoptert. A motorokat, vázat, akkumulátort készen vesszük, ezen kívül alapvetően mindent mi tervezünk meg a semmiből. Jelenleg a saját biztonságos 4 csatornás motorvezérlőnkön dolgozunk.</hu>
+				<en>In the summer of 2014, a friend of mine came up with the idea of designing a quadcopter together. We buy the motors, body, batteries and basically design all the rest from scratch. As of now, we are working on our own safe 4-channel motor controller panel.</en>
+			</content>
+			<tag>pcb</tag>
+			<tag>inprogress</tag>
+		</li>
 		<li id="radioalarm">
 			<title>
 				<hu>Rádiós riasztórendszer (önálló laboratórium)</hu>
