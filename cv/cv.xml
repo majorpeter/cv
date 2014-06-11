@@ -612,8 +612,16 @@
 				<en>VIK Wiki editor</en>
 			</title>
 			<content>
-				<hu>A BME Villamosmérnöki és Informatikai kar saját tudásbázisának, a <a href="http://wiki.sch.bme.hu/">VIK Wiki</a>nek számos szócikkének szerkesztésében, megírásában <a href="http://wiki.sch.bme.hu/Speci%C3%A1lis:Szerkeszt%C5%91_k%C3%B6zrem%C5%B1k%C3%B6d%C3%A9sei/Mp9k1">részt vettem</a>.</hu>
-				<en>I have <a href="http://wiki.sch.bme.hu/Speci%C3%A1lis:Szerkeszt%C5%91_k%C3%B6zrem%C5%B1k%C3%B6d%C3%A9sei/Mp9k1">taken part</a> in editing and writing many articles in BUTE Faculty of Electical Engineering and Informatics's knowledge base, the <a href="http://wiki.sch.bme.hu/">VIK Wiki</a>.</en>
+				<hu>
+					A BME Villamosmérnöki és Informatikai kar saját tudásbázisának, a
+					<a href="http://wiki.sch.bme.hu/">VIK Wiki</a>nek számos szócikkének szerkesztésében, megírásában
+					<a href="http://wiki.sch.bme.hu/Speci%C3%A1lis:Szerkeszt%C5%91_k%C3%B6zrem%C5%B1k%C3%B6d%C3%A9sei/Mp9k1">részt vettem</a>.
+				</hu>
+				<en>
+					I have
+					<a href="http://wiki.sch.bme.hu/Speci%C3%A1lis:Szerkeszt%C5%91_k%C3%B6zrem%C5%B1k%C3%B6d%C3%A9sei/Mp9k1">taken part</a> in editing and writing many articles in BUTE Faculty of Electical Engineering and Informatics's knowledge base, the
+					<a href="http://wiki.sch.bme.hu/">VIK Wiki</a>.
+				</en>
 			</content>
 		</item>
 		<item>
@@ -1110,13 +1118,13 @@
 			</title>
 			<content>
 				<hu>
-					Az RC-autós szimulátor felfüggesztése után más projektek felé fordultam. Jelenleg a
+					Az RC-autós szimulátor felfüggesztése után más projektek felé fordultam. Egy ideig a
 					<a href="http://www.cocos2d-x.org/">cocos2d-x</a>
-					platformmal dolgozom egy játékon. Fontos jellemző, hogy a szoftver közös C++ kódból fordítható Linuxra, Androidra, Mac OS X-re és
+					platformmal dolgoztam egy oldalnézetes ügyességi játékon. Fontos jellemző, hogy a szoftver közös C++ kódból fordítható Linuxra, Androidra, Mac OS X-re és
 					iOS-re (ez a keretrendszer mellett a precompiler makrók miatt lehetséges).
 				</hu>
 				<en>
-					After suspending the RC simulator I turned to other projects. Currently I work on a game with the
+					After suspending the RC simulator I turned to other projects. For a while I worked on a side-view arcade game with the
 					<a href="http://www.cocos2d-x.org/">cocos2d-x</a>
 					platform. It is an important feature that the software can be compiled to Linux, Android, Mac OS X and iOS from the same C++ code
 					(because of the framework a precompiler macros).
@@ -1340,12 +1348,12 @@
 			</content>
 			<image>
 				<url>selifest.png</url>
-				<hu>A telefon-adatbázis jelenleg</hu>
-				<en>The phone database now</en>
+				<hu>A telefon-adatbázis 2012-ben</hu>
+				<en>The phone database in 2012</en>
 			</image>
 			<image>
 				<url>toparti.png</url>
-				<hu>A letöltő oldal, ballagás óta nem túl aktív</hu>
+				<hu>A letöltő oldal, a ballagásunk óta nem túl aktív</hu>
 				<en>The download page, hasn't been too busy since our graduation</en>
 			</image>
 			<tag>stopped</tag>
