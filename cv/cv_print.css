@@ -39,4 +39,19 @@ a {
 	text-decoration: none;
 }
 
-span.tag { display: none }
+div.popuptitle span.tag {
+	background: inherit !important;
+	color: inherit !important;
+	font-weight: bold;
+	border: 0 !important;
+	padding: 0 !important;
+}
+div.popuptitle span.tag:first-child {
+	margin-left: 15px;
+}
+div.popuptitle span.tag:before {
+	content: '[';
+}
+div.popuptitle span.tag:after {
+	content: ']';
+}

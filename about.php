@@ -46,7 +46,7 @@
     $precontent = '<a href="?print=1"><img src="img/print.png"/>Nyomtatható verzió</a>';
 	$precontent.='<a href="?xml=1"><img src="img/xml-ico.png"/>Letöltés XML-ként</a>';
 	if ($lng != "en")
-		$precontent.='<a href="?lng=en"><img class="lng" src="img/lng_en.png"/>Angol nyelven (in English) (Fordítás alatt)</a>';
+		$precontent.='<a href="?lng=en"><img class="lng" src="img/lng_en.png"/>Angol nyelven (in English)</a>';
 	if ($lng != "hu")
 		$precontent.='<a href="?lng=hu"><img class="lng" src="img/lng_hu.png"/>Magyar nyelven</a>';
 
