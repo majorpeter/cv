@@ -27,8 +27,8 @@
 		<en>Electrical Engineering Student</en>
 	</desc>
 	<desc>
-		<hu>Programozó, Beágyazott fejlesztő, Webfejlesztő</hu>
-		<en>Programmer, Embedded developer, Web developer</en>
+		<hu>Programozó, Beágyazott szoftverfejlesztő, Webfejlesztő</hu>
+		<en>Programmer, Embedded software developer, Web developer</en>
 	</desc>
 
 	<!-- címkék a felsorolásokhoz -->
@@ -533,9 +533,9 @@
 				<en>Linux administrator experience</en>
 			</title>
 			<content>
-				<hu>Főleg Ubuntu (Debian alapú disztribúció) rendszereken, SSH terminálok, SCP, VNC stb. 2012 nyara óta főként linuxon dolgozom,
-					de Windows-t is kell használnom, például nyomtatott áramkör tervezéshez. Értek linux alapú webszerverek (http/ftp/svn/mysql)
-					beállításához, kezeléséhez. A Raspberry Pi-men Debian fut, webserver, fájlszerver, verziókövető szerer, automatikus biztonsági
+				<hu>Főleg Ubuntu (Debian alapú disztribúció) rendszereken, SSH terminálok, SCP, VNC stb. 2012 nyara óta főként Linuxon dolgozom,
+					de Windows-t is kell használnom, például nyomtatott áramkör tervezéshez. Értek Linux alapú webszerverek (Http/Ftp/SVN/MySQL)
+					beállításához, kezeléséhez. A Raspberry Pi-men Debian fut, webszerver, fájlszerver, verziókövető szerer, automatikus biztonsági
 					mentések, világítástechnika.</hu>
 			</content>
 		</item>
@@ -704,15 +704,15 @@
 			</image>
 		</li>
 		<li id="innostart">
-			<title year="2012-">
+			<title year="2012-2014">
 				<hu>Innostart Kft. - webfejlesztő</hu>
 				<en>Innostart LLC. - web developer</en>
 			</title>
 			<content>
-				<hu>2012 novembere óta dolgozom ennél a cégnél webfejlesztőként. Főként php programozás, Drupal modulok fejlesztése, Wordpress beépülők, témák
-					fejlesztése. Időnként van más feladatom is, pl. java programozás, linux szerver építése, karbantartása.</hu>
-				<en>I started working at the company in November 2012 as web developer. It is mainly php programming, developing Drupal modules, Wordpress
-					plugins, themes. Sometimes I have other assignments, like java programming, creating and maintaining a linux server.</en>
+				<hu>2012 novemberétől 2014 márciusáig dolgoztam ennél a cégnél webfejlesztőként. Főként php programozás, Drupal modulok fejlesztése, Wordpress beépülők, témák
+					fejlesztése. Időnként volt más feladatom is, pl. java programozás, linux szerver építése, karbantartása.</hu>
+				<en>I worked at the company form November 2012 to March 2014 as web developer. It was mainly php programming, developing Drupal modules, Wordpress
+					plugins, themes. Sometimes I also had other assignments, like java programming, creating and maintaining a linux server.</en>
 			</content>
 		</li>
 		<li id="htec">
@@ -942,8 +942,8 @@
 					lett a cél. Néhány alternatíva végiggondolása után végül a Pi-t választottam, mert viszonylag sok leírás van hozzá, Ethernetet
 					gyárilag tudja és találtam hozzá szoftveres PWM megoldást is.
 					<br/>
-					Hobbi projektként viszonylag lassan haladtam, de végül összeállt a kiegészítő panel és elkezdődött a szoftver fejlesztése.
-					A nyílt forrású PWM vezérlő köré írtam saját TCP szervert, ami közvetlenül kezeli a böngészőből elérhető WebUI-t, ami egy
+					Hobbi projektként viszonylag lassan haladtam vele, de végül összeállt a kiegészítő panel és elkezdődött a szoftver fejlesztése.
+					A nyílt forrású PWM vezérlő köré írtam saját TCP szervert C++ nyelven, ami közvetlenül kezeli a böngészőből elérhető WebUI-t, ami egy
 					statikus HTML oldal Javascript
 					<a href="http://hu.wikipedia.org/wiki/Remote_procedure_call">RPC</a> megoldással. Ugyanezen
 					a porton keresztül kommunikál az Android alkalmazásom is a saját bináris protokollján keresztül.
@@ -951,7 +951,7 @@
 					A vezérlő képes a három PWM csatornát egymástól függetlenül kezelni, és így a csúszkákkal beállítható az RGB skáláról bármilyen
 					szín. Ezekből a színekből animációk hozhatók létre, átváltási és tartási időkkel, egymásba ágyazható ciklusokkal.
 					<br/>
-					Ráérő időmben az Android klienst szoktam fejleszteni, az ébresztő órával próbálom összekötni a rendszert.
+					Ráérő időmben az Android klienst szoktam fejleszteni, az ébresztő órával próbálom összekötni a rendszert. Mivel Linux felhasználóként a GNOME 3.xx felületet szeretem használni, felmerült, hogy ehhez írjak bővítményt, amivel lehet irányítani a fényeket, ez is folyamatban van.
 				</hu>
 				<en>
 					When I moved out of the youth hostel to an apartment in the summer of 2013, the idea of lighting with an RGB LED strip
@@ -968,7 +968,7 @@
 					The controller can set the three PWM channels independently, so it is possible to set any RGB color with the sliders. From these
 					colors, one can create animations with transition and hold times, embeddable loops.
 					<br/>
-					When I have some time, I work on the Android client, I have been trying to link the system to my alarm clock.
+					When I have some time, I work on the Android client, I have been trying to link the system to my alarm clock. Since I am a Linux user and prefer to use the GNOME 3.xx environment, I decided to write an extension for it to control the lights, it is also in progress.
 				</en>
 			</content>
 			<image>
