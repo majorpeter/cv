@@ -43,7 +43,7 @@
 	}
     else $head.= '<script type="text/javascript" src="cv/cv.js"></script>'."\n";
 	
-    $precontent = '<a href="?print=1"><img src="img/print.png"/>Nyomtatható verzió</a>';
+    $precontent = '<a href="?print=1'.(($lng == "en") ? '&lng=en' : '').'"><img src="img/print.png"/>Nyomtatható verzió</a>';
 	$precontent.='<a href="?xml=1"><img src="img/xml-ico.png"/>Letöltés XML-ként</a>';
 	if ($lng != "en")
 		$precontent.='<a href="?lng=en"><img class="lng" src="img/lng_en.png"/>Angol nyelven (in English)</a>';
