@@ -698,6 +698,16 @@
 			<hu>Eddigi munkahelyek, projektek</hu>
 			<en>Previous jobs</en>
 		</title>
+		<li id="lightware">
+			<title year="2014-">
+				<hu>Lightware Kft. - beágyazott szoftverfejlesztő</hu>
+				<en>Lightware LLC - embedded software developer</en>
+			</title>
+			<content>
+				<hu>A harmadik év végén a kötelező szakmai gyakorlat miatt helyezkedtem el a <a href="http://lightware.eu/">Lightware</a>-nél. A gyakorlat keretében a cég egy régebbi vezérlő kártyáját fejlesztem tovább, hogy támogassa a <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenderei</a>nek új generációját is.</hu>
+				<en>After the third year, I started working at <a href="http://lightware.eu/">Lightware</a> as an intern. During my internship, I work on one of the company's older control card, to support its new generation of <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenders</a>.</en>
+			</content>
+		</li>
 		<li id="riport">
 			<title year="2013">
 				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
