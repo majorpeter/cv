@@ -416,6 +416,16 @@
 		</li>
 		<li>
 			<title>
+				<hu>Python</hu>
+				<en>Python</en>
+			</title>
+			<content>
+				<hu>Egy munkahelyi feladat miatt tanultam meg a nyelven 2014 nyarán. Sokkal gyorsabban lehet vele egyszerű alkalmazásokat fejleszteni, mint C++ vagy Java nyelven, ezért ezekhez inkább Python-t használok.</hu>
+				<en>I have learnt the language for a project at work in the summer of 2014. It is a lot easier to write simple applications in it than in C++ or Java, so I usually use Python for these.</en>
+			</content>
+		</li>
+		<li>
+			<title>
 				<hu>PHP - webfejlesztés, elterjedtebb keretrendszerek</hu>
 				<en>PHP - web development, common frameworks</en>
 			</title>
@@ -1153,6 +1163,16 @@
 			</image>
 			<tag>ogre</tag>
 			<tag>suspended</tag>
+		</li>
+		<li id="parch">
+			<title>
+				<hu>Pythonban írt archíváló eszköz</hu>
+				<en>Archiving utility written in Python</en>
+			</title>
+			<content>
+				<hu>Évek óta problémám volt a megbízható adattárolás. Több merevlemezem ment már tönkre, vesztek el fontos fényképek stb. Néhány éve kezdtem internetes tárhelyeket használni, ezekkel csak az a probléma, hogy a szolgáltató minden feltöltött adathoz hozzáfér. A programom a megadott mappák tartalmát egyenként tömöríti és titkosítja (AES-256, 7z, LZMA), a fájlneveket szintén titkosítja. A projekt nyíltforrású, <a href="https://bitbucket.org/majorpeter92/parch">bitbucket</a>-en elérhető.</hu>
+				<en>Safe data storage had been an issue for me for years. I had had several broken hard drives, lost a lot of important photos etc. I started using cloud storage sites a few years ago, the problem with these is that the host can access all of my files. My application compresses and encrypts the subdirectories of the configured folders and encrypts the file names as well. The project is open source, available at <a href="https://bitbucket.org/majorpeter92/parch">bitbucket</a>.</en>
+			</content>
 		</li>
 		<li id="cocos">
 			<title>
