@@ -1,6 +1,6 @@
 #!/bin/sh
 
-password=e1exhzDrPxiHP4hSEQZ
+password=fsK8HjAeubNF1X
 
 # megkeresi a módosított fájlokat az előző frissítés óta (lastUpdate fájlnak léteznie kell)
 last=`cat lastUpdate`
