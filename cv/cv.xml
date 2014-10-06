@@ -507,8 +507,8 @@
 				<en>Assembly</en>
 			</title>
 			<content>
-				<hu>Az egyetemen assembly-ben programoztam Intel 8085-ös és Silicon Labs C8051F040 processzorokat.</hu>
-				<en>I have programmed Intel 8085 and Silicon Labs C8051F040 processors in assembly at the University.</en>
+				<hu>Az egyetemen assembly-ben programoztam Intel 8085-ös és Silicon Labs C8051F040 processzorokat. Munka közben néha szükségem van ARM assembly visszafejtésére, de programozni nem szoktam benne.</hu>
+				<en>I have programmed Intel 8085 and Silicon Labs C8051F040 processors in assembly at the University Sometimes I need to disassemble ARM assembly but I never program in this language.</en>
 			</content>
 		</li>
 		<li>
