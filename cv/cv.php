@@ -26,6 +26,7 @@ if (extension_loaded('simplexml')) {
     
     $pg .= $xml->phone->$lng.': <b><a>'.$xml->phone->val.'</a></b><br/>';
     $pg .= $xml->mail->$lng.': <b><a href="mailto:'.$xml->mail->val.'">'.$xml->mail->val.'</a></b><br/>';
+    $pg .= $xml->linkedin->$lng.': <b><a href="'.$xml->linkedin->val.'">'.$xml->linkedin->val.'</a></b><br/>';
     $pg .= $xml->fbook->$lng.': <b><a href="'.$xml->fbook->val.'">'.$xml->fbook->val.'</a></b><br/><br/>';
     if (@$_GET['print'])
     $pg .= $xml->cv->$lng.': <b><a href="'.$xml->cv->val.'">'.$xml->cv->val.'</a></b>';
