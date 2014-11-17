@@ -11,6 +11,11 @@
 		<hu>E-mail cím</hu>
 		<en>E-mail address</en>
 	</mail>
+    <linkedin>
+        <val>http://hu.linkedin.com/in/majorpeter92/</val>
+        <hu>LinkedIn profil</hu>
+        <en>LinkedIn profile</en>
+    </linkedin>
 	<fbook>
 		<val>http://www.facebook.com/major.peter</val>
 		<hu>Facebook profil</hu>
