@@ -24,10 +24,10 @@ if (extension_loaded('simplexml')) {
     	$pg .= $desc->$lng . '<br/>';
     $pg .= '</span><br/>';
     
-    $pg .= $xml->phone->$lng.': <b><a>'.$xml->phone->val.'</a></b><br/>';
-    $pg .= $xml->mail->$lng.': <b><a href="mailto:'.$xml->mail->val.'">'.$xml->mail->val.'</a></b><br/>';
-    $pg .= $xml->linkedin->$lng.': <b><a href="'.$xml->linkedin->val.'">'.$xml->linkedin->val.'</a></b><br/>';
-    $pg .= $xml->fbook->$lng.': <b><a href="'.$xml->fbook->val.'">'.$xml->fbook->val.'</a></b><br/><br/>';
+    $pg .= '<img class="cv-contact" title="' . $xml->phone->$lng.'" src="cv/contact-phone.png"/>' . $xml->phone->$lng.': <b><a>'.$xml->phone->val.'</a></b><br/>';
+    $pg .= '<img class="cv-contact" title="' . $xml->mail->$lng.'"src="cv/contact-mail.png"/>' . $xml->mail->$lng.': <b><a href="mailto:'.$xml->mail->val.'">'.$xml->mail->val.'</a></b><br/>';
+    $pg .= '<img class="cv-contact" title="' . $xml->linkedin->$lng.'"src="cv/contact-linkedin.png"/>' . $xml->linkedin->$lng.': <b><a href="'.$xml->linkedin->val.'">'.$xml->linkedin->val.'</a></b><br/>';
+    $pg .= '<img class="cv-contact" title="' . $xml->fbook->$lng.'"src="cv/contact-facebook.png"/>' . $xml->fbook->$lng.': <b><a href="'.$xml->fbook->val.'">'.$xml->fbook->val.'</a></b><br/><br/>';
     if (@$_GET['print'])
     $pg .= $xml->cv->$lng.': <b><a href="'.$xml->cv->val.'">'.$xml->cv->val.'</a></b>';
     $pg .= '</div>';

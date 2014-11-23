@@ -21,6 +21,12 @@ h1.cvtitle, div#content div#about-us-block h1.cvtitle {
 	font-size: 1em;
 }
 
+img.cv-contact {
+    position: relative;
+    top: 2px;
+    margin-right: 8px;
+}
+
 h2.cvhead {
 	color: #333;
 	margin-bottom: 8px;
