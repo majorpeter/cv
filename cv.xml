@@ -2,7 +2,7 @@
 <cv>
 	<name>Major Péter</name>
 	<phone>
-		<val>(30) 750-3031</val>
+		<val>+36 30 750-3031</val>
 		<hu>Mobiltelefon</hu>
 		<en>Phone number</en>
 	</phone>
@@ -592,6 +592,7 @@
 			</title>
 			<content>
 				<hu>Inkább hobbi, mint mester szinten ismerem. Webes grafikákhoz, nem túl bonyolult retusálásokhoz, egyéb munkákhoz használom.</hu>
+                <en>I am not a professional user. I use it for web graphics, not too sophisticated retouches and other projects.</en>
 			</content>
 		</item>
 		<item>
@@ -619,6 +620,7 @@
 			</title>
 			<content>
 				<hu>Régebbi típusú (A1 [DB2010/12, DB2020] és A2) telefonok flash-elése, patch-elése, programozása (ELF).</hu>
+                <en>Flashing, patching, programming (ELF) of older handsets (A1 [DB2010/12, DB2020] and A2).</en>
 			</content>
 		</item>
 		<item>
@@ -662,6 +664,7 @@
 		<item>
 			<title>
 				<hu>B-kategóriás jogosítvánnyal rendelkezem 2010 márciusa óta.</hu>
+                <en>I have a category B driver's license since March 2010.</en>
 			</title>
 		</item>
 	</section>
