@@ -102,6 +102,12 @@ div.popuptitle a.para {
 	display: none;
 }
 
+div.popuptitle img.section {
+    right: 0;
+    position: absolute;
+    height: 24px;
+}
+
 .popupcontent {
 	padding-top: -2px;
 	font-size: 0.95em;

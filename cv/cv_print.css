@@ -55,3 +55,6 @@ div.popuptitle span.tag:before {
 div.popuptitle span.tag:after {
 	content: ']';
 }
+div.popuptitle img.section {
+    display: none;
+}

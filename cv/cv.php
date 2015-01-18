@@ -48,6 +48,12 @@ if (extension_loaded('simplexml')) {
     				$titl .= ' ('.$attr['year'].')';
     			if (isset($attr['years']))
     				$titl = $attr['years'].' '.$titl;
+    			if (isset($attr['image'])) {
+    			    $image = '<img class="section" src="cv/'.$attr['image'].'"/>';
+    			    if (isset($attr['image-full']))
+    			        $image = '<a href="cv/'.$attr['image-full'].'" class="lightbox" title="'.$titl.'">'.$image.'</a>';
+    			    $titl = $titl.$image;
+                }
                 
                 $cont = @$c->content;
                 if ($cont) {

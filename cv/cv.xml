@@ -27,12 +27,12 @@
 		<en>My interactive, actual cv</en>
 	</cv>
 	<desc>
-		<hu>Villamosmérnök hallgató</hu>
-		<en>Electrical Engineering Student</en>
+		<hu>Villamosmérnök</hu>
+		<en>Electrical Engineer</en>
 	</desc>
 	<desc>
-		<hu>Programozó, Beágyazott szoftverfejlesztő, Webfejlesztő</hu>
-		<en>Programmer, Embedded software developer, Web developer</en>
+		<hu>Beágyazott szoftverfejlesztő, Webfejlesztő</hu>
+		<en>Embedded software developer, Web developer</en>
 	</desc>
 
 	<!-- címkék a felsorolásokhoz -->
@@ -137,13 +137,15 @@
 			<en>The project involves printed circuit board design.</en>
 		</desc>
 	</tag>
+
 	<section icon="cv/section-school.png">
 		<title>
 			<hu>Tanulmányok</hu>
 			<en>Studies</en>
 		</title>
 		<item>
-			<title years="2011-\nbsp\nbsp\nbsp\nbsp">
+            <!--<title years="2015-\nbsp\nbsp\nbsp\nbsp"></title>-->
+			<title years="2011-2015">
 				<hu>
 					Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar
 					<br/>
@@ -161,6 +163,7 @@
 			</title>
 			<content>
 				<hu>
+                    <b>Kitüntetéses oklevéllel</b> végeztem.
 					Az első és második féléves programozás (
 					<b>C és C++</b>) tárgyakat haladó csoportban végeztem,
 					<b>jeles</b> eredménnyel.
@@ -169,6 +172,7 @@
 					<b>jeles</b> eredménnyel.
 				</hu>
 				<en>
+                    I have an <b>Honours Degree</b>.
 					I took the advanced courses in first and second semester programming classes (C &amp; C++), I received
 					<b>excellent</b>
 					grades. I completed
@@ -716,17 +720,17 @@
 			<en>Previous jobs</en>
 		</title>
 		<li id="lightware">
-			<title year="2014-">
+			<title year="2014-" image="work_lightware.png" image-full="work_lightware_full.png">
 				<hu>Lightware Kft. - beágyazott szoftverfejlesztő</hu>
 				<en>Lightware LLC - embedded software developer</en>
 			</title>
 			<content>
-				<hu>A harmadik év végén a kötelező szakmai gyakorlat miatt helyezkedtem el a <a href="http://lightware.eu/">Lightware</a>-nél. A gyakorlat keretében a cég egy régebbi vezérlő kártyáját fejlesztem tovább, hogy támogassa a <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenderei</a>nek új generációját is.</hu>
-				<en>After the third year, I started working at <a href="http://lightware.eu/">Lightware</a> as an intern. During my internship, I work on one of the company's older control card, to support its new generation of <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenders</a>.</en>
+				<hu>A harmadik év végén a kötelező szakmai gyakorlat miatt helyezkedtem el a <a href="http://lightware.eu/">Lightware</a>-nél. A gyakorlat keretében a cég egy régebbi vezérlő kártyáját fejlesztem tovább, hogy támogassa a <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenderei</a>nek új generációját is. A szakdolgozatomat is itt írtam, amely a <a href="http://en.wikipedia.org/wiki/HDMI#CEC"><i>Consumer Electronics Control</i></a>-hoz kapcsolódott.<br/>Jelenleg alacsony szintű interfészeken/drivereken és magasabb szintű alkalmazásokon, belső szoftvereken és eszközökön dolgozom. Emelett én foglalkozom néhány régebbi termék támogatásával.</hu>
+				<en>After the third year, I started working at <a href="http://lightware.eu/">Lightware</a> as an intern. During my internship, I work on one of the company's older control card, to support its new generation of <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenders</a>. I also wrote my thesis here which was related to <a href="http://en.wikipedia.org/wiki/HDMI#CEC"><i>Consumer Electronics Control</i></a>.<br/>Nowadays I work on low-level interfaces/drivers and higher-level applications for the company's new products as well as internal test/development software. I also take part in supporting some older legacy products.</en>
 			</content>
 		</li>
 		<li id="riport">
-			<title year="2013">
+			<title year="2013" image="work_riport.png" image-full="work_riport_full.png">
 				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
 				<en>Riport accounting web application's full frontend development</en>
 			</title>
@@ -759,7 +763,7 @@
 			</image>
 		</li>
 		<li id="innostart">
-			<title year="2012-2014">
+			<title year="2012-2014" image="work_inno.png" image-full="work_inno_full.png">
 				<hu>Innostart Kft. - webfejlesztő</hu>
 				<en>Innostart LLC. - web developer</en>
 			</title>
@@ -771,7 +775,7 @@
 			</content>
 		</li>
 		<li id="htec">
-			<title year="2012. 07.">
+			<title year="2012. 07." image="work_hhi.png" image-full="work_hhi_full.png">
 				<hu>
 					H-TEC nyári gyakornoki állás -
 					<b>HiSmart</b>
@@ -858,7 +862,7 @@
 			<tag>android</tag>
 		</li>
 		<li id="tcup">
-			<title>
+			<title image="work_tcup.png" image-full="work_tcup_full.png">
 				<hu>Részvétel a Total Commander Ultima Prime projektben</hu>
 				<en>Contribution to the Total Commander Ultima Prime project</en>
 			</title>
@@ -871,7 +875,7 @@
 					azóta integrálták a telepítőbe, a mappa- és fájlkészítőt már más fejleszti.
 				</hu>
 				<en>
-					From all of my work with Delph, the most widespread are some components of the
+					From all of my work with Delphi, the most widespread are some components of the
 					<a href="http://tcup.pl/">Total Commander Ultima
 						Prime</a> software package: file associations, creating shortcuts, createing new folders and files – TC UP New.
 					I was the Hungarian translator of the project for years but I'm no longer an active member. The associations and shortcuts have since
