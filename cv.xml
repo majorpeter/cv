@@ -1,24 +1,27 @@
 <?xml version="1.0"?>
 <cv>
-	<update>2014-03-21</update>	
 	<name>Major Péter</name>
 	<phone>
 		<val>+36 30 750-3031</val>
+        <icon>contact-phone.png</icon>
 		<hu>Mobiltelefon</hu>
 		<en>Phone number</en>
 	</phone>
 	<mail>
 		<val>major.peter@mailbox.hu</val>
+        <icon>contact-mail.png</icon>
 		<hu>E-mail cím</hu>
 		<en>E-mail address</en>
 	</mail>
     <linkedin>
         <val>http://hu.linkedin.com/in/majorpeter92/</val>
+        <icon>contact-linkedin.png</icon>
         <hu>LinkedIn profil</hu>
         <en>LinkedIn profile</en>
     </linkedin>
 	<fbook>
 		<val>http://www.facebook.com/major.peter</val>
+        <icon>contact-facebook.png</icon>
 		<hu>Facebook profil</hu>
 		<en>Facebook profile</en>
 	</fbook>
@@ -139,7 +142,7 @@
 		</desc>
 	</tag>
 
-	<section icon="cv/section-school.png">
+	<section icon="section-school.png">
 		<title>
 			<hu>Tanulmányok</hu>
 			<en>Studies</en>
@@ -205,9 +208,9 @@
 			</content>
 		</item>
 		<item>
-			<title>
-				<hu>1999-2007 Munkácsy Mihály Általános Iskola (Székesfehérvár)</hu>
-				<en>1999-2007 Munkácsy Mihány Primary School (Székesfehérvár)</en>
+			<title years="1999-2007">
+				<hu>Munkácsy Mihály Általános Iskola (Székesfehérvár)</hu>
+				<en>Munkácsy Mihány Primary School (Székesfehérvár)</en>
 			</title>
 		</item>
 		<break/>
@@ -302,7 +305,7 @@
 			</content>
 		</item>
 	</section>
-	<section icon="cv/section-lang.png">
+	<section icon="section-lang.png">
 		<title>
 			<hu>Nyelvtudás</hu>
 			<en>Languages</en>
@@ -330,7 +333,7 @@
 			</content>
 		</li>
 	</section>
-	<section icon="cv/section-code.png">
+	<section icon="section-code.png">
 		<title>
 			<hu>Programozási és villamosmérnöki ismeretek</hu>
 			<en>Programming and Electrical Engineering knowledge</en>
@@ -532,7 +535,7 @@
 			</content>
 		</li>
 	</section>
-	<section icon="cv/section-misc.png">
+	<section icon="section-misc.png">
 		<title>
 			<hu>Egyéb ismeretek, közösségi tevékenység</hu>
 			<en>Miscellaneous knowledge, community activities</en>
@@ -673,7 +676,7 @@
 			</title>
 		</item>
 	</section>
-	<section icon="cv/section-person.png">
+	<section icon="section-person.png">
 		<title>
 			<hu>Személyiség, készségek</hu>
 			<en>Personality, skills</en>
@@ -715,7 +718,7 @@
 			</title>
 		</li>
 	</section>
-	<section icon="cv/section-work.png">
+	<section icon="section-work.png">
 		<title>
 			<hu>Eddigi munkahelyek, projektek</hu>
 			<en>Previous jobs</en>
@@ -890,7 +893,7 @@
 			</image>
 		</li>
 	</section>
-	<section icon="cv/section-projects.png">
+	<section icon="section-projects.png">
 		<title>
 			<hu>Saját projektek</hu>
 			<en>My own projects</en>
@@ -1434,7 +1437,7 @@
 			<tag>stopped</tag>
 		</li>
 	</section>
-	<section icon="cv/section-target.png">
+	<section icon="section-target.png">
 		<title>
 			<hu>Célok, ambíciók</hu>
 			<en>Goals, ambitions</en>
