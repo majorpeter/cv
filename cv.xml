@@ -1,30 +1,36 @@
 <?xml version="1.0"?>
 <cv>
 	<name>Major Péter</name>
-	<phone>
+	<contact>
 		<val>+36 30 750-3031</val>
         <icon>contact-phone.png</icon>
 		<hu>Mobiltelefon</hu>
 		<en>Phone number</en>
-	</phone>
-	<mail>
+	</contact>
+	<contact>
 		<val>major.peter@mailbox.hu</val>
         <icon>contact-mail.png</icon>
 		<hu>E-mail cím</hu>
 		<en>E-mail address</en>
-	</mail>
-    <linkedin>
+	</contact>
+    <contact>
         <val>http://hu.linkedin.com/in/majorpeter92/</val>
         <icon>contact-linkedin.png</icon>
         <hu>LinkedIn profil</hu>
         <en>LinkedIn profile</en>
-    </linkedin>
-	<fbook>
+    </contact>
+	<contact>
+		<val>https://github.com/majorpeter</val>
+		<icon>contact-github.png</icon>
+		<hu>GitHub profil</hu>
+		<en>GitHub profile</en>
+	</contact>
+	<contact>
 		<val>http://www.facebook.com/major.peter</val>
         <icon>contact-facebook.png</icon>
 		<hu>Facebook profil</hu>
 		<en>Facebook profile</en>
-	</fbook>
+	</contact>
 	<cv>
 		<val>http://users.hszk.bme.hu/~mp1113/</val>
 		<hu>Interaktív, aktuális önéletrajzom</hu>
