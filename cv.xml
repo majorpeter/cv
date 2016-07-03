@@ -152,20 +152,37 @@
 			<hu>Tanulmányok</hu>
 			<en>Studies</en>
 		</title>
+        <item>
+            <title years="2015-\nbsp\nbsp\nbsp\nbsp">
+                <hu>
+					Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar
+					<br/>
+					Villamosmérnök (MSc mesterképzés)
+					<br/>
+					Számítógép-alapú rendszerek főspecializáció, Programozható logikai áramkörök alkalmazástechnikája mellékspecializáció
+				</hu>
+                <en>
+                    Budapest University of Technology and Economics Faculty of Electical Engineering and Informatics
+					<br/>
+					Electrical Engeneer (MSc)
+					<br/>
+					Engineering of Computer-Based Systems, Application of Field Programmable Gate Arrays
+                </en>
+            </title>
+        </item>
 		<item>
-            <!--<title years="2015-\nbsp\nbsp\nbsp\nbsp"></title>-->
 			<title years="2011-2015">
 				<hu>
 					Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar
 					<br/>
-					Villamosmérnök (BsC alapképzés)
+					Villamosmérnök (BSc alapképzés)
 					<br/>
 					Beágyazott és irányító rendszerek szakirány - Számítógép-alapú rendszerek ágazat
 				</hu>
 				<en>
 					Budapest University of Technology and Economics Faculty of Electical Engineering and Informatics
 					<br/>
-					Electrical Engeneer (BsC)
+					Electrical Engeneer (BSc)
 					<br/>
 					Specialization in Embedded and Control Systems - Computer-based Systems branch
 				</en>
