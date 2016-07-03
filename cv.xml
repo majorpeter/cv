@@ -10,32 +10,31 @@
 	<contact>
 		<val>major.peter@mailbox.hu</val>
         <icon>contact-mail.png</icon>
+		<type>email</type>
 		<hu>E-mail cím</hu>
 		<en>E-mail address</en>
 	</contact>
     <contact>
         <val>http://hu.linkedin.com/in/majorpeter92/</val>
         <icon>contact-linkedin.png</icon>
+		<type>url</type>
         <hu>LinkedIn profil</hu>
         <en>LinkedIn profile</en>
     </contact>
 	<contact>
 		<val>https://github.com/majorpeter</val>
 		<icon>contact-github.png</icon>
+		<type>url</type>
 		<hu>GitHub profil</hu>
 		<en>GitHub profile</en>
 	</contact>
 	<contact>
 		<val>http://www.facebook.com/major.peter</val>
         <icon>contact-facebook.png</icon>
+		<type>url</type>
 		<hu>Facebook profil</hu>
 		<en>Facebook profile</en>
 	</contact>
-	<cv>
-		<val>http://users.hszk.bme.hu/~mp1113/</val>
-		<hu>Interaktív, aktuális önéletrajzom</hu>
-		<en>My interactive, actual cv</en>
-	</cv>
 	<desc>
 		<hu>Villamosmérnök</hu>
 		<en>Electrical Engineer</en>
