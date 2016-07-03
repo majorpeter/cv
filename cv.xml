@@ -43,6 +43,9 @@
 		<hu>Beágyazott szoftverfejlesztő, Webfejlesztő</hu>
 		<en>Embedded software developer, Web developer</en>
 	</desc>
+    <profile-img>
+        <url>profile.jpg</url>
+    </profile-img>
 
 	<!-- címkék a felsorolásokhoz -->
 	<tag>
