@@ -156,7 +156,7 @@
 			<en>Studies</en>
 		</title>
         <item>
-            <title years="2015-\nbsp\nbsp\nbsp\nbsp">
+            <title years="2015-2017">
                 <hu>
 					Budapesti Műszaki és Gazdaságtudományi Egyetem Villamosmérnöki és Informatikai Kar
 					<br/>
@@ -172,6 +172,14 @@
 					Engineering of Computer-Based Systems, Application of Field Programmable Gate Arrays
                 </en>
             </title>
+			<content>
+				<hu>
+					<b>Kitüntetéses oklevéllel</b> végeztem.
+				</hu>
+				<en>
+                    I have an <b>Honours Degree</b>.
+				</en>
+			</content>
         </item>
 		<item>
 			<title years="2011-2015">
@@ -193,20 +201,9 @@
 			<content>
 				<hu>
                     <b>Kitüntetéses oklevéllel</b> végeztem.
-					Az első és második féléves programozás (
-					<b>C és C++</b>) tárgyakat haladó csoportban végeztem,
-					<b>jeles</b> eredménnyel.
-					Második félévben elvégeztem a
-					<b>Java technológiák</b> tárgyat is, szintén
-					<b>jeles</b> eredménnyel.
 				</hu>
 				<en>
                     I have an <b>Honours Degree</b>.
-					I took the advanced courses in first and second semester programming classes (C &amp; C++), I received
-					<b>excellent</b>
-					grades. I completed
-					<b>Java technologies</b> in the second semester, and also got an
-					<b>excellent</b> grade
 				</en>
 			</content>
 		</item>
@@ -218,15 +215,10 @@
 			<content>
 				<hu>
 					Angol specialitású képzés; fakultatív matematika, fizika, informatika
-					<br/>
-					Összes év végi átlag: 5.0
-					<br/>
 					Kitűnő érettségi bizonyítvány, általános dicséret
 				</hu>
 				<en>
 					English specialized class; facultative Mathematics, Physics, Informatics
-					<br/>
-					Grades' average each year: 5.0
 					<br/>
 					Excellent certificate of secondary education, general commendation
 				</en>
@@ -262,72 +254,6 @@
 				<hu>Kitűnő érettségi bizonyítvány, 2 előrehozott érettségivel</hu>
 				<en>Excellent certificate of secondary education, 2 early exams</en>
 			</title>
-			<content>
-				<hu>
-					<table>
-						<tr>
-							<td>Matematika (közép, előrehozott):</td>
-							<td>98%</td>
-						</tr>
-						<tr>
-							<td>Matematika (emelt):</td>
-							<td>98%</td>
-						</tr>
-						<tr>
-							<td>Magyar nyelv (közép):</td>
-							<td>95%</td>
-						</tr>
-						<tr>
-							<td>Történelem (közép):</td>
-							<td>96%</td>
-						</tr>
-						<tr>
-							<td>Angol nyelv (közép):</td>
-							<td>100%</td>
-						</tr>
-						<tr>
-							<td>Informatika (közép, előrehozott):</td>
-							<td>99%</td>
-						</tr>
-						<tr>
-							<td>Informatika (emelt):</td>
-							<td>96%</td>
-						</tr>
-					</table>
-				</hu>
-				<en>
-					<table>
-						<tr>
-							<td>Mathematics (intermediate, early):</td>
-							<td>98%</td>
-						</tr>
-						<tr>
-							<td>Mathematics (advanced):</td>
-							<td>98%</td>
-						</tr>
-						<tr>
-							<td>Hungarian Language (intermediate):</td>
-							<td>95%</td>
-						</tr>
-						<tr>
-							<td>History (intermediate):</td>
-							<td>96%</td>
-						</tr>
-						<tr>
-							<td>English (intermediate):</td>
-							<td>100%</td>
-						</tr>
-						<tr>
-							<td>Informatics (intermediate, early):</td>
-							<td>99%</td>
-						</tr>
-						<tr>
-							<td>Informatics (advanced):</td>
-							<td>96%</td>
-						</tr>
-					</table>
-				</en>
-			</content>
 		</item>
 	</section>
 	<section icon="section-lang.png">
@@ -341,10 +267,9 @@
 				<en>English C1 Proficient</en>
 			</title>
 			<content>
-				<hu>A nyelvvizsga óta igyekszem szinten tartani, szinte minden nap nézek angol nyelvű sorozatot, olvasok angolul,
+				<hu>Szinte minden nap nézek angol nyelvű sorozatot, olvasok angolul,
 					híreken kívül angol nyelvű szakirodalmat is, leginkább programozással kapcsolatban.</hu>
-				<en>I have been trying to maintain my knowledge ever since the exam. I watch English speaking series almost daily,
-					I read in English, news and technical literature, mostly about programming.</en>
+				<en>I watch English speaking series almost daily, I read in English, news and technical literature, mostly about programming.</en>
 			</content>
 		</li>
 		<li>
@@ -353,8 +278,8 @@
 				<en>German B2 Competent</en>
 			</title>
 			<content>
-				<hu>Viszonylag friss, kommunikációs szinten van. Sajnos csak ritkán jut időm arra, hogy foglalkozzak vele.</hu>
-				<en>Relatively new, still on a communicating level. Unfortunately I rarely find the time to practice it.</en>
+				<hu>Sajnos csak ritkán jut időm arra, hogy foglalkozzak vele.</hu>
+				<en>Unfortunately I rarely find the time to practice it.</en>
 			</content>
 		</li>
 	</section>
