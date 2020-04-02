@@ -59,7 +59,7 @@ function openSection(id, scroll) {
 			$(this).css('-webkit-transform','rotate(0deg)'); 
 	      	$(this).css('-moz-transform','rotate(0deg)');
 	     	$(this).css('transform','rotate(0deg)');
-	     	$(this).css('background', 'url(img/tree_open.png)');
+	     	$(this).css('background', 'url(tree_open.png)');
 	     	
 	     	if (scroll)
 	     	$('html, body').stop().animate({
@@ -75,7 +75,7 @@ function closeSection(id) {
 	toggle.css('-webkit-transform','rotate(90deg)'); 
   	toggle.css('-moz-transform','rotate(90deg)');
  	toggle.css('transform','rotate(90deg)');
-	toggle.css('background', 'url(img/tree_closed.png)');
+	toggle.css('background', 'url(tree_closed.png)');
 	toggle.animate({ borderSpacing: 0 }, {
 	    step: function(now,fx) {
 	      $(this).css('-webkit-transform','rotate('+now+'deg)'); 
