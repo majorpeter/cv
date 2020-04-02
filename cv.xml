@@ -81,17 +81,6 @@
 			<en>Development has been suspended for an indefinite period.</en>
 		</desc>
 	</tag>
-	<tag>
-		<name>stopped</name>
-		<title>
-			<hu>Befejezve</hu>
-			<en>Stopped</en>
-		</title>
-		<desc>
-			<hu>A fejlesztés be lett fejezve, és valószínűleg nem is fog folytatódni.</hu>
-			<en>Development has been stopped and is not likely to be continued.</en>
-		</desc>
-	</tag>
 
 	<!-- technológiai tag-ek -->
 	<tag>
@@ -662,7 +651,6 @@
 			</image>
 			<tag>bme</tag>
 			<tag>pcb</tag>
-			<tag>stopped</tag>
 		</li>
 		<li id="pinctrl">
 			<title>
@@ -706,7 +694,6 @@
 			<tag>bme</tag>
 			<tag>pcb</tag>
 			<tag>qt</tag>
-			<tag>stopped</tag>
 		</li>
 		<li id="raspi-pwm">
 			<title>
@@ -833,7 +820,6 @@
 			</image>
 			<tag>android</tag>
 			<tag>bme</tag>
-			<tag>stopped</tag>
 		</li>
 		<li id="ogre3d">
 			<title>
@@ -880,64 +866,6 @@
 				<en>The AI is not too sophisticated</en>
 			</image>
 			<tag>ogre</tag>
-			<tag>suspended</tag>
-		</li>
-		<li id="parch">
-			<title>
-				<hu>Pythonban írt archíváló eszköz</hu>
-				<en>Archiving utility written in Python</en>
-			</title>
-			<content>
-				<hu>Évek óta problémám volt a megbízható adattárolás. Több merevlemezem ment már tönkre, vesztek el fontos fényképek stb. Néhány éve kezdtem internetes tárhelyeket használni, ezekkel csak az a probléma, hogy a szolgáltató minden feltöltött adathoz hozzáfér. A programom a megadott mappák tartalmát egyenként tömöríti és titkosítja (AES-256, 7z, LZMA), a fájlneveket szintén titkosítja. A projekt nyíltforrású, <a href="https://bitbucket.org/majorpeter92/parch">bitbucket</a>-en elérhető.</hu>
-				<en>Safe data storage had been an issue for me for years. I had had several broken hard drives, lost a lot of important photos etc. I started using cloud storage sites a few years ago, the problem with these is that the host can access all of my files. My application compresses and encrypts the subdirectories of the configured folders and encrypts the file names as well. The project is open source, available at <a href="https://bitbucket.org/majorpeter92/parch">bitbucket</a>.</en>
-			</content>
-		</li>
-		<li id="cocos">
-			<title>
-				<hu>Két dimenziós játékfejlesztés</hu>
-				<en>Two-dimensional game development</en>
-			</title>
-			<content>
-				<hu>
-					Az RC-autós szimulátor felfüggesztése után más projektek felé fordultam. Egy ideig a
-					<a href="http://www.cocos2d-x.org/">cocos2d-x</a>
-					platformmal dolgoztam egy oldalnézetes ügyességi játékon. Fontos jellemző, hogy a szoftver közös C++ kódból fordítható Linuxra, Androidra, Mac OS X-re és
-					iOS-re (ez a keretrendszer mellett a precompiler makrók miatt lehetséges).
-				</hu>
-				<en>
-					After suspending the RC simulator I turned to other projects. For a while I worked on a side-view arcade game with the
-					<a href="http://www.cocos2d-x.org/">cocos2d-x</a>
-					platform. It is an important feature that the software can be compiled to Linux, Android, Mac OS X and iOS from the same C++ code
-					(because of the framework a precompiler macros).
-				</en>
-			</content>
-			<tag>cocos2dx</tag>
-		</li>
-		<li id="mediahub">
-			<title>
-				<hu>Asztali médiakezelő</hu>
-				<en>Desktop media manager</en>
-			</title>
-			<content>
-				<hu>
-					A számítógépen található filmek, sorozatok, zenék rendszerezésére szolgáló alkalmazás.
-					<a href="http://www.sqlite.org/">SQLite</a>
-					adatbázist épít a tartalmakból minimális felhasználói beavatkozással, weboldalak feldolgozásával. Mivel mindent Qt-n keresztül valósít meg,
-					az összes támogatott platformon azonos élményt nyújt.
-				</hu>
-				<en>
-					An application to organize films, series, music albums on the computer. It builds an
-					<a href="http://www.sqlite.org/">SQLite</a>
-					database with minimal user interaction by parsing web pages. Since it does everything through Qt, it provides the same experience
-					on each supported platform.
-				</en>
-			</content>
-			<image>
-				<url>mediahub.png</url>
-				<hu>Információs oldal</hu>
-				<en>Information page</en>
-			</image>
-			<tag>qt</tag>
 		</li>
 		<li id="elf">
 			<title>
@@ -1069,7 +997,6 @@
 				<hu>SFX installer kezelőfelülete</hu>
 				<en>Controls of SFX installer</en>
 			</image>
-			<tag>stopped</tag>
 		</li>
 		<li id="ownweb">
 			<title>
@@ -1137,7 +1064,6 @@
 				<hu>A letöltő oldal, a ballagásunk óta nem túl aktív</hu>
 				<en>The download page, hasn't been too busy since our graduation</en>
 			</image>
-			<tag>stopped</tag>
 		</li>
 	</section>
 	<!--section icon="section-target.png">
