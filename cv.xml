@@ -500,6 +500,12 @@
 				<en>Assembly (ARM Cortex-M)</en>
 			</title>
 		</li>
+        <li>
+            <title>
+                <hu>FPGA fejlesztői alapok</hu>
+                <en>FPGA development basics</en>
+            </title>
+        </li>
 		<li>
 			<title>
 				<hu>Nyomtatott áramkör tervezés/ellenőrzés (Altium Designer)</hu>
@@ -536,6 +542,24 @@
 				<en>Windows administrator experience</en>
 			</title>
 		</item>
+        <item>
+            <title>
+                <hu>Hálózati ismeretek</hu>
+                <en>Network skills</en>
+            </title>
+            <content>
+                <hu>
+                    A 10G Ethernet alapú AV rendszer tervezésekor (<a href="https://lightware.com/ubex-pro20-hdmi-f100">UBEX</a>)
+                    számos hálózati szabványt (IEEE és RFC) megismertem. Teszthálózatokat építettem Cisco, Netgear, Juniper
+                    eszközökből.
+                </hu>
+                <en>
+                    When I was designing the 10G Ethernet based AV system (<a href="https://lightware.com/ubex-pro20-hdmi-f100">UBEX</a>)
+                    I got to know a handful on networking standards (IEEE and RFC). I also built several test networks
+                    using Cisco, Netgear, Juniper equipment.
+                </en>
+            </content>
+        </item>
 		<item>
 			<title>
 				<hu>Verziókövető rendszerek</hu>
