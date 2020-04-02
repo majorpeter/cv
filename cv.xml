@@ -294,12 +294,8 @@
 				<en>C - desktop and embedded systems</en>
 			</title>
 			<content>
-				<hu>2008 óta foglalkozom vele, akkoriban a módosított Sony Ericsson telefonok ELF programozása miatt.
-					Az egyetemi tárgy ennek köszönhetően nem okozott nehézséget. ST32F4 mikrokontroller C nyelvű programozásával
-					hobbi szinten foglalkozom, a szakirányos mikrokontroller laboratórium is ezt a típust alkalmazza.</hu>
-				<en>I have been using it since 2008, to write ELF apps for modified Sony Ericsson handsets at the time.
-					Thus the subject at the University did not mean much of a challenge. I program ST32F4 microcontrollers in C
-					as a hobby, the Microcontroller Laboratory in Specialization uses the same type.</en>
+				<hu>2008 óta foglalkozom vele hobbi szinten, 2014 óta a munkám része.</hu>
+				<en>I have been using it since 2008, and it has been part of my job since 2014.</en>
 			</content>
 		</li>
 		<li>
@@ -309,71 +305,15 @@
 			</title>
 			<content>
 				<hu>
-					Egyetem előtt is ismerkedtem vele, de a második félév óta ismerem igazán. Az objektum-orientált szemlélet,
-					kivételkezelés, referenciakezelés teszi a Java mellett kedvencemmé. Saját projektjeim nagy része C++ nyelven
-					íródik. A következő keretrendszerek használatában van tapasztalatom:
-					<li>
-						<b>
-							<a href="http://qt.digia.com/">Qt</a>
-						</b> - 2013 nyara óta használom keresztplatformos asztali alkalmazásfejlesztéshez.
-					</li>
-					<li>
-						<b>
-							<a href="http://en.wikipedia.org/wiki/Standard_Template_Library">STL</a>
-						</b> - a nyelv sablonjait ismerem
-					</li>
-					<li>
-						<a href="http://www.ogre3d.org/">Ogre3d</a> - egy évig fejlesztettem RC szimulátort ebben a keretrendszerben
-					</li>
-					<li>
-						<a href="http://bulletphysics.org/">Bullet Physics</a> - szilárdtestfizikai, autók mozgásával kapcsolatos számításokhoz, szimulációhoz használtam
-					</li>
-					<li>
-						<a href="http://www.cocos2d-x.org/">cocos2d-x</a> - a népszerű iOS-en használt
-						<a href="http://en.wikipedia.org/wiki/Cocos2d">cocos2d</a> framework C++ portja. Szabad időmben egy cocos2d-x hobbi projekten dolgozom.
-					</li>
+					2012 óta használom, 2014 óta a munkám. A nyelv sablonjai (<a href="http://en.wikipedia.org/wiki/Standard_Template_Library">STL</a>) mellett
+					használtam <a href="http://qt.digia.com/">Qt</a>, <a href="http://www.ogre3d.org/">Ogre3d</a>, <a href="http://bulletphysics.org/">Bullet Physics</a>,
+					<a href="http://www.cocos2d-x.org/">cocos2d-x</a> stb. keretrendszereket.
 				</hu>
 				<en>
-					I started using it before university but I got to really know it in the second semester. The object-oriented approach,
-					exception handling, references make it my favorite beside Java. Most of my own projects are written in C++. I have
-					experience in the following frameworks:
-					<li>
-						<b>
-							<a href="http://qt.digia.com/">Qt</a>
-						</b> - I've been using it since the summer of 2013 for cross-platform desktop applications.
-					</li>
-					<li>
-						<b>
-							<a href="http://en.wikipedia.org/wiki/Standard_Template_Library">STL</a>
-						</b> - I am familiar with the templates of the language
-					</li>
-					<li>
-						<a href="http://www.ogre3d.org/">Ogre3d</a> - I developed an RC simulator for a year in this framework
-					</li>
-					<li>
-						<a href="http://bulletphysics.org/">Bullet Physics</a> - I used it for rigid body and vehicle physics calculations and simulations
-					</li>
-					<li>
-						<a href="http://www.cocos2d-x.org/">cocos2d-x</a> - it is the C++ port of the popular iOS framework
-						<a href="http://en.wikipedia.org/wiki/Cocos2d">cocos2d</a>. In my spare time I work on a cocos2d-x hobby project.
-					</li>
+					I've been using it since 2012 and it has been my job since 2014. Beside the templates of the languge (<a href="http://en.wikipedia.org/wiki/Standard_Template_Library">STL</a>),
+					I have used several frameworks including <a href="http://qt.digia.com/">Qt</a>, <a href="http://www.ogre3d.org/">Ogre3d</a>,
+					<a href="http://bulletphysics.org/">Bullet Physics</a>, <a href="http://www.cocos2d-x.org/">cocos2d-x</a>.
 				</en>
-			</content>
-		</li>
-		<li>
-			<title>
-				<hu>Java - Android és asztali alkalmazások</hu>
-				<en>Java - Android and desktop applications</en>
-			</title>
-			<content>
-				<hu>2011 nyarán kezdtem ismerkedni vele, Android fejlesztés céljából, a második féléves java technológiák
-					tantárgy segített elmélyíteni az ismereteimet. A C++ mellett nagy kedvencem a kényelmessége miatt, a GC
-					miatt viszont nem alkalmazható bármilyen környezetben. A pointerek elrejtése miatt néha körülményes
-					használni, máskor pont emiatt egyszerű.</hu>
-				<en>I started using it in the summer of 2011 because of Android development. The second semester Java technologies
-					subject helped me deepen my knowledge. It is my favorite beside C++ because it is comfortable but because
-					of GC it cannot be used in any environment. Hiding pointers makes it difficult to use sometimes,
-					other times the same thing makes it easy.</en>
 			</content>
 		</li>
 		<li>
@@ -382,107 +322,39 @@
 				<en>Python</en>
 			</title>
 			<content>
-				<hu>Egy munkahelyi feladat miatt tanultam meg a nyelven 2014 nyarán. Sokkal gyorsabban lehet vele egyszerű alkalmazásokat fejleszteni, mint C++ vagy Java nyelven, ezért ezekhez inkább Python-t használok.</hu>
-				<en>I have learnt the language for a project at work in the summer of 2014. It is a lot easier to write simple applications in it than in C++ or Java, so I usually use Python for these.</en>
+				<hu>2014 óta használom egyszerű teszt scriptektől és összetettebb projektekig sok mindenhez.</hu>
+				<en>I have been using it from 2014 for several thing ranging from simple test scripts to complex projects.</en>
 			</content>
+		</li>
+		<li>
+			<title>
+				<hu>Java - Android és asztali alkalmazások</hu>
+				<en>Java - Android and desktop applications</en>
+			</title>
 		</li>
 		<li>
 			<title>
 				<hu>PHP - webfejlesztés, elterjedtebb keretrendszerek</hu>
 				<en>PHP - web development, common frameworks</en>
 			</title>
-			<content>
-				<hu>
-					Webes programozáshoz
-					<b>PHP</b> nyelven értek. Az ehhez szükséges
-					<b>HTML, CSS, JavaScript (és jQuery), MySQL</b>
-					nyelveket is ismerem, több éves tapasztalatom van bennük. Dolgoztam már keretrendszerekben, a
-					<b>Drupal és
-						Wordpress</b> CMS-eket jól ismerem, Joomla-val is volt dolgom. CakePHP alapú rendszert is fejlesztettem.
-				</hu>
-				<en>
-					I am familiar with webes programming in
-					<b>PHP</b>. I also know the
-					<b>HTML, CSS, JavaScript (with jQuery), MySQL</b>
-					languages, I have years of experience. I have worked with frameworks, I know
-					<b>Drupal and Wordpress</b> CMS's well,
-					and also worked with Joomla. I developed a system based on CakePHP as well.
-				</en>
-			</content>
 		</li>
 		<li>
 			<title>
-				<hu>Nyomtatott áramkör tervezés - Altium Designer</hu>
-				<en>Printed circuit board design - Altium Designer</en>
+				<hu>Linux shell scriptek (bash, sh)</hu>
+				<en>Linux shell scripts (bash, sh)</en>
 			</title>
-			<content>
-				<hu>A szakirányos laboratórium és önálló laboratórium során elsajátítottam az Altium Designer használatának alapjait, a BME-ETT tanszéken legyártott, működő áramköri lapokat terveztem.</hu>
-				<en>During my specialized and project laboratories, I learnt the basics of using Altium Designer, I designed working ciruit boards that were manufactured at BME-ETT department.</en>
-			</content>
 		</li>
 		<li>
 			<title>
-				<hu>Delphi Pascal</hu>
-				<en>Delphi Pascal</en>
+				<hu>Assembly (ARM Cortex-M)</hu>
+				<en>Assembly (ARM Cortex-M)</en>
 			</title>
-			<content>
-				<hu>Már általános iskola közben is érdekelt, első programjaimat írtam Pascalban. A pointerek használata
-					körülményesebb és nem is olyan hordozható, mint egy C++ kód. Emelt szintű érettségimet Delphiben írtam,
-					a szóbelin a legjobb leadott munkának nevezték.</hu>
-				<en>I was interested in it back in primary school, and wrote my first programs in Pascal. Using pointers is harder
-					and it is not as portable as a C++ code. My advanced exam in high school was written in Delphi,
-					during the oral test they called it the best work submitted.</en>
-			</content>
 		</li>
 		<li>
 			<title>
-				<hu>Objective-C</hu>
-				<en>Objective-C</en>
+				<hu>Nyomtatott áramkör tervezés/ellenőrzés (Altium Designer)</hu>
+				<en>Printed circuit board design/review (Altium Designer)</en>
 			</title>
-			<content>
-				<hu>Néhány hónapig foglalkoztam iOS fejlesztéssel, akkor tanultam meg a nyelvet. Érdekes koncepció a C++
-					mellett párhuzamosan a C-ből indulva megalkotni egy új objektum orientált szemléletű nyelvet. A C++-t
-					az esetek nagy többségében (még Apple eszközön is) használhatóbbnak tartom.</hu>
-				<en>I developed for iOS for a few months, that is when I learned the language. Creating an obejct-oriented
-					language from C beside C++ is an interesting concept. I think C++ is usually more useful (even on Apple
-					devices).</en>
-			</content>
-		</li>
-		<li>
-			<title>
-				<hu>Linux shell scriptek</hu>
-				<en>Linux shell scripts</en>
-			</title>
-			<content>
-				<hu>
-					Gyakran használt műveletekhez néhány soros, nem túl bonyolult scripteket írok, főként
-					<a href="https://en.wikipedia.org/wiki/Cron">cron</a> job-okhoz.
-				</hu>
-				<en>
-					I write relatively simple scripts of just a few lines for common tasks, mainly for
-					<a href="https://en.wikipedia.org/wiki/Cron">cron</a> jobs.
-				</en>
-			</content>
-		</li>
-		<li>
-			<title>
-				<hu>Assembly</hu>
-				<en>Assembly</en>
-			</title>
-			<content>
-				<hu>Az egyetemen assembly-ben programoztam Intel 8085-ös és Silicon Labs C8051F040 processzorokat. Munka közben néha szükségem van ARM assembly visszafejtésére, de programozni nem szoktam benne.</hu>
-				<en>I have programmed Intel 8085 and Silicon Labs C8051F040 processors in assembly at the University Sometimes I need to disassemble ARM assembly but I never program in this language.</en>
-			</content>
-		</li>
-		<li>
-			<title>
-				<hu>Verilog, FPGA-programozás</hu>
-				<en>Verilog, FPGA-programming</en>
-			</title>
-			<content>
-				<hu>Az egyetemen Xilinx Spartan-3E típusú FPGA-kkal foglalkoztam a laboratóriumok keretében.</hu>
-				<en>I have worked with Xilinx Spartan-3E FPGA's in laboratories at the University.</en>
-			</content>
 		</li>
 	</section>
 	<section icon="section-misc.png">
