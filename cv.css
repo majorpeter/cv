@@ -43,11 +43,8 @@ h2.cvhead {
 	clear: both;
 }
 h2.cvhead > div.icon {
-	position: absolute;
-	left: -110px;
-	width: 100px;
-	top: 4px;
-	text-align: right;
+    display: inline;
+    vertical-align: middle;
 }
 
 div#contact-info {
