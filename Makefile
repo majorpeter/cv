@@ -2,15 +2,15 @@ COMPILER := compiler/cvc.py
 XML := cv.xml
 EXPORT := export
 
-COMPILER_HTML_FLAGS := --image-path= --css=cv.css
+COMPILER_HTML_FLAGS := --css style.css cv.css --js https://code.jquery.com/jquery-1.12.4.min.js cv.js
 
 RSRC := $(patsubst %.jpg, export/%.jpg,$(wildcard *.jpg)) \
 	$(patsubst %.png, export/%.png,$(wildcard *.png)) \
-	$(patsubst %.png, export/%.png,$(wildcard *.css)) \
-	$(patsubst %.png, export/%.png,$(wildcard *.js))
+	$(patsubst %.css, export/%.css,$(wildcard *.css)) \
+	$(patsubst %.js, export/%.js,$(wildcard *.js))
 
 
-all: rsrc $(EXPORT)/cv_hu.html $(EXPORT)/cv_en.html $(EXPORT)/cv_hu_embed.html $(EXPORT)/cv_en_embed.html
+all: $(EXPORT)/cv_hu.html $(EXPORT)/cv_en.html $(EXPORT)/cv_hu_embed.html $(EXPORT)/cv_en_embed.html $(RSRC)
 
 clean:
 	rm -Rf $(EXPORT)
@@ -20,17 +20,17 @@ $(EXPORT): $(XML) $(COMPILER)
 
 rsrc: $(EXPORT) $(RSRC)
 
-$(EXPORT)/cv_hu.html: $(EXPORT) $(XML) 
-	$(COMPILER) $(XML) $@ $(COMPILER_HTML_FLAGS) --language=hu
+$(EXPORT)/cv_hu.html: $(COMPILER) $(XML)
+	$(COMPILER) $(COMPILER_HTML_FLAGS) --language hu $(XML) $@
 
-$(EXPORT)/cv_en.html: $(EXPORT) $(XML) 
-	$(COMPILER) $(XML) $@ $(COMPILER_HTML_FLAGS) --language=en
+$(EXPORT)/cv_en.html: $(COMPILER) $(XML)
+	$(COMPILER) $(COMPILER_HTML_FLAGS) --language en $(XML) $@
 
-$(EXPORT)/cv_hu_embed.html: $(EXPORT) $(XML) 
-	$(COMPILER) $(XML) $@ $(COMPILER_HTML_FLAGS) --format=html-headless --language=hu
+$(EXPORT)/cv_hu_embed.html: $(COMPILER) $(XML)
+	$(COMPILER) $(COMPILER_HTML_FLAGS) --format html-headless --language hu $(XML) $@
 
-$(EXPORT)/cv_en_embed.html: $(EXPORT) $(XML) 
-	$(COMPILER) $(XML) $@ $(COMPILER_HTML_FLAGS) --format=html-headless --language=en
+$(EXPORT)/cv_en_embed.html: $(COMPILER) $(XML)
+	$(COMPILER) $(COMPILER_HTML_FLAGS) --format html-headless --language en $(XML) $@
 
 $(EXPORT)/%: %
 	cp $< $@
