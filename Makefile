@@ -10,7 +10,10 @@ RSRC := $(patsubst %.jpg, export/%.jpg,$(wildcard *.jpg)) \
 	$(patsubst %.js, export/%.js,$(wildcard *.js))
 
 
-all: $(EXPORT)/cv_hu.html $(EXPORT)/cv_en.html $(EXPORT)/cv_hu_embed.html $(EXPORT)/cv_en_embed.html $(RSRC)
+all: $(EXPORT)/cv_hu.html $(EXPORT)/cv_en.html \
+     $(EXPORT)/cv_hu_embed.html $(EXPORT)/cv_en_embed.html \
+     $(EXPORT)/cv_hu_print.html $(EXPORT)/cv_en_print.html \
+     $(RSRC)
 
 clean:
 	rm -Rf $(EXPORT)
@@ -31,6 +34,12 @@ $(EXPORT)/cv_hu_embed.html: $(COMPILER) $(XML)
 
 $(EXPORT)/cv_en_embed.html: $(COMPILER) $(XML)
 	$(COMPILER) $(COMPILER_HTML_FLAGS) --format html-headless --language en $(XML) $@
+
+$(EXPORT)/cv_hu_print.html: $(COMPILER) $(XML)
+	$(COMPILER) $(COMPILER_HTML_FLAGS) --format html-printable --language hu $(XML) $@
+
+$(EXPORT)/cv_en_print.html: $(COMPILER) $(XML)
+	$(COMPILER) $(COMPILER_HTML_FLAGS) --format html-printable --language en $(XML) $@
 
 $(EXPORT)/%: %
 	cp $< $@
