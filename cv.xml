@@ -457,7 +457,7 @@
 			<en>Previous jobs</en>
 		</title>
 		<li id="lightware">
-			<title year="2014-" image="work_lightware.png" image-full="work_lightware_full.png">
+			<title years="2014-" image="work_lightware.png" image-full="work_lightware_full.png">
 				<hu>Lightware Kft. - beágyazott szoftverfejlesztő</hu>
 				<en>Lightware LLC - embedded software developer</en>
 			</title>
@@ -467,18 +467,18 @@
 			</content>
 		</li>
 		<li id="prog1-labor">
-			<title>
+			<title years="2015">
 				<hu>Programozás alapjai 1. laborvezetés</hu>
 				<en>Basics of Programming 1. lecturer</en>
 			</title>
 			<content>
-				<hu>A 2015-ös őszi félévben a programozás, illetve a C nyelv alapjait oktattam számítógépes laborgyakorlat keretében.</hu>
-				<en>I taught the basics of programming and the C language in a computer lab course in the autumn semester of 2015.</en>
+				<hu>A Programozás, illetve a C nyelv alapjait oktattam számítógépes laborgyakorlat keretében.</hu>
+				<en>I taught the basics of programming and the C language in a computer lab course.</en>
 			</content>
 			<tag>bme</tag>
 		</li>
 		<li id="riport">
-			<title year="2013" image="work_riport.png" image-full="work_riport_full.png">
+			<title years="2013" image="work_riport.png" image-full="work_riport_full.png">
 				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
 				<en>Riport accounting web application's full frontend development</en>
 			</title>
@@ -511,7 +511,7 @@
 			</image>
 		</li>
 		<li id="innostart">
-			<title year="2012-2014" image="work_inno.png" image-full="work_inno_full.png">
+			<title years="2012-2014" image="work_inno.png" image-full="work_inno_full.png">
 				<hu>Innostart Kft. - webfejlesztő</hu>
 				<en>Innostart LLC. - web developer</en>
 			</title>
@@ -523,7 +523,7 @@
 			</content>
 		</li>
 		<li id="htec">
-			<title year="2012. 07." image="work_hhi.png" image-full="work_hhi_full.png">
+			<title years="2012" image="work_hhi.png" image-full="work_hhi_full.png">
 				<hu>
 					H-TEC nyári gyakornoki állás
 				</hu>
@@ -607,51 +607,12 @@
 			</image>
 			<tag>android</tag>
 		</li>
-		<li id="tcup">
-			<title image="work_tcup.png" image-full="work_tcup_full.png">
-				<hu>Részvétel a Total Commander Ultima Prime projektben</hu>
-				<en>Contribution to the Total Commander Ultima Prime project</en>
-			</title>
-			<content>
-				<hu>
-					Delphivel készült elterjedtebb munkám a
-					<a href="http://tcup.pl/">Total Commander Ultima Prime</a> szoftvercsomag
-					néhány összetevője: fájltársítások, parancsikonok létrehozása; új mappák és fájlok – TC UP New.
-					Évekig voltam a projekt magyar fordítója, de már nem vagyok aktív tag. A társításokat és parancsikonokat
-					azóta integrálták a telepítőbe, a mappa- és fájlkészítőt már más fejleszti.
-				</hu>
-				<en>
-					From all of my work with Delphi, the most widespread are some components of the
-					<a href="http://tcup.pl/">Total Commander Ultima
-						Prime</a> software package: file associations, creating shortcuts, createing new folders and files – TC UP New.
-					I was the Hungarian translator of the project for years but I'm no longer an active member. The associations and shortcuts have since
-					been integrated into the installer, the folder and file creator is developed by someone else.
-				</en>
-			</content>
-			<image>
-				<url>tcup.png</url>
-				<hu>TC UP New egy korai képe</hu>
-				<en>An early image of TC UP New</en>
-			</image>
-		</li>
 	</section>
 	<section icon="section-projects.png">
 		<title>
 			<hu>Saját projektek</hu>
 			<en>My own projects</en>
 		</title>
-		<li id="quadcopt">
-			<title>
-				<hu>Kvadkopter tervezése</hu>
-				<en>Quadcopter design</en>
-			</title>
-			<content>
-				<hu>2014 nyarán megkeresett egy barátom azzal az ötlettel, hogy tervezzünk ketten kvadkoptert, azaz 4 motoros távirányított helikoptert. A motorokat, vázat, akkumulátort készen vesszük, ezen kívül alapvetően mindent mi tervezünk meg a semmiből. Jelenleg a saját biztonságos 4 csatornás motorvezérlőnkön dolgozunk.</hu>
-				<en>In the summer of 2014, a friend of mine came up with the idea of designing a quadcopter together. We buy the motors, body, batteries and basically design all the rest from scratch. As of now, we are working on our own safe 4-channel motor controller panel.</en>
-			</content>
-			<tag>pcb</tag>
-			<tag>inprogress</tag>
-		</li>
 		<li id="radioalarm">
 			<title>
 				<hu>Rádiós riasztórendszer (önálló laboratórium)</hu>
