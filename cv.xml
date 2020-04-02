@@ -139,6 +139,167 @@
 		</desc>
 	</tag>
 
+    <section icon="section-work.png">
+		<title>
+			<hu>Szakmai tapasztalat</hu>
+			<en>Work Experience</en>
+		</title>
+		<li id="lightware">
+			<title years="2014-" image="work_lightware.png" image-full="work_lightware_full.png">
+				<hu>Lightware Kft. - beágyazott szoftverfejlesztő</hu>
+				<en>Lightware LLC - embedded software developer</en>
+			</title>
+			<content>
+				<hu>
+                    A BSc szakmai gyakorlat kapcsán helyezkedtem el a <a href="http://lightware.com/">Lightware</a>-nél.
+                    Kezdetben kisebb feladataim voltak régebbi termékek karbantartásával (pl. <a href="https://lightware.com/product-families/mx-series">MX-FR</a>),
+                    illetve részt vettem a <a href="https://lightware.com/product-families/25g-hybrid">25G</a> videomátrix
+                    HDMI és TPS kártyájának fejlesztében, ekkor ismerkedtem meg alaposabban a HDMI szabvány
+                    <a href="https://en.wikipedia.org/wiki/HDMI#Consumer_Electronics_Control_(CEC)"><i>Consumer
+                    Electronics Control</i></a> részével.
+                    <br/>
+                    2015-ben elhatároztuk, hogy az összes szoftverfejlesztést SVN helyett innentől Git-en fogjuk követni.
+                    A futó projektek (és összes függőségük) költöztetését, és a munkatársak Git-képzését én végeztem.
+                    <br/>
+                    2016-tól eleinte MSc diplomaprojektként kezdtem foglalkozni egy 10G Ethernet-alapú AV rendszer
+                    hálózati infrastruktúrájának tervezésével. Ezzel párhuzamosan dolgoztam magán a terméken, az
+                    <a href="https://lightware.com/ubex-pro20-hdmi-f100">UBEX</a>-en. 2018 végétől a projekt vezető
+                    firmware fejlesztője vagyok.
+                    <br/>
+                    A konkrét fejlesztési feladatok mellett részt veszek az UBEX termék új funkcióinak megtervezésében,
+                    és a felhasználóktól érkező incidensek felderítésében. Rendszeresen előadok a cég partner trainingjein
+                    hálózati ismeretek és UBEX platform témában.
+                    <br/>
+                    Videotechnikai, hálózati, programozástechnikai stb. témákban gyakran konzultálok más projektek
+                    fejlesztőivel, részt veszek az új munkatársak mentorálásában, belső folyamatok fejlesztésében.
+                </hu>
+                <en>
+                    I started working at <a href="http://lightware.com/">Lightware</a> as an intern at the end of the BSc
+                    course. At first I had smaller projects regarding the maintenance of older products (e.g.
+                    <a href="https://lightware.com/product-families/mx-series">MX-FR</a>), and I took part in development
+                    of HDMI and TPS boards for the <a href="https://lightware.com/product-families/25g-hybrid">25G</a>
+                    videomatrix, that is when I got familiar with <a href="https://en.wikipedia.org/wiki/HDMI#Consumer_Electronics_Control_(CEC)">
+                    <i>Consumer Electronics Control</i></a> part of the HDMI standard.
+                    <br/>
+                    In 2015 we decided to track all of our software development in Git instead of SVN. I handled the migration
+                    of all of the active projects and their dependencies as well as the Git training of employees.
+                    <br/>
+                    Since 2016 I worked on designing a 10G Ethernet based AV system's network infrastructure, initially
+                    as an MSc thesis project. During that time I also worked on the product itself, the
+                    <a href="https://lightware.com/ubex-pro20-hdmi-f100">UBEX</a>. Since the end of 2018 I have been
+                    the lead firwmare developer of the project.
+                    <br/>
+                    Beside the actual development tasks, I also take part in designing new features for the UBEX product,
+                    and investigation of user incidents. I regularly speak at partner trainings regarding network basics
+                    and the UBEX platform.
+                    <br/>
+                    I often consult with developers on projects regarding video technology, networks, programming etc. I
+                    take part in mentoring new colleagues and internal process development.
+                </en>
+			</content>
+		</li>
+		<li id="prog1-labor">
+			<title years="2015">
+				<hu>Programozás alapjai 1. laborvezetés</hu>
+				<en>Basics of Programming 1. lecturer</en>
+			</title>
+			<content>
+				<hu>A Programozás, illetve a C nyelv alapjait oktattam számítógépes laborgyakorlat keretében.</hu>
+				<en>I taught the basics of programming and the C language in a computer lab course.</en>
+			</content>
+			<tag>bme</tag>
+		</li>
+		<li id="riport">
+			<title years="2013" image="work_riport.png" image-full="work_riport_full.png">
+				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
+				<en>Riport accounting web application's full frontend development</en>
+			</title>
+			<content>
+				<hu>
+                    Egy <a href="http://en.wikipedia.org/wiki/Django_(web_framework)">django</a>-alapú könyveléső alkalmazás frontendjét fejlesztettem (HTML, CSS, JS, jQuery).
+                    Az alkalmazás jelenlegi verziója a <a href="http://riport.co.hu/">riport.co.hu</a> címen érhető el.
+				</hu>
+				<en>
+					I was working on the frontend of a <a href="http://en.wikipedia.org/wiki/Django_(web_framework)">django</a>-based accounting application (HTML, CSS, JS, jQuery).
+                    The current version of the application is available at <a href="http://riport.co.hu/">riport.co.hu</a>.
+				</en>
+			</content>
+			<image>
+				<url>riport_1.png</url>
+				<hu>Üdvözlőképernyő</hu>
+				<en>Welcome screen</en>
+			</image>
+			<image>
+				<url>riport_2.png</url>
+				<hu>Dashboard felület</hu>
+				<en>Dashboard</en>
+			</image>
+			<image>
+				<url>riport_3.png</url>
+				<hu>Főkönyvi számok kiválasztása riport kategóriához</hu>
+				<en>Picking ledger numbers for report category</en>
+			</image>
+		</li>
+		<li id="innostart">
+			<title years="2012-2014" image="work_inno.png" image-full="work_inno_full.png">
+				<hu>Innostart Kft. - webfejlesztő</hu>
+				<en>Innostart LLC. - web developer</en>
+			</title>
+			<content>
+				<hu>
+                    Webfejlesztőként dolgoztam, főként PHP programozással foglalkoztam (Drupal, Wordpress, CakePHP platformokon).
+                    Időnként devops feladatokat is elláttam: Linux szerver telepítést/karbantartást, és Java-alapú toolfejlesztést.
+                </hu>
+				<en>
+                    I worked as a web developer, I mainly used PHP (on Drupal, Wordpress, CakePHP platforms).
+					Sometimes I also had devops tasks: installing and maintaining a Linux servers, developing tools in Java.</en>
+			</content>
+		</li>
+		<li id="htec">
+			<title years="2012" image="work_hhi.png" image-full="work_hhi_full.png">
+				<hu>
+					H-TEC nyári gyakornoki állás
+				</hu>
+				<en>
+					Summer internship position at H-TEC
+				</en>
+			</title>
+			<content>
+				<hu>
+					A Hyundai Heavy Industries magyarországi képviseleténél (H-TEC Kft.). A vállalat
+					invertereket (is) gyárt például nap- és szélerőművekhez, ezek termelési és egyéb adatait
+                    <a href="http://en.wikipedia.org/wiki/Modbus">Modbus</a> protokollon keresztül lehet lekérdezni.
+                    Egy olyan Android alkalmazást fejlesztettem, amellyel az inverterek állapotát, statisztikáit
+                    lehetett távolról vizsgálni.
+				</hu>
+				<en>
+					I worked a month at the Hungarian representation of
+					Hyundai Heavy Industries (H-TEC LLC.).
+					The corporation manufactures inverters for solar and wind power plants as well as other products. One can download production and other
+					details from these inverters using the <a href="http://en.wikipedia.org/wiki/Modbus">Modbus</a> protocol.
+                    I developed an Android application wit which the user could inspect the actual status and statistics
+                    of the inverters remotely.
+				</en>
+			</content>
+			<image>
+				<url>htec1.jpg</url>
+				<hu>Egy erőmű aktuális termelése</hu>
+				<en>Production verview for a power plant</en>
+			</image>
+			<image>
+				<url>htec2.jpg</url>
+				<hu>Mai napi termelés diagramja</hu>
+				<en>Diagram of today's production</en>
+			</image>
+			<image>
+				<url>htec3.jpg</url>
+				<hu>Elmúlt két hét összehasonlítása</hu>
+				<en>Comparison of the last two weeks</en>
+			</image>
+			<tag>android</tag>
+		</li>
+	</section>
+
 	<section icon="section-school.png">
 		<title>
 			<hu>Tanulmányok</hu>
@@ -438,163 +599,6 @@
 				<hu>Minőségre törekvés</hu>
 				<en>Ambition for Quality</en>
 			</title>
-		</li>
-	</section>
-	<section icon="section-work.png">
-		<title>
-			<hu>Eddigi munkahelyek, projektek</hu>
-			<en>Previous jobs</en>
-		</title>
-		<li id="lightware">
-			<title years="2014-" image="work_lightware.png" image-full="work_lightware_full.png">
-				<hu>Lightware Kft. - beágyazott szoftverfejlesztő</hu>
-				<en>Lightware LLC - embedded software developer</en>
-			</title>
-			<content>
-				<hu>A harmadik év végén a kötelező szakmai gyakorlat miatt helyezkedtem el a <a href="http://lightware.eu/">Lightware</a>-nél. A gyakorlat keretében a cég egy régebbi vezérlő kártyáját fejlesztem tovább, hogy támogassa a <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenderei</a>nek új generációját is. A szakdolgozatomat is itt írtam, amely a <a href="http://en.wikipedia.org/wiki/HDMI#CEC"><i>Consumer Electronics Control</i></a>-hoz kapcsolódott.<br/>Jelenleg alacsony szintű interfészeken/drivereken és magasabb szintű alkalmazásokon, belső szoftvereken és eszközökön dolgozom. Emelett én foglalkozom néhány régebbi termék támogatásával.</hu>
-				<en>After the third year, I started working at <a href="http://lightware.eu/">Lightware</a> as an intern. During my internship, I work on one of the company's older control card, to support its new generation of <a href="http://www.lightware.eu/index.php/hdmi-tps-tx95">HDMI extenders</a>. I also wrote my thesis here which was related to <a href="http://en.wikipedia.org/wiki/HDMI#CEC"><i>Consumer Electronics Control</i></a>.<br/>Nowadays I work on low-level interfaces/drivers and higher-level applications for the company's new products as well as internal test/development software. I also take part in supporting some older legacy products.</en>
-			</content>
-		</li>
-		<li id="prog1-labor">
-			<title years="2015">
-				<hu>Programozás alapjai 1. laborvezetés</hu>
-				<en>Basics of Programming 1. lecturer</en>
-			</title>
-			<content>
-				<hu>A Programozás, illetve a C nyelv alapjait oktattam számítógépes laborgyakorlat keretében.</hu>
-				<en>I taught the basics of programming and the C language in a computer lab course.</en>
-			</content>
-			<tag>bme</tag>
-		</li>
-		<li id="riport">
-			<title years="2013" image="work_riport.png" image-full="work_riport_full.png">
-				<hu>Riport könyvelői webalkalmazás teljes frontend fejlesztése</hu>
-				<en>Riport accounting web application's full frontend development</en>
-			</title>
-			<content>
-				<hu>
-					2013 nyarán egy volt munkatársamon keresztül kerültem kapcsolatba a terméket fejlesztő csapattal. Egy
-					<a href="http://en.wikipedia.org/wiki/Django_(web_framework)">django</a> alapú könyvelést segítő alkalmazáson dolgoztak, és a termék megjelenésével, a frontend megvalósítával bíztak meg. A felület fejlesztése a HTML sablonok, CSS stíluslapok és JavaScript (jQuery) szkriptek megírását jelentette. Az alkalmazás jelenlegi verziója a
-					<a href="http://riport.co.hu/">riport.co.hu</a> címen érhető el.
-				</hu>
-				<en>
-					In the summer of 2013, I got in contact with the developer team through an ex-colleague of mine. They were working on a
-					<a href="http://en.wikipedia.org/wiki/Django_(web_framework)">django</a>-based accounting application, and they hired me to implement the frontend for it. The development consisted of writing the HTML templates, CSS stylesheets and JavaScript (jQuery) scripts. The current version of the application is available at
-					<a href="http://riport.co.hu/">riport.co.hu</a>.
-				</en>
-			</content>
-			<image>
-				<url>riport_1.png</url>
-				<hu>Üdvözlőképernyő</hu>
-				<en>Welcome screen</en>
-			</image>
-			<image>
-				<url>riport_2.png</url>
-				<hu>Dashboard felület</hu>
-				<en>Dashboard</en>
-			</image>
-			<image>
-				<url>riport_3.png</url>
-				<hu>Főkönyvi számok kiválasztása riport kategóriához</hu>
-				<en>Picking ledger numbers for report category</en>
-			</image>
-		</li>
-		<li id="innostart">
-			<title years="2012-2014" image="work_inno.png" image-full="work_inno_full.png">
-				<hu>Innostart Kft. - webfejlesztő</hu>
-				<en>Innostart LLC. - web developer</en>
-			</title>
-			<content>
-				<hu>2012 novemberétől 2014 márciusáig dolgoztam ennél a cégnél webfejlesztőként. Főként php programozás, Drupal modulok fejlesztése, Wordpress beépülők, témák
-					fejlesztése. Időnként volt más feladatom is, pl. java programozás, linux szerver építése, karbantartása.</hu>
-				<en>I worked at the company form November 2012 to March 2014 as web developer. It was mainly php programming, developing Drupal modules, Wordpress
-					plugins, themes. Sometimes I also had other assignments, like java programming, creating and maintaining a linux server.</en>
-			</content>
-		</li>
-		<li id="htec">
-			<title years="2012" image="work_hhi.png" image-full="work_hhi_full.png">
-				<hu>
-					H-TEC nyári gyakornoki állás
-				</hu>
-				<en>
-					Summer internship position at H-TEC
-				</en>
-			</title>
-			<content>
-				<hu>
-					2012 nyarán egy hónapot dolgoztam a
-					<b>Hyundai Heavy Industries</b> magyarországi képviseleténél (
-					<b>H-TEC</b> Kft.). A vállalat
-					invertereket (is) gyárt például nap- és szélerőművekhez, ezek termelési és egyéb adatait TCP/IP-n keresztül lehet lekérdezni,
-					erre léteztek programok.
-					<br/>
-					<br/>
-					Felmerült egy okostelefonos, azon belül kezdetben csak Androidos alkalmazás ötlete, ezt fejlesztettem én.
-					<div class="noprint">
-						A Google Play Store-ban elérhető
-						<a href="https://play.google.com/store/apps/details?id=com.hyundai.project">itt</a>.
-					</div>
-					<br/>
-					A kommunikáció
-					<a href="http://en.wikipedia.org/wiki/Modbus">Modbus</a> protokollon keresztül történik, ez az ipari standard az ágazatban. Eszerint 65 ezer (2
-					<sup>16</sup>) darab 16 bites regiszter
-					olvasható és írható. Ezekből kérdezhető le az összes aktuális termelési adat, grafikon stb. Egy létező modbus API-t használtam a TCP/IP kapcsolathoz,
-					de nem működött Bluetooth-on keresztül, ezért ahhoz a felülethez a protokoll egy részét újra meg kellett írnom.
-					<br/>
-					<br/>
-					Fontos feladat volt az adatátvitelhez szükséges kódolások megtervezése (32 biten, 2 regiszteren át lehet-e vinni óra:perc:másodperc időt,
-					10 percenként mért grafikon értékeit hogyan célszerű stb.).
-					<br/>
-					<br/>
-					A legutóbbi verzió tartalmaz grafikonrajzoló widgetet, időjáráselőrejelzést, grafikonmentést, e-mail küldést, hívásindítást (az utóbbi kettő
-					azt a célt szolgálja, hogy probléma esetén a megfigyelő kapcsolatba léphessen az üzem kezelőjével).
-				</hu>
-				<en>
-					I worked a month at the Hungarian representation of
-					<b>Hyundai Heavy Industries</b> (
-					<b>H-TEC</b> Kft.) in the summer of 2012.
-					The corporation manufactures inverters for solar and wind power plants as well as other products. One can download production and other
-					detauls from these inverters via TCP/IP, there are programs for that.
-					<br/>
-					<br/>
-					They decided to have a smart phone application for it, just Android in the begining. That is what I developed.
-					<div class="noprint">
-						Available at Google Play Store
-						<a href="https://play.google.com/store/apps/details?id=com.hyundai.project">here</a>.
-					</div>
-					<br/>
-					The commucation is done over the
-					<a href="http://en.wikipedia.org/wiki/Modbus">Modbus</a> protocol, which is the industry standard in the sector.
-					With Modbus, we have 65 thousand (2
-					<sup>16</sup>) 16 bit registers to read &amp; write. These are used to fetch the current production information,
-					graphs etc. I used an existing Modbus API for TCP/IP connection but it did not work over Bluetooth so for that I had to rewrite some parts of the
-					protocol.
-					<br/>
-					<br/>
-					Designing the models for data transmission was an important task (32 bits, 2 registers for hour:minute:second time, how should we store the graph
-					values for every 10 minutes etc.).
-					<br/>
-					<br/>
-					The latest version has a graph drawer widget, weather forecast, graph export, sending e-mail, making calls (these last two are for contacting the
-					power plant's supervisor in case of a problem).
-				</en>
-			</content>
-			<image>
-				<url>htec1.jpg</url>
-				<hu>Egy erőmű aktuális termelése</hu>
-				<en>Production verview for a power plant</en>
-			</image>
-			<image>
-				<url>htec2.jpg</url>
-				<hu>Mai napi termelés diagramja</hu>
-				<en>Diagram of today's production</en>
-			</image>
-			<image>
-				<url>htec3.jpg</url>
-				<hu>Elmúlt két hét összehasonlítása</hu>
-				<en>Comparison of the last two weeks</en>
-			</image>
-			<tag>android</tag>
 		</li>
 	</section>
 	<section icon="section-projects.png">
