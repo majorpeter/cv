@@ -164,7 +164,10 @@
                     2016-tól eleinte MSc diplomaprojektként kezdtem foglalkozni egy 10G Ethernet-alapú AV rendszer
                     hálózati infrastruktúrájának tervezésével. Ezzel párhuzamosan dolgoztam magán a terméken, az
                     <a href="https://lightware.com/ubex-pro20-hdmi-f100">UBEX</a>-en. 2018 végétől a projekt vezető
-                    firmware fejlesztője vagyok.
+                    firmware fejlesztője vagyok. Részt vettem a termék első telepítésében a <i>The House of Dancing
+					Water</i> produkciónál Makaóban. A projekt
+					<a href="https://www.livedesignonline.com/excellence-installation-awards/house-dancing-water"><i>
+					Excellence in Installation</i> díjat</a> is nyert (a cikk engem is említ).
                     <br/>
                     A konkrét fejlesztési feladatok mellett részt veszek az UBEX termék új funkcióinak megtervezésében,
                     és a felhasználóktól érkező incidensek felderítésében. Rendszeresen előadok a cég partner trainingjein
@@ -187,7 +190,10 @@
                     Since 2016 I worked on designing a 10G Ethernet based AV system's network infrastructure, initially
                     as an MSc thesis project. During that time I also worked on the product itself, the
                     <a href="https://lightware.com/ubex-pro20-hdmi-f100">UBEX</a>. Since the end of 2018 I have been
-                    the lead firwmare developer of the project.
+                    the lead firwmare developer of the project. I took part in the first installation of the product at
+					<i>The House of Dancing Water</i> production in Macau. That project has also won an
+					<a href="https://www.livedesignonline.com/excellence-installation-awards/house-dancing-water"><i>
+					Excellence in Installation Award</i></a> (the article mentions me as well).
                     <br/>
                     Beside the actual development tasks, I also take part in designing new features for the UBEX product,
                     and investigation of user incidents. I regularly speak at partner trainings regarding network basics
@@ -197,6 +203,16 @@
                     take part in mentoring new colleagues and internal process development.
                 </en>
 			</content>
+			<image>
+				<url>thodw_rack.jpg</url>
+				<hu>The House of Dancing Water rack szekrénye</hu>
+				<en>The rack of The House of Dancing Water</en>
+			</image>
+			<image>
+				<url>thodw_testpattern.jpg</url>
+				<hu>Tesztjelek a Lightware átviteli rendszerén a The House of Dancing Water színpadán</hu>
+				<en>Test patterns on Lightware's transmission system at the stage of The House of Dancing Water</en>
+			</image>
 		</li>
 		<li id="prog1-labor">
 			<title years="2015">
